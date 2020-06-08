@@ -1,0 +1,17 @@
+<!-- Google fonts -->
+<link lazyload="1" href='//fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300italic,500,700,800|{{ .Site.Params.font.body }}|{{ .Site.Params.font.heading }}|{{ .Site.Params.font.code }}' rel='stylesheet' type='text/css'>
+
+<style>
+body {
+    font-family: '{{ replace .Site.Params.font.body "+" " "}}' !important;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: '{{ replace .Site.Params.font.heading "+" " "}}' !important;
+}
+
+blockquote, code, pre code {
+    font-family: '{{ replace .Site.Params.font.code "+" " "}}' !important;
+
+}
+</style>
