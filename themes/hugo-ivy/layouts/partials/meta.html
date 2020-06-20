@@ -1,7 +1,44 @@
 {{ if not .IsHome }}
-<h1>{{ .Title }}</h1>
+<h1>{{ .Page.Title }}</h1>
 {{ with .Params.subtitle }}<h1><span class="subtitle">{{ . }}</span></h1>{{ end }}
-<h3>{{ with .Params.author }}{{ . }}{{ end }}
-{{ if .Params.date }} {{ if .Params.author }} / {{ end }} {{ .Date.Format "2006-01-02" }}{{ end }}</h3>
-<hr>
+
+<div>
+  <h3>{{ with .Params.author }}{{ . }}{{ end }}
+  {{ if .Params.date }} {{ if .Params.author }} / {{ end }} {{ .Date.Format "2006-01-02"   }}{{ end }}</h3>
+</div>
+
+
+{{ $category_name := .Params.categories}}
+<h3>{{ with .Param "category_url" }}<a href={{.}}> {{ $category_name }} </a>{{ end }}</h3>
+
+<!-- fthe summary of a post-->
+{{ if .Param "summary" }}
+  <p>{{ .Param "summary" }}</p>
+{{end}}
+
+
+<!-- showing the categories -->
+{{ if eq .Permalink "/blog/"}}
+
+  <div style = "text-align:center;">
+    {{ range $index, $value := .Site.Taxonomies.categories }}
+      <span class = "h2"><a class = "h2" href="{{ .Page.Permalink }}">{{ .Page.Title }}</a> {{if ne $index "shiny"}} | {{end}} </span>
+    {{ end }}
+  </div>
+
+{{end}}
+
+{{ if eq .Permalink "/about/"}}
+
+  <style>
+    h3 {
+      font-weight: bold !important;
+    }
+  </style>
+  
+{{end}}
+
+
+<hr style = "margin:30px auto;">
 {{ end }}
+

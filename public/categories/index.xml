@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Categories on Hugo Ivy</title>
+    <title>Categories on ggStorytellR</title>
     <link>/categories/</link>
-    <description>Recent content in Categories on Hugo Ivy</description>
+    <description>Recent content in Categories on ggStorytellR</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 14 Jun 2017 00:00:00 +0000</lastBuildDate>
@@ -12,29 +12,38 @@
     
     
     <item>
-      <title>Example</title>
-      <link>/categories/example/</link>
+      <title>life</title>
+      <link>/categories/life/</link>
       <pubDate>Wed, 14 Jun 2017 00:00:00 +0000</pubDate>
       
-      <guid>/categories/example/</guid>
+      <guid>/categories/life/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Hugo</title>
-      <link>/categories/hugo/</link>
-      <pubDate>Sun, 14 Feb 2016 00:00:00 +0000</pubDate>
-      
-      <guid>/categories/hugo/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>R</title>
+      <title>r</title>
       <link>/categories/r/</link>
-      <pubDate>Thu, 23 Jul 2015 21:13:14 -0500</pubDate>
+      <pubDate>Tue, 13 Jun 2017 00:00:00 +0000</pubDate>
       
       <guid>/categories/r/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>shiny</title>
+      <link>/categories/shiny/</link>
+      <pubDate>Sun, 14 Feb 2016 00:00:00 +0000</pubDate>
+      
+      <guid>/categories/shiny/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>random thoughts</title>
+      <link>/categories/random-thoughts/</link>
+      <pubDate>Thu, 23 Jul 2015 21:13:14 -0500</pubDate>
+      
+      <guid>/categories/random-thoughts/</guid>
       <description></description>
     </item>
     

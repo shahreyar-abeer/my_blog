@@ -1,9 +1,14 @@
 ---
-author: Yihui Xie
-date: "2017-08-06"
-title: About Hugo Ivy
+subtitle: Zauad Shahreer Abeer
+title: About
 ---
 
-This Hugo theme was ported from [Ivy](https://github.com/dmulholland/ivy), a minimalist website generator built in Python. I don't have time to document this theme. You have to read the source code to understand what it can do. All I can say for now is that I love it. It is clean, minimal, and responsive.
+## This is about me
 
-I hope you will enjoy this theme. The source code is [on Github](https://github.com/yihui/hugo-ivy). Happy hacking!
+https://github.com/yihui/hugo-ivy
+
+<div style = "text-align-last: center;">
+  <ul style = "list-style: none;">
+    <li><a href = "/about" style = "border-bottom: none;"><i class="fa fa-graduation-cap"></i> Masters dropout </a></li>
+  </ul>
+

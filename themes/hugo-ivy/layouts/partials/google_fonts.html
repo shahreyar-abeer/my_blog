@@ -1,9 +1,18 @@
 <!-- Google fonts -->
-<link lazyload="1" href='//fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300italic,500,700,800|{{ .Site.Params.font.body }}|{{ .Site.Params.font.heading }}|{{ .Site.Params.font.code }}' rel='stylesheet' type='text/css'>
+<link lazyload="1" href='//fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300italic,500,700,800|{{ .Site.Params.font.body }}|{{ .Site.Params.font.heading }}|{{ .Site.Params.font.code }}|{{ .Site.Params.font.arabic }}|{{ .Site.Params.font.bengali }}' rel='stylesheet' type='text/css'>
+
+<!-- Operator mono -->
+<link href="https://fonts.cdnfonts.com/css/operator-mono" rel="stylesheet">
+
+
+<!-- font awesome -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+
 
 <style>
 body {
     font-family: '{{ replace .Site.Params.font.body "+" " "}}' !important;
+    color: {{ .Site.Params.font.bodyColor }};
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -12,6 +21,35 @@ h1, h2, h3, h4, h5, h6 {
 
 blockquote, code, pre code {
     font-family: '{{ replace .Site.Params.font.code "+" " "}}' !important;
-
+    font-weight: 325;
 }
+a {
+  color: {{ .Site.Params.font.linkColor }} !important;
+}
+
+.arabic {
+  font-family: {{ .Site.Params.font.arabic }};
+  font-size: 1.60rem;
+}
+
+.bengali {
+  font-family: {{ .Site.Params.font.bengali }};
+  font-size: 1.25rem;
+}
+
+.tagline {
+  font-family: {{ .Site.Params.font.heading }};
+  font-size: 1.25rem;
+  font-weight: 400;
+}
+
+
 </style>
+
+
+
+
+
+
+
+
