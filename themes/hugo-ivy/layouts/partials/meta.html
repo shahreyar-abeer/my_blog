@@ -21,9 +21,9 @@
 {{ if eq .RelPermalink "/blog/"}}
 
   <div style = "text-align:center;">
-    {{ range $index, $value := .Site.Taxonomies.categories.Pages }}
+    {{ range $index, $value := .Site.Taxonomies.categories }}
     
-      <span class = "h2"><a class = "h2" href={{ .Page.Permalink }}>{{ .Page.Title }}</a> {{if ne $index "shiny"}} | {{end}} </span>
+      <span class = "h2"><a class = "h2" href={{ . }}>{{ . }}</a> {{if ne $index "shiny"}} | {{end}} </span>
     {{ end }}
   </div>
 
