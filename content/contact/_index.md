@@ -60,7 +60,7 @@ Cheers.
 
 
 <div class="container">  
-  <form id="contact" action="https://formspree.io/xwkrozgy" method="post" style = "margin:10px auto">
+  <form id="contact" name="contact" data-netlify="true" method="post" style = "margin:10px auto">
 
 
   <p class = "box-name">Your name</p>
@@ -73,7 +73,7 @@ Cheers.
     </fieldset>
     <p class = "box-name">Subject</p>
     <fieldset>
-      <textarea placeholder="e.g. Grab a coffee?" tabindex="3" name = "subject" style = "height: 45px"></textarea>
+      <textarea placeholder="e.g. Grab a coffee?" tabindex="3" name = "subject" style = "height: 47px"></textarea>
     </fieldset>
     <p class = "box-name">Message</p>
     <fieldset>
