@@ -18,7 +18,7 @@
 
 
 <!-- showing the categories -->
-{{ if eq .Permalink "/blog/"}}
+{{ if eq .Page.Permalink "/blog/"}}
 
   <div style = "text-align:center;">
     {{ range $index, $value := .Site.Taxonomies.categories }}
@@ -28,7 +28,7 @@
 
 {{end}}
 
-{{ if eq .Permalink "/about/"}}
+{{ if eq .Page.Permalink "/about/"}}
 
   <style>
     h3 {
