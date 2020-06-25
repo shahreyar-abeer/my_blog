@@ -17,26 +17,8 @@
 {{end}}
 
 
-<!-- showing the categories -->
-{{ if eq .Permalink "/blog/"}}
 
-  <div style = "text-align:center;">
-    {{ range $index, $value := .Site.Taxonomies.categories }}
-      <span class = "h2"><a class = "h2" href="{{ .Page.Permalink }}">{{ .Page.Title }}</a> {{if ne $index "shiny"}} | {{end}} </span>
-    {{ end }}
-  </div>
 
-{{end}}
-
-{{ if eq .Permalink "/about/"}}
-
-  <style>
-    h3 {
-      font-weight: bold !important;
-    }
-  </style>
-  
-{{end}}
 
 
 <hr style = "margin:30px auto;">
