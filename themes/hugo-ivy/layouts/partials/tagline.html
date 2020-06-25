@@ -1,13 +1,23 @@
 
 <!-- image hosted on amazon.aws -->
 
-<img class = "header-pic" src={{ .Site.Params.headerPic }} alt="unsplash" width="170" height="180"/>
+<img class = "header-pic" src={{ .Site.Params.headerPic }} alt="unsplash" width=300 height="250"/>
 
 <h1><a href="{{ relURL "/" }}">{{ .Site.Title }}</a></h1>
 
 {{ with .Site.Params.Description }}<p class="tagline">{{ . }}</p>{{ end }}
 
 
+
+{{ if ne .Permalink "/"}}
+
+<style>
+  .masthead h1 a {
+    color: #918D8F !important;
+  }
+</style>
+
+{{end}}
 
 <!-- animations on homepage and about page -->
 {{ if (eq .Permalink "/")}}
@@ -23,7 +33,7 @@
     bottom: 0;
     z-index: -1;
     display: block;
-    background: url(https://s3.us-east-2.amazonaws.com/my.blog.zauad/background.png) no-repeat 50% 50%;
+    background: url(/img/background.png) no-repeat 50% 50%;
     background-size: cover;
     
     animation: fade-in-bottom; /* referring directly to the animation's @keyframe declaration */
@@ -53,7 +63,7 @@
     bottom: 0;
     z-index: -1;
     display: block;
-    background: url(https://s3.us-east-2.amazonaws.com/my.blog.zauad/background.png) no-repeat 50% 50%;
+    background: url(/img/background.png) no-repeat 50% 50%;
     background-size: cover;
     
     animation: fade-in-top; /* referring directly to the animation's @keyframe declaration */

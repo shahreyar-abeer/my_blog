@@ -3,7 +3,8 @@ subtitle: Zauad Shahreer Abeer
 title: About
 ---
 
-## This is about me
+<p class = "first">Know thyself. Perhaps the two words that explain life.</p>  
+
 
 https://github.com/yihui/hugo-ivy
 

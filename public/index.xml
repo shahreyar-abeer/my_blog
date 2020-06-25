@@ -67,7 +67,8 @@ summary(cars) ## speed dist ## Min. : 4.0 Min. : 2.00 ## 1st Qu.:12.0 1st Qu.: 2
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/about/</guid>
-      <description>This is about me https://github.com/yihui/hugo-ivy
+      <description>Know thyself. Perhaps the two words that explain life.
+https://github.com/yihui/hugo-ivy
  Masters dropout   </description>
     </item>
     

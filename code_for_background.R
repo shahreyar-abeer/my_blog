@@ -63,17 +63,20 @@ df = data.frame(
   who = c("family", "maestros", "du", "cavaliers", "started coding in R", "a new life", "married")
 )
 
+lighter_color = "#d6d6d6"
+accent = "#374E60"
+
 ggplot(df, aes(xmin = xmin, xmax = xmax, ymin = ymin, ymax = ymax)) +
   geom_rect(aes(fill = who), show.legend = FALSE) +
   theme_classic(base_family = "alegreya", base_size = 24) +
   #theme_void() +
-  scale_fill_manual(values = c("family" = "#d2d2d2",
-                               "maestros" = "#d2d2d2",
-                               "du" = "#d2d2d2",
-                               "cavaliers" = "#d2d2d2",
-                               "started coding in R" = "#752b3c",
-                               "a new life" = "#752b3c",
-                               "married" = "#d2d2d2")) +
+  scale_fill_manual(values = c("family" = lighter_color,
+                               "maestros" = lighter_color,
+                               "du" = lighter_color,
+                               "cavaliers" = lighter_color,
+                               "started coding in R" = accent,
+                               "a new life" = accent,
+                               "married" = lighter_color)) +
 
   scale_y_continuous(breaks = c(1994, 2020), expand = expansion(mult = c(.45, 1.5))) +
   scale_x_continuous(limits = c(0, 70), expand = expansion(mult = 0)) +
@@ -105,8 +108,8 @@ ggplot(df, aes(xmin = xmin, xmax = xmax, ymin = ymin, ymax = ymax)) +
     panel.border = element_blank(),
     panel.grid = element_blank(),
     plot.margin = margin(l = 50),
-    plot.background = element_rect(fill = "#faf9f5"),
-    panel.background = element_rect(fill = "#faf9f5")
+    plot.background = element_rect(fill = "#fcf6ef"),
+    panel.background = element_rect(fill = "#fcf6ef")
   )
 
 ggsave(filename = "./themes/hugo-ivy/static/img/background.png",
