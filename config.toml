@@ -1,4 +1,4 @@
-baseurl = "/"
+baseURL = "/"
 languageCode = "en-us"
 title = "ggStorytellR"
 theme = "hugo-ivy"
@@ -8,6 +8,7 @@ ignoreFiles = ["\\.Rmd$", "_files$", "_cache$"]
 preserveTaxonomyNames = true
 footnotereturnlinkcontents = "↩"
 pluralizeListTitles = false
+canonifyURLs = true
 
 [markup.goldmark.renderer]
 unsafe= true
