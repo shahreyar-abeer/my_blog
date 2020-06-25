@@ -60,7 +60,7 @@ Cheers.
 
 
 <div class="container">  
-  <form id="contact" action="https://formspree.io/xwkrozgy" method="post" style = "margin:10px auto">
+  <form name="contact" data-netlify="true" method="post" style = "margin:10px auto">
 
 
   <p class = "box-name">Your name</p>
