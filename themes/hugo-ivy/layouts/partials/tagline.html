@@ -1,5 +1,7 @@
-<!-- back button on small screens, in the blog page -->
-{{ if in .Permalink "/blog/" }}
+
+
+<!-- back button on small screens, in all pages except home -->
+{{ if not .IsHome }}
   <button class = "back" onclick="goBack()">&#8592;</button>
   <script>
   function goBack() {
@@ -14,6 +16,19 @@
         cursor: pointer;
         border-width: 0px;
       }
+      .masthead .menu {
+        display: none !important;
+      }
+      .masthead h1 {
+        font-size: 24px !important;
+        margin-bottom: 2px !important;
+      }
+      #tagline {
+        display: none;
+      }
+      #header {
+        display: none;
+      }
     }
     @media screen and (min-width: 961px) {
       .back {
@@ -22,6 +37,7 @@
     }
   </style>
 {{end}}
+
 <!-- header image, tagline and title -->
 <img id = "header" class = "header-pic" src={{ .Site.Params.headerPic }} alt="unsplash" width=200 height="200"/>
 <h1><a href="{{ relURL "/" }}">{{ .Site.Title }}</a></h1>

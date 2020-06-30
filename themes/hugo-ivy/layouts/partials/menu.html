@@ -14,23 +14,4 @@
   </ul>
 </nav>
 
-<!-- no masthead on blog page -->
-{{ if in .Permalink "/blog/"}}
-<style>
-  @media screen and (max-width: 960px) {
-    .masthead .menu {
-      display: none !important;
-    }
-    .masthead h1 {
-      font-size: 24px !important;
-      margin-bottom: 2px !important;
-    }
-    #tagline {
-      display: none;
-    }
-    #header {
-      display: none;
-    }
-  }
-</style>
-{{end}}
+

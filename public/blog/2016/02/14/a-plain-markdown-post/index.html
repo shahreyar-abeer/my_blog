@@ -134,6 +134,8 @@ a {
     <header class="masthead">
       
 
+
+
   <button class = "back" onclick="goBack()">&#8592;</button>
   <script>
   function goBack() {
@@ -148,6 +150,19 @@ a {
         cursor: pointer;
         border-width: 0px;
       }
+      .masthead .menu {
+        display: none !important;
+      }
+      .masthead h1 {
+        font-size: 24px !important;
+        margin-bottom: 2px !important;
+      }
+      #tagline {
+        display: none;
+      }
+      #header {
+        display: none;
+      }
     }
     @media screen and (min-width: 961px) {
       .back {
@@ -155,6 +170,7 @@ a {
       }
     }
   </style>
+
 
 
 <img id = "header" class = "header-pic" src=/img/quill_navy_bg.png alt="unsplash" width=200 height="200"/>
@@ -190,25 +206,6 @@ a {
   </ul>
 </nav>
 
-
-
-<style>
-  @media screen and (max-width: 960px) {
-    .masthead .menu {
-      display: none !important;
-    }
-    .masthead h1 {
-      font-size: 24px !important;
-      margin-bottom: 2px !important;
-    }
-    #tagline {
-      display: none;
-    }
-    #header {
-      display: none;
-    }
-  }
-</style>
 
 
     </header>
