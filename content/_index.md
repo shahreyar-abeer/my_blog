@@ -17,6 +17,7 @@ So here I am, writing a blog using R, whose contents are primarily related to R.
 Using R (actually Rstudio) to write about R, does that count as a recursion? I don't know,
 what would the 'base case' be?  
 
+
 Did you notice the logo-like plot on the left? (desktop/laptop users only)  
 Yes, the one that comes with an entrance. It's actually a **ggplot**, inspired by the
 awesome book by Cole Nussbaumer Knaflic, <a href = "/contact/" class = "a-body" target = "_blank">Storytelling with data</a>. In the book, it's titled the 

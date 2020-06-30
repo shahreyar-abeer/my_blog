@@ -1,5 +1,5 @@
 body {
-  font-family: "PT Sans", Optima, 'Lucida Sans', Calibri, Candara, Arial, 'source-han-serif-sc', 'Source Han Serif SC', 'Source Han Serif CN', 'Source Han Serif TC', 'Source Han Serif TW', 'Source Han Serif', 'Songti SC', 'Microsoft YaHei', sans-serif;
+  font-family: Optima, 'Lucida Sans', Calibri, Candara, Arial, 'source-han-serif-sc', 'Source Han Serif SC', 'Source Han Serif CN', 'Source Han Serif TC', 'Source Han Serif TW', 'Source Han Serif', 'Songti SC', 'Microsoft YaHei', sans-serif;
 }
 code {
   font-family: "Fira Code", "Lucida Console", 'Andale Mono', 'STKaiti', 'KaiTi', 'SimKai', monospace;
@@ -8,6 +8,29 @@ pre code {
   font-family: Consolas, "Lucida Console", Monaco, 'STKaiti', 'KaiTi', 'SimKai', monospace;
 }
 
+/*aside element, like the one in the typography book.*/
+
+@media (min-width: 900px)
+aside {
+    left: 0;
+    width: calc(2.5rem * 4);
+}
+
+aside {
+    display: block;
+    float: left;
+    position: absolute;
+    margin-left: 0;
+    left: 2.5rem;
+    width: calc(2.5rem * 3);
+    text-align: right;
+    list-style-type: none;
+    clear: both;
+    margin-bottom: 1rem;
+    font-variant-numeric: normal;
+}
+
+/* Getting the Charter font*/
 
 @font-face {
   font-family: "Charter";
@@ -41,11 +64,12 @@ pre code {
   text-rendering: optimizeLegibility;
 }
 
-.tagline {
+#tagline {
     font-family: Alegreya !important;
     color:#918D8F !important;
     font-size: 23px;
 }
+
 
 
   /**

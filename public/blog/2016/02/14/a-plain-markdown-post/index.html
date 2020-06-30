@@ -1,6 +1,32 @@
 <!DOCTYPE html>
 <html lang="en-us">
   <head>
+    <script type="application/ld+json">
+    {
+        "@context" : "http://schema.org",
+        "@type" : "BlogPosting",
+        "mainEntityOfPage": {
+             "@type": "WebPage",
+             "@id": "\/"
+        },
+        "articleSection" : "blog",
+        "name" : "A Plain Markdown Post",
+        "headline" : "A Plain Markdown Post",
+        "description" : "This sample post is mainly for blogdown users. If you do not use blogdown, you can skip the first section.\n1. Markdown or R Markdown This is a post written in plain Markdown (*.md) instead of R Markdown (*.Rmd). The major differences are:\n You cannot run any R code in a plain Markdown document, whereas in an R Markdown document, you can embed R code chunks (```{r}); A plain Markdown post is rendered through Blackfriday, and an R Markdown document is compiled by rmarkdown and Pandoc.",
+        "inLanguage" : "en",
+        "author" : "",
+        "creator" : "",
+        "publisher": "",
+        "accountablePerson" : "",
+        "copyrightHolder" : "",
+        "copyrightYear" : "2016",
+        "datePublished": "2016-02-14 00:00:00 \u002b0000 UTC",
+        "dateModified" : "2016-02-14 00:00:00 \u002b0000 UTC",
+        "url" : "\/blog\/2016\/02\/14\/a-plain-markdown-post\/",
+        "wordCount" : "531",
+        "keywords" : [ "blogdown","Markdown","MathJax","Pandoc","RStudio","Blog" ]
+    }
+    </script>
     
 <link lazyload="1" href='//fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300italic,500,700,800|Alegreya|Markazi%20Text' rel='stylesheet' type='text/css'>
 
@@ -61,6 +87,7 @@ a {
 
 
 
+    
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     
@@ -94,8 +121,6 @@ a {
     
 
 
-<link href='//cdn.bootcss.com/highlight.js/9.12.0/styles/monokai.min.css' rel='stylesheet' type='text/css' />
-
 
 
     <link rel="stylesheet" href="/css/style.css" />
@@ -109,24 +134,32 @@ a {
     <header class="masthead">
       
 
-
-<img class = "header-pic" src=/img/quill_navy_bg.png alt="unsplash" width=300 height="250"/>
-
-<h1><a href="/">ggStorytellR</a></h1>
-
-<p class="tagline">Plotting plots and telling tales, sometimes with data.</p>
-
-
-
-
-
-<style>
-  .masthead h1 a {
-    color: #918D8F !important;
+  <button class = "back" onclick="goBack()">&#8592;</button>
+  <script>
+  function goBack() {
+    window.history.back();
   }
-</style>
+  </script>
+  <style>
+    @media screen and (max-width: 960px) {
+      .back {
+        float:left;
+        background:#fcf6ef;
+        cursor: pointer;
+        border-width: 0px;
+      }
+    }
+    @media screen and (min-width: 961px) {
+      .back {
+        display: none;
+      }
+    }
+  </style>
 
 
+<img id = "header" class = "header-pic" src=/img/quill_navy_bg.png alt="unsplash" width=200 height="200"/>
+<h1><a href="/">ggStorytellR</a></h1>
+<p id="tagline">A Website and a Blog</p>
 
 
 
@@ -156,6 +189,27 @@ a {
 
   </ul>
 </nav>
+
+
+
+<style>
+  @media screen and (max-width: 960px) {
+    .masthead .menu {
+      display: none !important;
+    }
+    .masthead h1 {
+      font-size: 24px !important;
+      margin-bottom: 2px !important;
+    }
+    #tagline {
+      display: none;
+    }
+    #header {
+      display: none;
+    }
+  }
+</style>
+
 
     </header>
 
@@ -190,7 +244,15 @@ a {
       </header>
 
 
-
+ <nav id="TableOfContents">
+  <ul>
+    <li><a href="#second-level-header">Second-level header</a>
+      <ul>
+        <li><a href="#third-level-header">Third-level header</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav> 
 <p>This sample post is mainly for <a href="https://github.com/rstudio/blogdown"><strong>blogdown</strong></a> users. If you do not use <strong>blogdown</strong>, you can skip the first section.</p>
 <h1 id="1-markdown-or-r-markdown">1. Markdown or R Markdown</h1>
 <p>This is a post written in plain Markdown (<code>*.md</code>) instead of R Markdown (<code>*.Rmd</code>). The major differences are:</p>
@@ -311,15 +373,6 @@ a {
   
 
 
-
-<script src="//cdn.bootcss.com/highlight.js/9.12.0/highlight.min.js"></script>
-
-
-
-<script src="//cdn.bootcss.com/highlight.js/9.12.0/languages/r.min.js"></script>
-<script src="//cdn.bootcss.com/highlight.js/9.12.0/languages/yaml.min.js"></script>
-<script src="//cdn.bootcss.com/highlight.js/9.12.0/languages/tex.min.js"></script>
-<script>hljs.configure({languages: []}); hljs.initHighlightingOnLoad();</script>
 
 
 

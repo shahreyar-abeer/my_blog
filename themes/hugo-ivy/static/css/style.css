@@ -1,7 +1,6 @@
 /* Background */
 
 
-
 /* Micro Reset */
 
 html {
@@ -249,6 +248,7 @@ body {
 
 .masthead h1 a {
   border-bottom: none;
+  color: #918D8F !important;
 }
 
 .masthead .tagline {
@@ -355,29 +355,30 @@ thead, tfoot, tr:nth-child(even) {
 @media screen and (max-width: 960px) {
   
   html::after {
-    background: none;
+    background:#fcf6ef !important;
   }
 
   body {
     width: auto;
     max-width: 700px;
     font-size: 21px;
+    padding: 5px;
   }
 
   .masthead {
     width: auto;
     float: none;
-    padding: 20px 0 60px;
+    padding: 10px 0 10px;
     text-align: center;
     margin-left: 10px;
     margin-right: 10px;
-    border-bottom: 3px solid black;
+    border-bottom: 1.2px solid #918D8F;
   }
 
   .main {
     width: auto;
     padding: 40px 10px;
-    margin-left: 0;
+    margin-left: 2px;
     border-left: none;
     min-height: auto;
   }
@@ -392,13 +393,13 @@ thead, tfoot, tr:nth-child(even) {
 
   .masthead .menu {
     direction: ltr;
-    max-width: 300px;
+    max-width: 150px;
     margin-left: auto;
     margin-right: auto;
   }
 
   .masthead .menu ul {
-    text-align: left;
+    text-align: center;
     margin: 0;
     padding: 0;
   }
@@ -408,14 +409,9 @@ thead, tfoot, tr:nth-child(even) {
   }
 
   .masthead .menu li {
-    border-bottom: 1px solid;
     list-style: none;
     margin: 0;
     padding: 0;
-  }
-
-  .masthead .menu li:first-child {
-    border-top: 1px solid;
   }
 
   .masthead .menu li li:last-child {
@@ -424,12 +420,13 @@ thead, tfoot, tr:nth-child(even) {
 
   .masthead .menu a {
     display: block;
-    padding: 15px 20px;
+    padding: 10px 10px;
     border-bottom: none;
+    color:#918D8F !important;
   }
 
   .masthead .menu li li a {
-    padding-left: 30px;
+    padding-left: 10px;
   }
 
   .masthead .menu li li::before {
@@ -444,16 +441,16 @@ thead, tfoot, tr:nth-child(even) {
     display: inline-block;
     padding: 0 20px;
     height: 50px;
-    border: 1px solid;
+    border: 1.5px solid #918D8F;
     cursor: pointer;
     line-height: 50px;
-    color: #333;
+    color: #918D8F;
     font-size: 20px;
-    margin-top: 10px;
+    margin-top: 5px;
   }
 
   #menu-label:hover, #menu-label:focus {
-    border: 1px solid #888;
+    border: 2px solid #918D8F;
   }
 
   #menu-label .icon {
@@ -483,7 +480,7 @@ thead, tfoot, tr:nth-child(even) {
 
   #menu-check:checked ~ ul {
     display: block;
-    margin-top: 50px;
+    margin-top: 20px;
     margin-bottom: 0;
   }
 }

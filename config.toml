@@ -1,6 +1,7 @@
 baseURL = "/"
 languageCode = "en-us"
 title = "ggStorytellR"
+author = "Zauad Shahreer Abeer"
 theme = "hugo-ivy"
 googleAnalytics = ""
 disqusShortname = ""
@@ -40,9 +41,10 @@ unsafe= true
     weight = 5
     
 [params]
-    description = "Plotting plots and telling tales, sometimes with data."
+    description = "A Website and a Blog"
     footer = "<p style = 'font-size:17px;'>&copy; Zauad Shahreer Abeer</p>"
-    highlightjsVersion = "9.12.0"
+    disable_highlight = true
+    highlightjsVersion = ""
     highlightjsCDN = "//cdn.bootcss.com"
     highlightjsLang = ["r", "yaml", "tex"]
     highlightjsTheme = "monokai"

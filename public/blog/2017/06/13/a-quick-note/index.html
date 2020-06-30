@@ -1,6 +1,32 @@
 <!DOCTYPE html>
 <html lang="en-us">
   <head>
+    <script type="application/ld+json">
+    {
+        "@context" : "http://schema.org",
+        "@type" : "BlogPosting",
+        "mainEntityOfPage": {
+             "@type": "WebPage",
+             "@id": "\/"
+        },
+        "articleSection" : "blog",
+        "name" : "A Quick Note on Two Beautiful Websites",
+        "headline" : "A Quick Note on Two Beautiful Websites",
+        "description" : "To me, the two most impressive websites based on blogdown are:\n Rob J Hyndman\u0026rsquo;s personal website. Live Free or Dichotomize by Lucy and Nick et al.  I\u0026rsquo;m sure there will be more.",
+        "inLanguage" : "en",
+        "author" : "",
+        "creator" : "",
+        "publisher": "",
+        "accountablePerson" : "",
+        "copyrightHolder" : "",
+        "copyrightYear" : "2017",
+        "datePublished": "2017-06-13 00:00:00 \u002b0000 UTC",
+        "dateModified" : "2017-06-13 00:00:00 \u002b0000 UTC",
+        "url" : "\/blog\/2017\/06\/13\/a-quick-note\/",
+        "wordCount" : "32",
+        "keywords" : [ "Blog" ]
+    }
+    </script>
     
 <link lazyload="1" href='//fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300italic,500,700,800|Alegreya|Markazi%20Text' rel='stylesheet' type='text/css'>
 
@@ -61,6 +87,7 @@ a {
 
 
 
+    
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     
@@ -103,24 +130,32 @@ a {
     <header class="masthead">
       
 
-
-<img class = "header-pic" src=/img/quill_navy_bg.png alt="unsplash" width=300 height="250"/>
-
-<h1><a href="/">ggStorytellR</a></h1>
-
-<p class="tagline">Plotting plots and telling tales, sometimes with data.</p>
-
-
-
-
-
-<style>
-  .masthead h1 a {
-    color: #918D8F !important;
+  <button class = "back" onclick="goBack()">&#8592;</button>
+  <script>
+  function goBack() {
+    window.history.back();
   }
-</style>
+  </script>
+  <style>
+    @media screen and (max-width: 960px) {
+      .back {
+        float:left;
+        background:#fcf6ef;
+        cursor: pointer;
+        border-width: 0px;
+      }
+    }
+    @media screen and (min-width: 961px) {
+      .back {
+        display: none;
+      }
+    }
+  </style>
 
 
+<img id = "header" class = "header-pic" src=/img/quill_navy_bg.png alt="unsplash" width=200 height="200"/>
+<h1><a href="/">ggStorytellR</a></h1>
+<p id="tagline">A Website and a Blog</p>
 
 
 
@@ -150,6 +185,27 @@ a {
 
   </ul>
 </nav>
+
+
+
+<style>
+  @media screen and (max-width: 960px) {
+    .masthead .menu {
+      display: none !important;
+    }
+    .masthead h1 {
+      font-size: 24px !important;
+      margin-bottom: 2px !important;
+    }
+    #tagline {
+      display: none;
+    }
+    #header {
+      display: none;
+    }
+  }
+</style>
+
 
     </header>
 

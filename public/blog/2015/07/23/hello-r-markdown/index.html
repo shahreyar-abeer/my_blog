@@ -1,6 +1,32 @@
 <!DOCTYPE html>
 <html lang="en-us">
   <head>
+    <script type="application/ld+json">
+    {
+        "@context" : "http://schema.org",
+        "@type" : "BlogPosting",
+        "mainEntityOfPage": {
+             "@type": "WebPage",
+             "@id": "\/"
+        },
+        "articleSection" : "blog",
+        "name" : "Hello R Markdown",
+        "headline" : "Hello R Markdown",
+        "description" : "R Markdown This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see http:\/\/rmarkdown.rstudio.com.\nYou can embed an R code chunk like this:\nsummary(cars) ## speed dist ## Min. : 4.0 Min. : 2.00 ## 1st Qu.:12.0 1st Qu.: 26.00 ## Median :15.0 Median : 36.00 ## Mean :15.4 Mean : 42.98 ## 3rd Qu.",
+        "inLanguage" : "en",
+        "author" : "",
+        "creator" : "",
+        "publisher": "",
+        "accountablePerson" : "",
+        "copyrightHolder" : "",
+        "copyrightYear" : "2015",
+        "datePublished": "2015-07-23 21:13:14 -0500 -0500",
+        "dateModified" : "2015-07-23 21:13:14 -0500 -0500",
+        "url" : "\/blog\/2015\/07\/23\/hello-r-markdown\/",
+        "wordCount" : "159",
+        "keywords" : [ "R Markdown","plot","regression","Blog" ]
+    }
+    </script>
     
 <link lazyload="1" href='//fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300italic,500,700,800|Alegreya|Markazi%20Text' rel='stylesheet' type='text/css'>
 
@@ -61,6 +87,7 @@ a {
 
 
 
+    
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     
@@ -91,8 +118,6 @@ You can &amp;hellip;">
     
 
 
-<link href='//cdn.bootcss.com/highlight.js/9.12.0/styles/monokai.min.css' rel='stylesheet' type='text/css' />
-
 
 
     <link rel="stylesheet" href="/css/style.css" />
@@ -106,24 +131,32 @@ You can &amp;hellip;">
     <header class="masthead">
       
 
-
-<img class = "header-pic" src=/img/quill_navy_bg.png alt="unsplash" width=300 height="250"/>
-
-<h1><a href="/">ggStorytellR</a></h1>
-
-<p class="tagline">Plotting plots and telling tales, sometimes with data.</p>
-
-
-
-
-
-<style>
-  .masthead h1 a {
-    color: #918D8F !important;
+  <button class = "back" onclick="goBack()">&#8592;</button>
+  <script>
+  function goBack() {
+    window.history.back();
   }
-</style>
+  </script>
+  <style>
+    @media screen and (max-width: 960px) {
+      .back {
+        float:left;
+        background:#fcf6ef;
+        cursor: pointer;
+        border-width: 0px;
+      }
+    }
+    @media screen and (min-width: 961px) {
+      .back {
+        display: none;
+      }
+    }
+  </style>
 
 
+<img id = "header" class = "header-pic" src=/img/quill_navy_bg.png alt="unsplash" width=200 height="200"/>
+<h1><a href="/">ggStorytellR</a></h1>
+<p id="tagline">A Website and a Blog</p>
 
 
 
@@ -153,6 +186,27 @@ You can &amp;hellip;">
 
   </ul>
 </nav>
+
+
+
+<style>
+  @media screen and (max-width: 960px) {
+    .masthead .menu {
+      display: none !important;
+    }
+    .masthead h1 {
+      font-size: 24px !important;
+      margin-bottom: 2px !important;
+    }
+    #tagline {
+      display: none;
+    }
+    #header {
+      display: none;
+    }
+  }
+</style>
+
 
     </header>
 
@@ -251,15 +305,6 @@ Figure 1: A fancy pie chart.
   
 
 
-
-<script src="//cdn.bootcss.com/highlight.js/9.12.0/highlight.min.js"></script>
-
-
-
-<script src="//cdn.bootcss.com/highlight.js/9.12.0/languages/r.min.js"></script>
-<script src="//cdn.bootcss.com/highlight.js/9.12.0/languages/yaml.min.js"></script>
-<script src="//cdn.bootcss.com/highlight.js/9.12.0/languages/tex.min.js"></script>
-<script>hljs.configure({languages: []}); hljs.initHighlightingOnLoad();</script>
 
 
 
