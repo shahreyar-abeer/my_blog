@@ -30,32 +30,26 @@ type: contact
 
 </div>
 
-Hi there!  
-
 
 <div style = "display:inline;">
   
 </div>
 
-You can check out my marketplace profiles. <i class = "fa fa-arrow-circle-up"></i>  
-I offer R programming, Shiny development & Data Analysis related
-services.  
-Please note that I don't do assignments, as I have some principles that try to I stick to.
+My marketplace profiles. <i class = "fa fa-arrow-circle-up"></i>  
+I offer R programming & Shiny development services primarily.  
+Want to connect on social media? <i class = "fa fa-arrow-circle-down"></i>  
 
 
 
 <div style = "text-align: center">
-  <a href = "https://twitter.com/shahreyarabeer" style = "border-bottom:none; color: #752b3c !important"><i class="fa fa-twitter fa-lg" title = "Zauad's Twitter Profile"></i></a> &nbsp 
-    <a href = "https://www.linkedin.com/in/zauad-shahreer/" style = "border-bottom:none; color: #752b3c !important"><i class="fa fa-linkedin fa-lg"></i></a> &nbsp
-    <a href = "mailto:shahreyar.abeer@gmail.com" style = "border-bottom:none; color: #752b3c !important"><i class="fa fa-envelope fa-lg"></i></a>
+  <a class = "a-logo" href = "https://twitter.com/shahreyarabeer"><i class="fa fa-twitter fa-lg" title = "Zauad's Twitter Profile"></i></a> &nbsp 
+    <a class = "a-logo" href = "https://www.linkedin.com/in/zauad-shahreer/"><i class="fa fa-linkedin fa-lg"></i></a> &nbsp
+    <a class = "a-logo" href = "mailto:shahreyar.abeer@gmail.com"><i class="fa fa-envelope fa-lg"></i></a>
   </div>
 
 
-Or if you need a hand with R/ in the mood to grab a coffee,
-feel free to reach out on social media.  
-You can simply send me a message through the following form. I'm in GMT+6:00. If our time zones don't match, it may be a while before I get back to you.  
+Send me a message if you are in the mood. I always have time for a coffee! 
 
-Cheers.  
 
 
 

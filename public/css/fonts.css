@@ -8,12 +8,31 @@ pre code {
   font-family: Consolas, "Lucida Console", Monaco, 'STKaiti', 'KaiTi', 'SimKai', monospace;
 }
 
+.a-logo {
+  border-bottom:none;
+  color: #918D8F !important;
+}
+
+.a-logo:hover {
+  color:#424e59 !important;
+	-webkit-transition:color 0.3s ease-in-out;
+	-moz-transition:color 0.3s ease-in-out;
+	transition:color 0.3s ease-in-out;
+}
+
 /* the profile pic*/
 
 .header-pic {
   display: box;
   float: right;
-  margin-bottom: 20px;
+  margin-bottom: 35px;
+}
+
+#tagline {
+    font-family: Alegreya !important;
+    color:#918D8F !important;
+    font-size: 23px;
+    margin-top: 20px;
 }
 
 @media screen and (max-width: 960px) {
@@ -83,11 +102,7 @@ aside {
   text-rendering: optimizeLegibility;
 }
 
-#tagline {
-    font-family: Alegreya !important;
-    color:#918D8F !important;
-    font-size: 23px;
-}
+
 
 
 
@@ -312,7 +327,7 @@ fieldset {
 }
 
 #contact button[type="submit"]:hover {
-	background:#752b3c;
+	background:#424e59;
 	-webkit-transition:background 0.3s ease-in-out;
 	-moz-transition:background 0.3s ease-in-out;
 	transition:background-color 0.3s ease-in-out;

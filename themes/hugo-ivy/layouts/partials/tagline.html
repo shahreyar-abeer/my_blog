@@ -39,7 +39,7 @@
 {{end}}
 
 <!-- header image, tagline and title -->
-<img id = "header" class = "header-pic" src={{ .Site.Params.headerPic }} alt="unsplash" width=200 height="200"/>
+<img id = "header" class = "header-pic" src={{ .Site.Params.headerPic }} alt="unsplash" width=180 height="200"/>
 <h1><a href="{{ relURL "/" }}">{{ .Site.Title }}</a></h1>
 {{ with .Site.Params.Description }}<p id="tagline">{{ . }}</p>{{ end }}
 
