@@ -1,6 +1,6 @@
 baseURL = "/"
 languageCode = "en-us"
-title = "ggStorytellR"
+title = "the Art of R"
 author = "Zauad Shahreer Abeer"
 theme = "hugo-ivy"
 googleAnalytics = ""
@@ -10,6 +10,7 @@ preserveTaxonomyNames = true
 footnotereturnlinkcontents = "↩"
 pluralizeListTitles = false
 canonifyURLs = true
+enableRobotsTXT = true
 
 [markup.goldmark.renderer]
 unsafe= true
@@ -41,8 +42,8 @@ unsafe= true
     weight = 5
     
 [params]
-    description = "A Website and a Blog"
-    footer = "<p style = 'font-size:17px;'>&copy; Zauad Shahreer Abeer</p>"
+    description = "Plotting plots & telling tales, occasionally with data"
+    footer = "<p style = 'font-size:17px; font-style:italic;'>&copy; Zauad Shahreer Abeer</p>"
     disable_highlight = true
     highlightjsVersion = ""
     highlightjsCDN = "//cdn.bootcss.com"

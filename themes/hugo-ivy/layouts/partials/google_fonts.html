@@ -41,10 +41,8 @@ a {
   font-size: 1.25rem;
 }
 
-.tagline {
-  font-family: {{ .Site.Params.font.heading }};
-  font-size: 1.25rem;
-  font-weight: 400;
+pre:before, pre:after {
+  font-family: '{{ replace .Site.Params.font.code "+" " "}}';
 }
 
 

@@ -19,7 +19,7 @@ body {
   padding: 0;
   background:#fcf6ef;
   font-kerning: none;
-  font-size: 20.5px;
+  font-size: 19.9px;
   line-height: 1.40;
 }
 
@@ -99,13 +99,24 @@ blockquote {
   padding: .5px 1em;
   border-left: 4px solid #aaa;
   background:#e5e5e5;
-  font-size:20px;
+  font-size:19px;
 }
 
 /* Code */
 
+pre:before {
+  content: "```{r}\a";
+  color:#ed5032;
+  font-weight: 325;
+}
+
+pre:after {
+  content: "\a```";
+  color:#ed5032;
+}
+
 pre, code {
-  font-size: 1.01em;
+  font-size: 17px;
 }
 
 pre code {
@@ -116,11 +127,9 @@ pre code {
 
 
 code {
-  background: #ddd;
   color: #444;
   border-radius: .3em;
   font-weight: 325;
-  font-size:19px;
 }
 
 .hljs-string {
@@ -169,10 +178,11 @@ a {
 
 .a-list{
   content:none;
+  font-style:italic;
 }
 
 .a-list:hover {
-    background:#efcfc9;
+    background:#ffe0da;
     transition-property: background;
     transition-duration: 0.2s;
     border-radius: 8px;

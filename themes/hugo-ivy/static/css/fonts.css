@@ -31,7 +31,7 @@ pre code {
 #tagline {
     font-family: Alegreya !important;
     color:#918D8F !important;
-    font-size: 23px;
+    font-size: 22.1px;
     margin-top: 20px;
 }
 
@@ -77,6 +77,15 @@ aside {
   font-weight: 400;
   text-rendering: optimizeLegibility;
 }
+
+@font-face {
+  font-family: "Cooper";
+  src: url("/fonts/CooperHewitt-Bppl.woff") format("woff");
+  font-style: normal;
+  font-weight: 400;
+  text-rendering: optimizeLegibility;
+}
+
 
 @font-face {
   font-family: "Charter";

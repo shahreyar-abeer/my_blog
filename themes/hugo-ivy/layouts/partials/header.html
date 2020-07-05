@@ -4,6 +4,8 @@
     {{ partial "seo_schema" . }}
     {{ partial "google_fonts" . }}
     
+    <link rel="icon" type="image/png" href="/img/fav.png"/>
+    
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     {{ if eq .RelPermalink "/" }}
@@ -51,7 +53,6 @@
     {{ partial "head_highlightjs" . }}
     <link rel="stylesheet" href="{{ "/css/style.css" | relURL }}" />
     <link rel="stylesheet" href="{{ "/css/fonts.css" | relURL }}" />
-    {{ partial "head_custom.html" . }}
   </head>
 
   {{ $.Scratch.Set "section" (replaceRE "^/([^/]+)/.*" "$1" .RelPermalink) }}

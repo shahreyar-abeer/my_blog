@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>random thoughts on ggStorytellR</title>
+    <title>random thoughts on the Art of R</title>
     <link>/categories/random-thoughts/</link>
-    <description>Recent content in random thoughts on ggStorytellR</description>
+    <description>Recent content in random thoughts on the Art of R</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 23 Jul 2015 21:13:14 -0500</lastBuildDate>
