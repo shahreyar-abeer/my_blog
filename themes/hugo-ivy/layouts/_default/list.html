@@ -6,13 +6,36 @@
 {{ else }}
 <div class="archive">
   {{ range .Pages.GroupByDate "2006" }}
-  <h2 class="archive-title">{{ .Key }}</h2>
   {{ range .Pages.GroupByDate "2006-01-02" }}
   {{ range .Pages }}
-  <p>
-    <span>{{ .Date.Format "2006-01-02" }}</span>
-    <a class = "a-list" href="{{ .RelPermalink }}">{{ .Title }}</a>
-  </p>
+
+  
+  <section>
+  <h1 class="content-title">
+  <a class="a-list" href="./2020/07/02/so-you-want-to-learn-r/">{{ .Title }}</a>
+  </h1>
+
+  <span class="content-meta">
+  <i class="fa fa-user">&nbsp;</i><span style="color:#918D8F;" class="author">
+    &nbsp;{{ .Params.Author }}</span> <br>
+
+  <i class="fa fa-calendar"></i>
+    &nbsp;<time style="color:#918D8F;">{{ .Date.Format "2006-01-02" }}</time>
+    
+  &nbsp;<i class="fa fa-clock-o"></i>
+    &nbsp;5 min read
+  <br>
+    </span>
+    
+    
+    </section>
+    
+    <p>{{ .Param "summary" }}</p>
+    
+    <hr style="color:#918D8F !important;" />
+    
+    
+    
   {{ end }}
   {{ end }}
   {{ end }}
