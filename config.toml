@@ -1,6 +1,6 @@
 baseURL = "/"
 languageCode = "en-us"
-title = "the Art of R"
+title = "the way we R"
 author = "Zauad Shahreer Abeer"
 theme = "hugo-ivy"
 googleAnalytics = ""
@@ -48,7 +48,7 @@ unsafe= true
     highlightjsVersion = ""
     highlightjsCDN = "//cdn.bootcss.com"
     highlightjsLang = ["r", "yaml", "tex"]
-    highlightjsTheme = "monokai"
+    highlightjsTheme = "github"
     headerPic = "/img/quill_navy_bg.png"
     
 
@@ -58,8 +58,8 @@ unsafe= true
     code = "Operator Mono"
     arabic = "Markazi Text"
     bengali = "AponaLohit"
-    bodyColor = "#201b19"
-    linkColor = "#201b19"
+    bodyColor = "#3a4145"
+    linkColor = "#3a4145"
     greyColor = "#918D8F"
     redColor = "#ed5032"
     

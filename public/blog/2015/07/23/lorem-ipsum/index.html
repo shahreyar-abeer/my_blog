@@ -12,7 +12,7 @@
         "articleSection" : "blog",
         "name" : "Lorem Ipsum",
         "headline" : "Lorem Ipsum",
-        "description" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod     tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis     nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+        "description" : "\u003cp\u003e\u003cstrong\u003eLorem ipsum\u003c\/strong\u003e dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore \u003cem\u003emagna aliqua\u003c\/em\u003e.\u003c\/p\u003e",
         "inLanguage" : "en",
         "author" : "",
         "creator" : "",
@@ -45,19 +45,25 @@
 <style>
 body {
     font-family: 'Charter' !important;
-    color: #201b19;
+    color: #3a4145;
 }
 
 h1, h2, h3, h4, h5, h6 {
     font-family: 'Alegreya' !important;
 }
 
-blockquote, code, pre code {
+code, pre code {
     font-family: 'Operator Mono' !important;
     font-weight: 325;
 }
+
+blockquote {
+  font-family: 'Charter';
+  font-style:italic;
+}
+
 a {
-  color: #201b19 !important;
+  color: #3a4145 !important;
 }
 
 .arabic {
@@ -91,8 +97,8 @@ pre:before, pre:after {
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     
-    <title>Lorem Ipsum - the Art of R</title>
-    <meta property="og:title" content="Lorem Ipsum - the Art of R">
+    <title>Lorem Ipsum - the way we R</title>
+    <meta property="og:title" content="Lorem Ipsum - the way we R">
     
     <meta name="twitter:card" content="summary">
 
@@ -102,8 +108,10 @@ pre:before, pre:after {
 
     
       
-      <meta property="description" content="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut &amp;hellip;">
-      <meta property="og:description" content="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut &amp;hellip;">
+      <meta property="description" content="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut &amp;hellip;">
+      <meta property="og:description" content="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut &amp;hellip;">
       
     
 
@@ -126,7 +134,7 @@ pre:before, pre:after {
 
 
 
-  <button class = "back" onclick="goBack()">&#8592;</button>
+  <button class = "back" onclick="goBack()">←</button>
   <script>
   function goBack() {
     window.history.back();
@@ -139,13 +147,21 @@ pre:before, pre:after {
         background:#fcf6ef;
         cursor: pointer;
         border-width: 0px;
+        color:#918D8F;
+      }
+      .back:hover {
+        background:#ffe0da;
+        transition-property: background;
+        transition-duration: 0.2s;
+        border-radius: 8px;
       }
       .masthead .menu {
         display: none !important;
       }
       .masthead h1 {
         font-size: 24px !important;
-        margin-bottom: 2px !important;
+        margin-bottom: 0px !important;
+        text-align:right;
       }
       #tagline {
         display: none;
@@ -163,9 +179,13 @@ pre:before, pre:after {
 
 
 
-<img id = "header" class = "header-pic" src=/img/quill_navy_bg.png alt="unsplash" width=180 height="200"/>
-<h1><a href="/">the Art of R</a></h1>
-<p id="tagline">Plotting plots &amp; telling tales, occasionally with data</p>
+
+
+<a href="/">
+  <img id = "header" class = "header-pic" src=/img/quill_navy_bg.png alt="unsplash" width=80 height="100"/>
+</a>
+
+
 
 
 
@@ -176,24 +196,11 @@ pre:before, pre:after {
   <label id="menu-label" for="menu-check" class="unselectable" hidden>
     <span class="icon close-icon">✕</span>
     <span class="icon open-icon">☰</span>
-    <span class="text">Menu</span>
   </label>
-  <ul>
   
   
-  <li><a href="/">Home</a></li>
-  
-  <li><a href="/blog/">Blog</a></li>
-  
-  <li><a href="/projects/">Projects</a></li>
-  
-  <li><a href="/about/">About</a></li>
-  
-  <li><a href="/contact/">Contact</a></li>
   
   
-
-  </ul>
 </nav>
 
 
@@ -213,20 +220,8 @@ pre:before, pre:after {
 
 
 
-<h3><a href=/categories/life> [life] </a></h3>
 
-
-
-  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod     tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis     nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-
-
-
-
-
-
-
-
-<hr style = "margin:30px auto;">
+<hr />
 
 
 
@@ -234,15 +229,15 @@ pre:before, pre:after {
 
 
 
-<p><strong>Lorem ipsum</strong> dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore <em>magna aliqua</em>. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-<p class = "masthead">Quisque mattis volutpat lorem vitae feugiat. Praesent porta est quis porta imperdiet.</p>
+<p><strong>Lorem ipsum</strong> dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore <em>magna aliqua</em>.</p>
+<p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+<aside>Quisque mattis volutpat lorem vitae feugiat. Praesent porta est quis porta imperdiet.</aside>
 <p>Quisque mattis volutpat lorem vitae feugiat. Praesent porta est quis porta imperdiet. Aenean porta, mi non cursus volutpat, mi est mollis libero, id suscipit orci urna a augue. In fringilla euismod lacus, vitae tristique massa ultricies vitae. Mauris accumsan ligula tristique, viverra nulla sed, porta sapien. Vestibulum facilisis nec nisl blandit convallis. Maecenas venenatis porta malesuada. Ut ac erat tortor. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nulla sodales quam sit amet tincidunt egestas. In et turpis at orci vestibulum ullamcorper. Aliquam sed ante libero. Sed hendrerit arcu lacus.</p>
 <blockquote>
 <p>Sed luctus volutpat sem in dapibus. Ut pellentesque vitae magna ac mattis. Sed vestibulum, nulla at condimentum semper, magna quam posuere dui, quis sagittis enim nisi eget ex. Vivamus tempor erat a sem dapibus porta. Fusce varius dapibus tempus. Nam bibendum dignissim fringilla. Phasellus eu justo facilisis, ullamcorper urna in, feugiat mauris. Quisque dignissim purus vitae ullamcorper scelerisque. Sed at magna at nisi consequat euismod. Curabitur justo ex, efficitur in fermentum luctus, tincidunt nec lectus. Aliquam a neque metus. Etiam nulla nunc, tristique vitae accumsan ullamcorper, placerat eget nunc. Cras porta eleifend dolor maximus molestie. Etiam vitae pellentesque turpis, quis accumsan ligula. Mauris auctor, nisi nec ullamcorper pulvinar, libero magna sagittis enim, sollicitudin dignissim urna justo et tortor.</p>
 </blockquote>
 <p>Morbi non sem euismod, suscipit purus id, gravida velit. Quisque mollis luctus ligula non suscipit. Curabitur massa arcu, aliquam ac dolor a, pellentesque dignissim dui. Donec at vestibulum magna. Quisque fermentum, tortor id sodales egestas, ligula ligula interdum ipsum, et volutpat elit massa vitae nibh. Morbi eleifend libero quis pretium viverra. Etiam congue, velit ac vestibulum finibus, velit nibh fringilla purus, eu semper dui est eu nunc. Etiam feugiat scelerisque diam vitae sodales. Etiam luctus in urna eu lobortis. Nam vestibulum eros et nibh elementum ullamcorper. Nam tristique porttitor orci, nec pretium est vestibulum at. Quisque posuere semper orci, vel semper justo commodo sed. Nullam accumsan risus rhoncus fringilla porta. Morbi interdum condimentum pharetra. Donec eu elit quam. Vivamus eleifend posuere mi, vel accumsan urna sollicitudin ut.</p>
 <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nulla nec nunc felis. Sed bibendum vel leo id semper. Maecenas vitae iaculis ante. Nam ut tempor est, eu molestie augue. Quisque tincidunt sagittis odio sed tristique. Aenean et felis quis mi viverra consequat.</p>
-
 
   <footer>
   

@@ -11,28 +11,27 @@
 
   
   <section>
-  <h1 class="content-title">
-  <a class="a-list" href="./2020/07/02/so-you-want-to-learn-r/">{{ .Title }}</a>
-  </h1>
-
-  <span class="content-meta">
-  <i class="fa fa-user">&nbsp;</i><span style="color:#918D8F;" class="author">
-    &nbsp;{{ .Params.Author }}</span> <br>
-
-  <i class="fa fa-calendar"></i>
-    &nbsp;<time style="color:#918D8F;">{{ .Date.Format "2006-01-02" }}</time>
+    <h1 class="content-title">
+    <a class="a-list" href="{{ .Permalink }}">{{ .Title }}</a>
+    </h1>
+  
+    <span class="content-meta">
+      <i class="fa fa-user">&nbsp;</i>
+      <span class="author">&nbsp;{{ .Params.Author }}</span> <br>
+      <i class="fa fa-calendar"></i><span>&nbsp;<time>{{ .Date.Format "2006-01-02" }}</time></span>
+      &nbsp;<i class="fa fa-clock-o"></i><span>&nbsp;{{ .ReadingTime }} minute read</span>
+    <br>
+    <i class="fa fa-tags">
+      {{ range (.GetTerms "categories") }}
+        <a class="a-tag" href="{{ .Permalink }}">{{ .LinkTitle }}</a>
+     {{ end }}
+    </i>
+  </section>
     
-  &nbsp;<i class="fa fa-clock-o"></i>
-    &nbsp;5 min read
-  <br>
-    </span>
+    <p>{{ .Summary }}</p>
+    <a class="a-tag" href="{{ .RelPermalink }}">Read On →</a>
     
-    
-    </section>
-    
-    <p>{{ .Param "summary" }}</p>
-    
-    <hr style="color:#918D8F !important;" />
+    <hr class="hr-list" />
     
     
     

@@ -45,19 +45,25 @@
 <style>
 body {
     font-family: 'Charter' !important;
-    color: #201b19;
+    color: #3a4145;
 }
 
 h1, h2, h3, h4, h5, h6 {
     font-family: 'Alegreya' !important;
 }
 
-blockquote, code, pre code {
+code, pre code {
     font-family: 'Operator Mono' !important;
     font-weight: 325;
 }
+
+blockquote {
+  font-family: 'Charter';
+  font-style:italic;
+}
+
 a {
-  color: #201b19 !important;
+  color: #3a4145 !important;
 }
 
 .arabic {
@@ -91,8 +97,8 @@ pre:before, pre:after {
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     
-    <title>shiny - the Art of R</title>
-    <meta property="og:title" content="shiny - the Art of R">
+    <title>shiny - the way we R</title>
+    <meta property="og:title" content="shiny - the way we R">
     
     <meta name="twitter:card" content="summary">
 
@@ -110,7 +116,7 @@ pre:before, pre:after {
     
 
     
-    <link href="/categories/shiny/index.xml" rel="alternate" type="application/rss+xml" title="the Art of R" />
+    <link href="/categories/shiny/index.xml" rel="alternate" type="application/rss+xml" title="the way we R" />
     
     
 
@@ -125,7 +131,7 @@ pre:before, pre:after {
 
 
 
-  <button class = "back" onclick="goBack()">&#8592;</button>
+  <button class = "back" onclick="goBack()">←</button>
   <script>
   function goBack() {
     window.history.back();
@@ -138,13 +144,21 @@ pre:before, pre:after {
         background:#fcf6ef;
         cursor: pointer;
         border-width: 0px;
+        color:#918D8F;
+      }
+      .back:hover {
+        background:#ffe0da;
+        transition-property: background;
+        transition-duration: 0.2s;
+        border-radius: 8px;
       }
       .masthead .menu {
         display: none !important;
       }
       .masthead h1 {
         font-size: 24px !important;
-        margin-bottom: 2px !important;
+        margin-bottom: 0px !important;
+        text-align:right;
       }
       #tagline {
         display: none;
@@ -162,9 +176,13 @@ pre:before, pre:after {
 
 
 
+
+
 <img id = "header" class = "header-pic" src=/img/quill_navy_bg.png alt="unsplash" width=180 height="200"/>
-<h1><a href="/">the Art of R</a></h1>
+<h1><a href="/">the way we R</a></h1>
 <p id="tagline">Plotting plots &amp; telling tales, occasionally with data</p>
+
+
 
 
 
@@ -175,24 +193,29 @@ pre:before, pre:after {
   <label id="menu-label" for="menu-check" class="unselectable" hidden>
     <span class="icon close-icon">✕</span>
     <span class="icon open-icon">☰</span>
-    <span class="text">Menu</span>
   </label>
-  <ul>
   
   
-  <li><a href="/">Home</a></li>
   
-  <li><a href="/blog/">Blog</a></li>
   
-  <li><a href="/projects/">Projects</a></li>
+  <ul style="color:#918D8F">
   
-  <li><a href="/about/">About</a></li>
   
-  <li><a href="/contact/">Contact</a></li>
+  <li><a class="a-menu" href="/">Home</a></li>
+  
+  <li><a class="a-menu" href="/blog/">Blog</a></li>
+  
+  <li><a class="a-menu" href="/projects/">Projects</a></li>
+  
+  <li><a class="a-menu" href="/about/">About</a></li>
+  
+  <li><a class="a-menu" href="/contact/">Contact</a></li>
   
   
 
   </ul>
+  
+  
 </nav>
 
 
@@ -212,18 +235,8 @@ pre:before, pre:after {
 
 
 
-<h3></h3>
 
-
-
-
-
-
-
-
-
-
-<hr style = "margin:30px auto;">
+<hr />
 
 
 
@@ -234,13 +247,37 @@ pre:before, pre:after {
 
 <div class="archive">
   
-  <h2 class="archive-title">2016</h2>
   
   
-  <p>
-    <span>2016-02-14</span>
-    <a class = "a-list" href="/blog/2016/02/14/a-plain-markdown-post/">A Plain Markdown Post</a>
-  </p>
+
+  
+  <section>
+    <h1 class="content-title">
+    <a class="a-list" href="/blog/2016/02/14/a-plain-markdown-post/">A Plain Markdown Post</a>
+    </h1>
+  
+    <span class="content-meta">
+      <i class="fa fa-user">&nbsp;</i>
+      <span class="author">&nbsp;Yihui Xie</span> <br>
+      <i class="fa fa-calendar"></i><span>&nbsp;<time>2016-02-14</time></span>
+      &nbsp;<i class="fa fa-clock-o"></i><span>&nbsp;3 minute read</span>
+    <br>
+    <i class="fa fa-tags">
+      
+        <a class="a-tag" href="/categories/shiny/">shiny</a>
+     
+    </i>
+  </section>
+    
+    <p>This sample post is mainly for blogdown users. If you do not use blogdown, you can skip the first section.
+1. Markdown or R Markdown This is a post written in plain Markdown (*.md) instead of R Markdown (*.Rmd). The major differences are:
+ You cannot run any R code in a plain Markdown document, whereas in an R Markdown document, you can embed R code chunks (```{r}); A plain Markdown post is rendered through Blackfriday, and an R Markdown document is compiled by rmarkdown and Pandoc.</p>
+    <a class="a-tag" href="/blog/2016/02/14/a-plain-markdown-post/">Read On →</a>
+    
+    <hr class="hr-list" />
+    
+    
+    
   
   
   

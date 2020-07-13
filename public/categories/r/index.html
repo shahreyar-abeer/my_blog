@@ -19,9 +19,9 @@
         "publisher": "",
         "accountablePerson" : "",
         "copyrightHolder" : "",
-        "copyrightYear" : "2017",
-        "datePublished": "2017-06-13 00:00:00 \u002b0000 UTC",
-        "dateModified" : "2017-06-13 00:00:00 \u002b0000 UTC",
+        "copyrightYear" : "2020",
+        "datePublished": "2020-07-12 00:00:00 \u002b0000 UTC",
+        "dateModified" : "2020-07-12 00:00:00 \u002b0000 UTC",
         "url" : "\/categories\/r\/",
         "wordCount" : "0",
         "keywords" : [ "Blog" ]
@@ -45,19 +45,25 @@
 <style>
 body {
     font-family: 'Charter' !important;
-    color: #201b19;
+    color: #3a4145;
 }
 
 h1, h2, h3, h4, h5, h6 {
     font-family: 'Alegreya' !important;
 }
 
-blockquote, code, pre code {
+code, pre code {
     font-family: 'Operator Mono' !important;
     font-weight: 325;
 }
+
+blockquote {
+  font-family: 'Charter';
+  font-style:italic;
+}
+
 a {
-  color: #201b19 !important;
+  color: #3a4145 !important;
 }
 
 .arabic {
@@ -91,8 +97,8 @@ pre:before, pre:after {
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     
-    <title>r - the Art of R</title>
-    <meta property="og:title" content="r - the Art of R">
+    <title>r - the way we R</title>
+    <meta property="og:title" content="r - the way we R">
     
     <meta name="twitter:card" content="summary">
 
@@ -110,7 +116,7 @@ pre:before, pre:after {
     
 
     
-    <link href="/categories/r/index.xml" rel="alternate" type="application/rss+xml" title="the Art of R" />
+    <link href="/categories/r/index.xml" rel="alternate" type="application/rss+xml" title="the way we R" />
     
     
 
@@ -125,7 +131,7 @@ pre:before, pre:after {
 
 
 
-  <button class = "back" onclick="goBack()">&#8592;</button>
+  <button class = "back" onclick="goBack()">←</button>
   <script>
   function goBack() {
     window.history.back();
@@ -138,13 +144,21 @@ pre:before, pre:after {
         background:#fcf6ef;
         cursor: pointer;
         border-width: 0px;
+        color:#918D8F;
+      }
+      .back:hover {
+        background:#ffe0da;
+        transition-property: background;
+        transition-duration: 0.2s;
+        border-radius: 8px;
       }
       .masthead .menu {
         display: none !important;
       }
       .masthead h1 {
         font-size: 24px !important;
-        margin-bottom: 2px !important;
+        margin-bottom: 0px !important;
+        text-align:right;
       }
       #tagline {
         display: none;
@@ -162,9 +176,13 @@ pre:before, pre:after {
 
 
 
+
+
 <img id = "header" class = "header-pic" src=/img/quill_navy_bg.png alt="unsplash" width=180 height="200"/>
-<h1><a href="/">the Art of R</a></h1>
+<h1><a href="/">the way we R</a></h1>
 <p id="tagline">Plotting plots &amp; telling tales, occasionally with data</p>
+
+
 
 
 
@@ -175,24 +193,29 @@ pre:before, pre:after {
   <label id="menu-label" for="menu-check" class="unselectable" hidden>
     <span class="icon close-icon">✕</span>
     <span class="icon open-icon">☰</span>
-    <span class="text">Menu</span>
   </label>
-  <ul>
   
   
-  <li><a href="/">Home</a></li>
   
-  <li><a href="/blog/">Blog</a></li>
   
-  <li><a href="/projects/">Projects</a></li>
+  <ul style="color:#918D8F">
   
-  <li><a href="/about/">About</a></li>
   
-  <li><a href="/contact/">Contact</a></li>
+  <li><a class="a-menu" href="/">Home</a></li>
+  
+  <li><a class="a-menu" href="/blog/">Blog</a></li>
+  
+  <li><a class="a-menu" href="/projects/">Projects</a></li>
+  
+  <li><a class="a-menu" href="/about/">About</a></li>
+  
+  <li><a class="a-menu" href="/contact/">Contact</a></li>
   
   
 
   </ul>
+  
+  
 </nav>
 
 
@@ -212,18 +235,8 @@ pre:before, pre:after {
 
 
 
-<h3></h3>
 
-
-
-
-
-
-
-
-
-
-<hr style = "margin:30px auto;">
+<hr />
 
 
 
@@ -234,23 +247,104 @@ pre:before, pre:after {
 
 <div class="archive">
   
-  <h2 class="archive-title">2017</h2>
   
   
-  <p>
-    <span>2017-06-13</span>
-    <a class = "a-list" href="/blog/2017/06/13/a-quick-note/">A Quick Note on Two Beautiful Websites</a>
-  </p>
+
+  
+  <section>
+    <h1 class="content-title">
+    <a class="a-list" href="/blog/2020/07/12/behind-the-scenes-a-ggplot/">Behind the scenes: A ggplot!</a>
+    </h1>
+  
+    <span class="content-meta">
+      <i class="fa fa-user">&nbsp;</i>
+      <span class="author">&nbsp;</span> <br>
+      <i class="fa fa-calendar"></i><span>&nbsp;<time>2020-07-12</time></span>
+      &nbsp;<i class="fa fa-clock-o"></i><span>&nbsp;1 minute read</span>
+    <br>
+    <i class="fa fa-tags">
+      
+        <a class="a-tag" href="/categories/r/">r</a>
+     
+    </i>
+  </section>
+    
+    <p>So the plot that we see to the left, is a ggolot.</p>
+    <a class="a-tag" href="/blog/2020/07/12/behind-the-scenes-a-ggplot/">Read On →</a>
+    
+    <hr class="hr-list" />
+    
+    
+    
   
   
   
-  <h2 class="archive-title">2015</h2>
   
   
-  <p>
-    <span>2015-07-23</span>
-    <a class = "a-list" href="/blog/2015/07/23/hello-r-markdown/">Hello R Markdown</a>
-  </p>
+
+  
+  <section>
+    <h1 class="content-title">
+    <a class="a-list" href="/blog/2017/06/13/a-quick-note/">A Quick Note on Two Beautiful Websites</a>
+    </h1>
+  
+    <span class="content-meta">
+      <i class="fa fa-user">&nbsp;</i>
+      <span class="author">&nbsp;Yihui Xie</span> <br>
+      <i class="fa fa-calendar"></i><span>&nbsp;<time>2017-06-13</time></span>
+      &nbsp;<i class="fa fa-clock-o"></i><span>&nbsp;1 minute read</span>
+    <br>
+    <i class="fa fa-tags">
+      
+        <a class="a-tag" href="/categories/r/">r</a>
+     
+    </i>
+  </section>
+    
+    <p>To me, the two most impressive websites based on blogdown are:
+ Rob J Hyndman&rsquo;s personal website. Live Free or Dichotomize by Lucy and Nick et al.  I&rsquo;m sure there will be more.</p>
+    <a class="a-tag" href="/blog/2017/06/13/a-quick-note/">Read On →</a>
+    
+    <hr class="hr-list" />
+    
+    
+    
+  
+  
+  
+  
+  
+
+  
+  <section>
+    <h1 class="content-title">
+    <a class="a-list" href="/blog/2015/07/23/hello-r-markdown/">Hello R Markdown</a>
+    </h1>
+  
+    <span class="content-meta">
+      <i class="fa fa-user">&nbsp;</i>
+      <span class="author">&nbsp;Frida Gomam</span> <br>
+      <i class="fa fa-calendar"></i><span>&nbsp;<time>2015-07-23</time></span>
+      &nbsp;<i class="fa fa-clock-o"></i><span>&nbsp;1 minute read</span>
+    <br>
+    <i class="fa fa-tags">
+      
+        <a class="a-tag" href="/categories/r/">r</a>
+     
+        <a class="a-tag" href="/categories/random-thoughts/">random thoughts</a>
+     
+    </i>
+  </section>
+    
+    <p>R Markdown This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see http://rmarkdown.rstudio.com.
+You can embed an R code chunk like this:
+summary(cars) ## speed dist ## Min. : 4.0 Min. : 2.00 ## 1st Qu.:12.0 1st Qu.: 26.00 ## Median :15.0 Median : 36.00 ## Mean :15.4 Mean : 42.98 ## 3rd Qu.</p>
+    <a class="a-tag" href="/blog/2015/07/23/hello-r-markdown/">Read On →</a>
+    
+    <hr class="hr-list" />
+    
+    
+    
   
   
   

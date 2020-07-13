@@ -12,7 +12,7 @@
         "articleSection" : "",
         "name" : "About",
         "headline" : "About",
-        "description" : "Know thyself. Perhaps the two words that explain life.\nhttps:\/\/github.com\/yihui\/hugo-ivy\n Masters dropout   ",
+        "description" : "Know thyself. Perhaps the two words that explain life.\nhttps:\/\/github.com\/yihui\/hugo-ivy\nhttps:\/\/leovan.me\/en\/resume\/\n Masters dropout   ",
         "inLanguage" : "en",
         "author" : "",
         "creator" : "",
@@ -23,7 +23,7 @@
         "datePublished": "0001-01-01 00:00:00 \u002b0000 UTC",
         "dateModified" : "0001-01-01 00:00:00 \u002b0000 UTC",
         "url" : "\/about\/",
-        "wordCount" : "12",
+        "wordCount" : "13",
         "keywords" : [ "Blog" ]
     }
     </script>
@@ -45,19 +45,25 @@
 <style>
 body {
     font-family: 'Charter' !important;
-    color: #201b19;
+    color: #3a4145;
 }
 
 h1, h2, h3, h4, h5, h6 {
     font-family: 'Alegreya' !important;
 }
 
-blockquote, code, pre code {
+code, pre code {
     font-family: 'Operator Mono' !important;
     font-weight: 325;
 }
+
+blockquote {
+  font-family: 'Charter';
+  font-style:italic;
+}
+
 a {
-  color: #201b19 !important;
+  color: #3a4145 !important;
 }
 
 .arabic {
@@ -91,8 +97,8 @@ pre:before, pre:after {
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     
-    <title>About - Zauad Shahreer Abeer  - the Art of R</title>
-    <meta property="og:title" content="About - the Art of R">
+    <title>About - Zauad Shahreer Abeer, MSc Dropout  - the way we R</title>
+    <meta property="og:title" content="About - the way we R">
     
     <meta name="twitter:card" content="summary">
 
@@ -104,9 +110,11 @@ pre:before, pre:after {
       
       <meta property="description" content="Know thyself. Perhaps the two words that explain life.
 https://github.com/yihui/hugo-ivy
+https://leovan.me/en/resume/
 ">
       <meta property="og:description" content="Know thyself. Perhaps the two words that explain life.
 https://github.com/yihui/hugo-ivy
+https://leovan.me/en/resume/
 ">
       
     
@@ -130,7 +138,7 @@ https://github.com/yihui/hugo-ivy
 
 
 
-  <button class = "back" onclick="goBack()">&#8592;</button>
+  <button class = "back" onclick="goBack()">←</button>
   <script>
   function goBack() {
     window.history.back();
@@ -143,13 +151,21 @@ https://github.com/yihui/hugo-ivy
         background:#fcf6ef;
         cursor: pointer;
         border-width: 0px;
+        color:#918D8F;
+      }
+      .back:hover {
+        background:#ffe0da;
+        transition-property: background;
+        transition-duration: 0.2s;
+        border-radius: 8px;
       }
       .masthead .menu {
         display: none !important;
       }
       .masthead h1 {
         font-size: 24px !important;
-        margin-bottom: 2px !important;
+        margin-bottom: 0px !important;
+        text-align:right;
       }
       #tagline {
         display: none;
@@ -167,9 +183,13 @@ https://github.com/yihui/hugo-ivy
 
 
 
+
+
 <img id = "header" class = "header-pic" src=/img/quill_navy_bg.png alt="unsplash" width=180 height="200"/>
-<h1><a href="/">the Art of R</a></h1>
+<h1><a href="/">the way we R</a></h1>
 <p id="tagline">Plotting plots &amp; telling tales, occasionally with data</p>
+
+
 
 
 
@@ -197,24 +217,29 @@ https://github.com/yihui/hugo-ivy
   <label id="menu-label" for="menu-check" class="unselectable" hidden>
     <span class="icon close-icon">✕</span>
     <span class="icon open-icon">☰</span>
-    <span class="text">Menu</span>
   </label>
-  <ul>
   
   
-  <li><a href="/">Home</a></li>
   
-  <li><a href="/blog/">Blog</a></li>
   
-  <li><a href="/projects/">Projects</a></li>
+  <ul style="color:#918D8F">
   
-  <li class="active"><a href="/about/">About</a></li>
   
-  <li><a href="/contact/">Contact</a></li>
+  <li><a class="a-menu" href="/">Home</a></li>
+  
+  <li><a class="a-menu" href="/blog/">Blog</a></li>
+  
+  <li><a class="a-menu" href="/projects/">Projects</a></li>
+  
+  <li class="active"><a class="a-menu" href="/about/">About</a></li>
+  
+  <li><a class="a-menu" href="/contact/">Contact</a></li>
   
   
 
   </ul>
+  
+  
 </nav>
 
 
@@ -225,7 +250,7 @@ https://github.com/yihui/hugo-ivy
       <header class="title">
       
 <h1>About</h1>
-<h1><span class="subtitle">Zauad Shahreer Abeer</span></h1>
+<h1><span class="subtitle">Zauad Shahreer Abeer, MSc Dropout</span></h1>
 
 <div>
   <h3>
@@ -234,18 +259,8 @@ https://github.com/yihui/hugo-ivy
 
 
 
-<h3></h3>
 
-
-
-
-
-
-
-
-
-
-<hr style = "margin:30px auto;">
+<hr />
 
 
 
@@ -255,6 +270,7 @@ https://github.com/yihui/hugo-ivy
 
 <p class = "first">Know thyself. Perhaps the two words that explain life.</p>  
 <p><a href="https://github.com/yihui/hugo-ivy">https://github.com/yihui/hugo-ivy</a></p>
+<p><a href="https://leovan.me/en/resume/">https://leovan.me/en/resume/</a></p>
 <div style = "text-align-last: center;">
   <ul style = "list-style: none;">
     <li><a href = "/about" style = "border-bottom: none;"><i class="fa fa-graduation-cap"></i> Masters dropout </a></li>

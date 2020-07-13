@@ -45,19 +45,25 @@
 <style>
 body {
     font-family: 'Charter' !important;
-    color: #201b19;
+    color: #3a4145;
 }
 
 h1, h2, h3, h4, h5, h6 {
     font-family: 'Alegreya' !important;
 }
 
-blockquote, code, pre code {
+code, pre code {
     font-family: 'Operator Mono' !important;
     font-weight: 325;
 }
+
+blockquote {
+  font-family: 'Charter';
+  font-style:italic;
+}
+
 a {
-  color: #201b19 !important;
+  color: #3a4145 !important;
 }
 
 .arabic {
@@ -91,8 +97,8 @@ pre:before, pre:after {
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     
-    <title>A Plain Markdown Post - the Art of R</title>
-    <meta property="og:title" content="A Plain Markdown Post - the Art of R">
+    <title>A Plain Markdown Post - the way we R</title>
+    <meta property="og:title" content="A Plain Markdown Post - the way we R">
     
     <meta name="twitter:card" content="summary">
 
@@ -134,7 +140,7 @@ pre:before, pre:after {
 
 
 
-  <button class = "back" onclick="goBack()">&#8592;</button>
+  <button class = "back" onclick="goBack()">←</button>
   <script>
   function goBack() {
     window.history.back();
@@ -147,13 +153,21 @@ pre:before, pre:after {
         background:#fcf6ef;
         cursor: pointer;
         border-width: 0px;
+        color:#918D8F;
+      }
+      .back:hover {
+        background:#ffe0da;
+        transition-property: background;
+        transition-duration: 0.2s;
+        border-radius: 8px;
       }
       .masthead .menu {
         display: none !important;
       }
       .masthead h1 {
         font-size: 24px !important;
-        margin-bottom: 2px !important;
+        margin-bottom: 0px !important;
+        text-align:right;
       }
       #tagline {
         display: none;
@@ -171,9 +185,13 @@ pre:before, pre:after {
 
 
 
-<img id = "header" class = "header-pic" src=/img/quill_navy_bg.png alt="unsplash" width=180 height="200"/>
-<h1><a href="/">the Art of R</a></h1>
-<p id="tagline">Plotting plots &amp; telling tales, occasionally with data</p>
+
+
+<a href="/">
+  <img id = "header" class = "header-pic" src=/img/quill_navy_bg.png alt="unsplash" width=80 height="100"/>
+</a>
+
+
 
 
 
@@ -184,24 +202,11 @@ pre:before, pre:after {
   <label id="menu-label" for="menu-check" class="unselectable" hidden>
     <span class="icon close-icon">✕</span>
     <span class="icon open-icon">☰</span>
-    <span class="text">Menu</span>
   </label>
-  <ul>
   
   
-  <li><a href="/">Home</a></li>
-  
-  <li><a href="/blog/">Blog</a></li>
-  
-  <li><a href="/projects/">Projects</a></li>
-  
-  <li><a href="/about/">About</a></li>
-  
-  <li><a href="/contact/">Contact</a></li>
   
   
-
-  </ul>
 </nav>
 
 
@@ -221,18 +226,8 @@ pre:before, pre:after {
 
 
 
-<h3></h3>
 
-
-
-
-
-
-
-
-
-
-<hr style = "margin:30px auto;">
+<hr />
 
 
 

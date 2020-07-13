@@ -1,0 +1,11 @@
+---
+title: 'Behind the scenes: A ggplot!'
+author: ''
+date: '2020-07-12'
+slug: behind-the-scenes-a-ggplot
+categories:
+  - r
+tags: []
+---
+
+So the plot that we see to the left, is a ggolot.

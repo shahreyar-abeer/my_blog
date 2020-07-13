@@ -51,7 +51,7 @@ trace(grDevices::png, exit = quote({
   showtext::showtext_begin()
 }), print = FALSE)
 
-font_add_google("Alegreya", "alegreya")
+font_add_google("Qwigley", "alegreya")
 #font_add_google("Markazi Text", "markazi")
 showtext_auto()
 
@@ -117,13 +117,15 @@ ggsave(filename = "./themes/hugo-ivy/static/img/background.png",
 
 
 
+font_add_google("Nanum Pen Script", "alegreya")
 
+# Nanum Pen Script, Neucha
 
 # second plot, in the about section ---------------------------------------
 
 ggplot(df, aes(xmin = xmin, xmax = xmax, ymin = ymin, ymax = ymax)) +
   geom_rect(aes(fill = who), show.legend = FALSE) +
-  theme_classic(base_family = "alegreya", base_size = 24) +
+  theme_classic(base_family = "alegreya", base_size = 22) +
   #theme_void() +
   scale_fill_manual(values = c("family" = "#cccccc",
                                "maestros" = "#cccccc",
@@ -134,20 +136,20 @@ ggplot(df, aes(xmin = xmin, xmax = xmax, ymin = ymin, ymax = ymax)) +
                                "married" = "#cccccc")) +
   annotate(
     geom = "segment", x = 1.6, y = 2006, xend = 1.6, yend = 2002,
-    color = "#FF7F11"
+    color = "#918D8F"
   ) +
   scale_y_continuous(breaks = c(1994, 2020), expand = expansion(mult = c(.45, 1.5))) +
   scale_x_continuous(limits = c(0, 70), expand = expansion(mult = 0)) +
   #xlim(0, 40) +
   #ylim(1985, 2050) +
-  annotate(geom = "text", x = 0.2, y = 2022, label = "My timeline of thanks",
-           hjust = .01, family = "alegreya", size = 8, color = "#888888") +
+  annotate(geom = "text", x = 0.2, y = 2022, label = "",
+           hjust = .01, family = "alegreya", size = 7, color = "#918D8F") +
   
   annotate(geom = "text", x = 1.6, y = 2005, label = "2006 - current Maestros",
-           hjust = .01, family = "alegreya", size = 8, color = "#999999") +
+           hjust = .01, family = "alegreya", size = 7, color = "#918D8F") +
   
   annotate(geom = "text", x = 4.6, y = 2013, label = "2015, Alhamdulillah, a new life",
-           hjust = .01, family = "alegreya", size = 8, color = "#999999") +
+           hjust = .01, family = "alegreya", size = 7, color = "#918D8F") +
   #coord_cartesian(xlim = c(0, 40), ylim = c(1985, 2040), expand = FALSE) +
   theme(
     axis.line.y.left = element_blank(),
@@ -159,8 +161,8 @@ ggplot(df, aes(xmin = xmin, xmax = xmax, ymin = ymin, ymax = ymax)) +
     panel.border = element_blank(),
     panel.grid = element_blank(),
     plot.margin = margin(l = 50),
-    plot.background = element_rect(fill = "#fffaf5"),
-    panel.background = element_rect(fill = "#fffaf5")
+    plot.background = element_rect(fill = "#fcf6ef"),
+    panel.background = element_rect(fill = "#fcf6ef")
   )
 
 ggsave(filename = "./themes/hugo-ivy/static/img/background.png",

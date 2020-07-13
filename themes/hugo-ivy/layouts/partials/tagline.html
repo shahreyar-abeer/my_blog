@@ -2,7 +2,7 @@
 
 <!-- back button on small screens, in all pages except home -->
 {{ if not .IsHome }}
-  <button class = "back" onclick="goBack()">&#8592;</button>
+  <button class = "back" onclick="goBack()">←</button>
   <script>
   function goBack() {
     window.history.back();
@@ -15,13 +15,21 @@
         background:#fcf6ef;
         cursor: pointer;
         border-width: 0px;
+        color:#918D8F;
+      }
+      .back:hover {
+        background:#ffe0da;
+        transition-property: background;
+        transition-duration: 0.2s;
+        border-radius: 8px;
       }
       .masthead .menu {
         display: none !important;
       }
       .masthead h1 {
         font-size: 24px !important;
-        margin-bottom: 2px !important;
+        margin-bottom: 0px !important;
+        text-align:right;
       }
       #tagline {
         display: none;
@@ -38,10 +46,18 @@
   </style>
 {{end}}
 
-<!-- header image, tagline and title -->
+
+<!-- header image, tagline and title on all pages except blog -->
+{{ if not (in .Permalink "blog") }}
 <img id = "header" class = "header-pic" src={{ .Site.Params.headerPic }} alt="unsplash" width=180 height="200"/>
 <h1><a href="{{ relURL "/" }}">{{ .Site.Title }}</a></h1>
 {{ with .Site.Params.Description }}<p id="tagline">{{ . }}</p>{{ end }}
+{{else}}
+<a href="{{ relURL "/" }}">
+  <img id = "header" class = "header-pic" src={{ .Site.Params.headerPic }} alt="unsplash" width=80 height="100"/>
+</a>
+{{end}}
+
 
 <!-- animations on homepage and about page -->
 {{ if (eq .Permalink "/")}}

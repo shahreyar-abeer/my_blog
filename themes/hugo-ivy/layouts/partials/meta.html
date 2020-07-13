@@ -7,16 +7,6 @@
   {{ if .Params.date }} {{ if .Params.author }} / {{ end }} {{ .Date.Format "2006-01-02"   }}{{ end }}</h3>
 </div>
 
-
-{{ $category_name := .Params.categories}}
-<h3>{{ with .Param "category_url" }}<a href={{.}}> {{ $category_name }} </a>{{ end }}</h3>
-
-<!-- fthe summary of a post-->
-{{ if .Param "summary" }}
-  <p>{{ .Param "summary" }}</p>
-{{end}}
-
-
 <!-- showing the categories -->
 {{ if eq .RelPermalink "/blog/"}}
 
@@ -29,8 +19,6 @@
 
 {{end}}
 
-
-
-<hr style = "margin:30px auto;">
+<hr />
 {{ end }}
 

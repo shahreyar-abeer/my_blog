@@ -1,5 +1,5 @@
 ---
-subtitle: Zauad Shahreer Abeer
+subtitle: Zauad Shahreer Abeer, MSc Dropout
 title: About
 ---
 
@@ -7,6 +7,8 @@ title: About
 
 
 https://github.com/yihui/hugo-ivy
+
+https://leovan.me/en/resume/
 
 <div style = "text-align-last: center;">
   <ul style = "list-style: none;">

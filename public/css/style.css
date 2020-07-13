@@ -15,13 +15,15 @@ html {
 }
 
 body {
-  margin: 0;
-  padding: 0;
+  width: 960px;
+  padding-left: 20%;
+  padding-top: 5%;
   background:#fcf6ef;
   font-kerning: none;
   font-size: 19.9px;
   line-height: 1.40;
 }
+
 
 /*main -------------------------------------------------------------------------*/
 
@@ -60,7 +62,7 @@ img {
 }
 
 
-h1, h2, h3, h4, h5, h6 {
+h1, h3, h4, h5, h6 {
   padding: 0;
   margin: 10px 0 10px;
   line-height: 1.25;
@@ -78,7 +80,7 @@ h2 {
 
 .h2 {
   padding: 0;
-  margin: 10px 0 10px;
+  margin: 5px 0 5px;
   line-height: 1.25;
   text-align: center;
   font-size: 22px;
@@ -96,10 +98,9 @@ h3, h4, h5, h6 {
 
 blockquote {
   margin: 1.7em 0;
-  padding: .5px 1em;
+  padding: 0px 1em;
   border-left: 4px solid #aaa;
-  background:#e5e5e5;
-  font-size:19px;
+  font-size:20.5px;
 }
 
 /* Code */
@@ -132,9 +133,6 @@ code {
   font-weight: 325;
 }
 
-.hljs-string {
-  color: #7ec699 !important;
-}
 
 /* Lists */
 
@@ -150,15 +148,11 @@ li {
 /* Links */
 
 a {
-  color: black;
   text-decoration: none;
   padding-bottom: 2px;
-  border-bottom:#ccc 1px solid;
 }
 
-.a-body {
-  border-bottom:none !important;
-}
+
 
 .a-body::after {
     position: relative;
@@ -173,26 +167,52 @@ a {
     background:#ffe0da;
     transition-property: background;
     transition-duration: 0.2s;
-    border-radius: 8px;
+    border-radius: 5px;
 }
 
 .a-list{
-  content:none;
-  font-style:italic;
+  font-size:31px;
 }
 
 .a-list:hover {
     background:#ffe0da;
     transition-property: background;
     transition-duration: 0.2s;
-    border-radius: 8px;
+    border-radius: 5px;
 }
+
+.a-tag {
+  color:#918D8F!important;
+  font-size:15px;
+}
+
+.a-tag:hover {
+    background:#ffe0da;
+    transition-property: background;
+    transition-duration: 0.2s;
+    border-radius: 5px;
+}
+
+.a-menu {
+  color:#918D8F!important;
+}
+
+.a-menu:hover {
+    background:#ffe0da;
+    transition-property: background;
+    transition-duration: 0.2s;
+    border-radius: 5px;
+}
+
 
 sup a {
   border-bottom: none;
 }
 
-
+.content-meta {
+  font-size: 15px;
+  color:#918D8F;
+}
 
 /* Miscellanea */
 
@@ -200,11 +220,18 @@ hr {
   display: block;
   height: 1px;
   border: 0;
-  border-top: 1px solid;
-  margin: 50px auto;
+  border-top: 1px solid #ddd;
+  margin-top: 20px;
+  margin-bottom: 25px;
   padding: 0;
   max-width: 300px;
 }
+
+.hr-list {
+  max-width: 100%;
+  margin-top: 3px !important;
+}
+
 
 .copyright {
   text-align: center;
@@ -231,11 +258,7 @@ hr {
 
 /* Layout */
 
-body {
-  width: 960px;
-  margin: 0 auto;
-  padding: 30px 0;
-}
+
 
 .masthead {
   width: 260px;
@@ -372,7 +395,7 @@ thead, tfoot, tr:nth-child(even) {
   body {
     width: auto;
     max-width: 700px;
-    font-size: 21px;
+    font-size: 19.9px;
     padding: 5px;
   }
 
@@ -383,7 +406,6 @@ thead, tfoot, tr:nth-child(even) {
     text-align: center;
     margin-left: 10px;
     margin-right: 10px;
-    border-bottom: 1.2px solid #918D8F;
   }
 
   .main {
@@ -431,9 +453,16 @@ thead, tfoot, tr:nth-child(even) {
 
   .masthead .menu a {
     display: block;
-    padding: 10px 10px;
+    padding: 4px 4px;
     border-bottom: none;
     color:#918D8F !important;
+  }
+  
+  .masthead .menu a:hover {
+    background:#ffe0da;
+    transition-property: background;
+    transition-duration: 0.2s;
+    border-radius: 6px;
   }
 
   .masthead .menu li li a {
@@ -458,15 +487,17 @@ thead, tfoot, tr:nth-child(even) {
     color: #918D8F;
     font-size: 20px;
     margin-top: 5px;
+    border-radius: 6px;
   }
 
   #menu-label:hover, #menu-label:focus {
-    border: 2px solid #918D8F;
+    background:#ffe0da;
+    transition-property: background;
+    transition-duration: 0.2s;
   }
 
   #menu-label .icon {
-    padding-right: 8px;
-    width: 30px;
+    width: 20px;
   }
 
   #menu-check ~ label .close-icon {

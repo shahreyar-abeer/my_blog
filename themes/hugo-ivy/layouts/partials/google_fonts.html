@@ -23,10 +23,16 @@ h1, h2, h3, h4, h5, h6 {
     font-family: '{{ replace .Site.Params.font.heading "+" " "}}' !important;
 }
 
-blockquote, code, pre code {
+code, pre code {
     font-family: '{{ replace .Site.Params.font.code "+" " "}}' !important;
     font-weight: 325;
 }
+
+blockquote {
+  font-family: '{{ replace .Site.Params.font.body "+" " "}}';
+  font-style:italic;
+}
+
 a {
   color: {{ .Site.Params.font.linkColor }} !important;
 }
