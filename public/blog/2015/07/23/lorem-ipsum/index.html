@@ -12,7 +12,7 @@
         "articleSection" : "blog",
         "name" : "Lorem Ipsum",
         "headline" : "Lorem Ipsum",
-        "description" : "\u003cp\u003e\u003cstrong\u003eLorem ipsum\u003c\/strong\u003e dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore \u003cem\u003emagna aliqua\u003c\/em\u003e.\u003c\/p\u003e",
+        "description" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod     tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis     nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
         "inLanguage" : "en",
         "author" : "",
         "creator" : "",
@@ -28,7 +28,7 @@
     }
     </script>
     
-<link lazyload="1" href='//fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300italic,500,700,800|Alegreya|Markazi%20Text' rel='stylesheet' type='text/css'>
+<link lazyload="1" href='//fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300italic,500,700,800|Alegreya|Amiri' rel='stylesheet' type='text/css'>
 
 
 <link href="https://fonts.cdnfonts.com/css/operator-mono" rel="stylesheet">
@@ -43,6 +43,7 @@
 
 
 <style>
+
 body {
     font-family: 'Charter' !important;
     color: #3a4145;
@@ -63,11 +64,11 @@ blockquote {
 }
 
 a {
-  color: #3a4145 !important;
+  color: #3a4145;
 }
 
 .arabic {
-  font-family: Markazi Text;
+  font-family: Amiri;
   font-size: 29px;
 }
 
@@ -78,6 +79,17 @@ a {
 
 pre:before, pre:after {
   font-family: 'Operator Mono';
+}
+
+
+:root {
+  --body-font: Charter;
+  --heading-font: Alegreya;
+  --body-text-color: ;
+  --the-grey: #918D8F;
+  --third-color: #5cdb94;
+  --fourth-color:#8de4af;
+  --fifth-color:#edf5e0;
 }
 
 
@@ -108,10 +120,8 @@ pre:before, pre:after {
 
     
       
-      <meta property="description" content="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut &amp;hellip;">
-      <meta property="og:description" content="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut &amp;hellip;">
+      <meta property="description" content="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut &amp;hellip;">
+      <meta property="og:description" content="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut &amp;hellip;">
       
     
 
@@ -135,6 +145,7 @@ Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut &amp;
 
 
   <button class = "back" onclick="goBack()">←</button>
+  <a href="/" class="home-button"><i class="fa fa-home"></i></a>
   <script>
   function goBack() {
     window.history.back();
@@ -159,9 +170,7 @@ Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut &amp;
         display: none !important;
       }
       .masthead h1 {
-        font-size: 24px !important;
-        margin-bottom: 0px !important;
-        text-align:right;
+        display:none;
       }
       #tagline {
         display: none;
@@ -169,10 +178,17 @@ Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut &amp;
       #header {
         display: none;
       }
+      .home-button {
+        float:right;
+        color:#918D8F;
+      }
     }
     @media screen and (min-width: 961px) {
       .back {
         display: none;
+      }
+      .home-button {
+        display:none;
       }
     }
   </style>
@@ -182,7 +198,7 @@ Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut &amp;
 
 
 <a href="/">
-  <img id = "header" class = "header-pic" src=/img/quill_navy_bg.png alt="unsplash" width=80 height="100"/>
+  <img id = "header" class = "header-pic" src=/img/background_header.png alt="unsplash" width=80 height="100"/>
 </a>
 
 
@@ -229,8 +245,7 @@ Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut &amp;
 
 
 
-<p><strong>Lorem ipsum</strong> dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore <em>magna aliqua</em>.</p>
-<p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+<p><strong>Lorem ipsum</strong> dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore <em>magna aliqua</em>. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 <aside>Quisque mattis volutpat lorem vitae feugiat. Praesent porta est quis porta imperdiet.</aside>
 <p>Quisque mattis volutpat lorem vitae feugiat. Praesent porta est quis porta imperdiet. Aenean porta, mi non cursus volutpat, mi est mollis libero, id suscipit orci urna a augue. In fringilla euismod lacus, vitae tristique massa ultricies vitae. Mauris accumsan ligula tristique, viverra nulla sed, porta sapien. Vestibulum facilisis nec nisl blandit convallis. Maecenas venenatis porta malesuada. Ut ac erat tortor. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nulla sodales quam sit amet tincidunt egestas. In et turpis at orci vestibulum ullamcorper. Aliquam sed ante libero. Sed hendrerit arcu lacus.</p>
 <blockquote>
@@ -238,6 +253,7 @@ Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut &amp;
 </blockquote>
 <p>Morbi non sem euismod, suscipit purus id, gravida velit. Quisque mollis luctus ligula non suscipit. Curabitur massa arcu, aliquam ac dolor a, pellentesque dignissim dui. Donec at vestibulum magna. Quisque fermentum, tortor id sodales egestas, ligula ligula interdum ipsum, et volutpat elit massa vitae nibh. Morbi eleifend libero quis pretium viverra. Etiam congue, velit ac vestibulum finibus, velit nibh fringilla purus, eu semper dui est eu nunc. Etiam feugiat scelerisque diam vitae sodales. Etiam luctus in urna eu lobortis. Nam vestibulum eros et nibh elementum ullamcorper. Nam tristique porttitor orci, nec pretium est vestibulum at. Quisque posuere semper orci, vel semper justo commodo sed. Nullam accumsan risus rhoncus fringilla porta. Morbi interdum condimentum pharetra. Donec eu elit quam. Vivamus eleifend posuere mi, vel accumsan urna sollicitudin ut.</p>
 <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nulla nec nunc felis. Sed bibendum vel leo id semper. Maecenas vitae iaculis ante. Nam ut tempor est, eu molestie augue. Quisque tincidunt sagittis odio sed tristique. Aenean et felis quis mi viverra consequat.</p>
+
 
   <footer>
   

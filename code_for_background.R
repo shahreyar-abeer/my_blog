@@ -51,35 +51,41 @@ trace(grDevices::png, exit = quote({
   showtext::showtext_begin()
 }), print = FALSE)
 
-font_add_google("Qwigley", "alegreya")
+font_add_google("Nanum Pen Script", "alegreya")
 #font_add_google("Markazi Text", "markazi")
 showtext_auto()
 
+c_yr <- 2020
+
 df = data.frame(
-  xmin = c(0, 1.1, 2.2, 3.3, 4.4, 5.5, 6.6),
-  xmax = c(1, 2.1, 3.2, 4.3, 5.4, 6.5, 7.6),
-  ymin = c(1994, 2006, 2013, 2013, 2014, 2015, 2019),
-  ymax = c(2020, 2020, 2018, 2020, 2020, 2020, 2020),
-  who = c("family", "maestros", "du", "cavaliers", "started coding in R", "a new life", "married")
+  xmin = c(0, 1.1, 2.2, 3.3, 4.4, 5.5, 6.6, 7.7, 8.8),
+  xmax = c(1, 2.1, 3.2, 4.3, 5.4, 6.5, 7.6, 8.7, 9.8),
+  ymin = c(1994, 1994, 2006, 2011, 2013, 2013, 2014, 2015, 2019),
+  ymax = c(c_yr, 2020, 2020, 2013, 2018, 2020, 2020, 2020, 2020),
+  who = c("_", "family", "maestros", "ndc", "du", "cavaliers", "started coding in R", "a new life", "married")
 )
 
-lighter_color = "#d6d6d6"
-accent = "#374E60"
+
+greyColor = "#918D8F"
+redColor = "#ed5032"
+lighter_color = "#918D8F"
+accent = "#ed5032"
 
 ggplot(df, aes(xmin = xmin, xmax = xmax, ymin = ymin, ymax = ymax)) +
   geom_rect(aes(fill = who), show.legend = FALSE) +
   theme_classic(base_family = "alegreya", base_size = 24) +
   #theme_void() +
-  scale_fill_manual(values = c("family" = lighter_color,
-                               "maestros" = lighter_color,
-                               "du" = lighter_color,
-                               "cavaliers" = lighter_color,
-                               "started coding in R" = accent,
-                               "a new life" = accent,
-                               "married" = lighter_color)) +
-
-  scale_y_continuous(breaks = c(1994, 2020), expand = expansion(mult = c(.45, 1.5))) +
-  scale_x_continuous(limits = c(0, 70), expand = expansion(mult = 0)) +
+  scale_fill_manual(values = c("_" = "#FCF6EB",
+                               "family" = "#CCD3E3",
+                               "maestros" = "#7E8EB2",
+                               "ndc" = "#7E8EB2",#2F4159
+                               "du" = "#50707B",
+                               "cavaliers" = "#50707B",
+                               "started coding in R" = "#447099",
+                               "a new life" = "#C2A370",
+                               "married" = "#EF476F")) +
+  #scale_y_continuous(breaks = c(1994, 2020), expand = expansion(mult = c(.45, 1.5))) +
+  #scale_x_continuous(limits = c(0, 70), expand = expansion(mult = 0)) +
   #xlim(0, 40) +
   #ylim(1985, 2050) +
   
@@ -112,7 +118,7 @@ ggplot(df, aes(xmin = xmin, xmax = xmax, ymin = ymin, ymax = ymax)) +
     panel.background = element_rect(fill = "#fcf6ef")
   )
 
-ggsave(filename = "./themes/hugo-ivy/static/img/background.png",
+ggsave(filename = "./themes/hugo-ivy/static/img/background_header.png",
        width = 8, height = 5, dpi = 350)
 
 
@@ -125,31 +131,33 @@ font_add_google("Nanum Pen Script", "alegreya")
 
 ggplot(df, aes(xmin = xmin, xmax = xmax, ymin = ymin, ymax = ymax)) +
   geom_rect(aes(fill = who), show.legend = FALSE) +
-  theme_classic(base_family = "alegreya", base_size = 22) +
+  theme_classic(base_family = "alegreya", base_size = 24) +
   #theme_void() +
-  scale_fill_manual(values = c("family" = "#cccccc",
-                               "maestros" = "#cccccc",
-                               "du" = "#cccccc",
-                               "cavaliers" = "#cccccc",
-                               "started coding in R" = "#752b3c",
-                               "a new life" = "#752b3c",
-                               "married" = "#cccccc")) +
+  scale_fill_manual(values = c("_" = "#FCF6EB",
+                               "family" = "#CCD3E3",
+                               "maestros" = "#7E8EB2",
+                               "ndc" = "#7E8EB2",#2F4159
+                               "du" = "#50707B",
+                               "cavaliers" = "#50707B",
+                               "started coding in R" = "#447099",
+                               "a new life" = "#C2A370",
+                               "married" = "#EF476F")) +
   annotate(
-    geom = "segment", x = 1.6, y = 2006, xend = 1.6, yend = 2002,
-    color = "#918D8F"
+    geom = "segment", x = 2.7, y = 2006, xend = 2.7, yend = 2002,
+    color = "#7E8EB2", size = .1
   ) +
   scale_y_continuous(breaks = c(1994, 2020), expand = expansion(mult = c(.45, 1.5))) +
   scale_x_continuous(limits = c(0, 70), expand = expansion(mult = 0)) +
   #xlim(0, 40) +
   #ylim(1985, 2050) +
-  annotate(geom = "text", x = 0.2, y = 2022, label = "",
-           hjust = .01, family = "alegreya", size = 7, color = "#918D8F") +
+  annotate(geom = "text", x = 0.2, y = 2022, label = "My plot of life",
+           hjust = .01, family = "alegreya", size = 8, color = "#918D8F") +
   
-  annotate(geom = "text", x = 1.6, y = 2005, label = "2006 - current Maestros",
-           hjust = .01, family = "alegreya", size = 7, color = "#918D8F") +
+  annotate(geom = "text", x = 2.6, y = 2001, label = "2006 - current Maestros",
+           hjust = .01, family = "alegreya", size = 8, color = "#7E8EB2") +
   
   annotate(geom = "text", x = 4.6, y = 2013, label = "2015, Alhamdulillah, a new life",
-           hjust = .01, family = "alegreya", size = 7, color = "#918D8F") +
+           hjust = .01, family = "alegreya", size = 8, color = "#918D8F") +
   #coord_cartesian(xlim = c(0, 40), ylim = c(1985, 2040), expand = FALSE) +
   theme(
     axis.line.y.left = element_blank(),

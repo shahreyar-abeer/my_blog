@@ -12,7 +12,7 @@
         "articleSection" : "blog",
         "name" : "Hello R Markdown",
         "headline" : "Hello R Markdown",
-        "description" : "R Markdown This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see http:\/\/rmarkdown.rstudio.com.\nYou can embed an R code chunk like this:\nsummary(cars) ## speed dist ## Min. : 4.0 Min. : 2.00 ## 1st Qu.:12.0 1st Qu.: 26.00 ## Median :15.0 Median : 36.00 ## Mean :15.4 Mean : 42.98 ## 3rd Qu.",
+        "description" : "R Markdown This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see http:\/\/rmarkdown.rstudio.com.\nInline code\nYou can embed an R code chunk like this:\nsummary(cars) ## speed dist ## Min. : 4.0 Min. : 2.00 ## 1st Qu.:12.0 1st Qu.: 26.00 ## Median :15.0 Median : 36.00 ## Mean :15.4 Mean : 42.",
         "inLanguage" : "en",
         "author" : "",
         "creator" : "",
@@ -23,12 +23,12 @@
         "datePublished": "2015-07-23 21:13:14 -0500 -0500",
         "dateModified" : "2015-07-23 21:13:14 -0500 -0500",
         "url" : "\/blog\/2015\/07\/23\/hello-r-markdown\/",
-        "wordCount" : "159",
+        "wordCount" : "161",
         "keywords" : [ "R Markdown","plot","regression","Blog" ]
     }
     </script>
     
-<link lazyload="1" href='//fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300italic,500,700,800|Alegreya|Markazi%20Text' rel='stylesheet' type='text/css'>
+<link lazyload="1" href='//fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300italic,500,700,800|Alegreya|Amiri' rel='stylesheet' type='text/css'>
 
 
 <link href="https://fonts.cdnfonts.com/css/operator-mono" rel="stylesheet">
@@ -43,6 +43,7 @@
 
 
 <style>
+
 body {
     font-family: 'Charter' !important;
     color: #3a4145;
@@ -63,11 +64,11 @@ blockquote {
 }
 
 a {
-  color: #3a4145 !important;
+  color: #3a4145;
 }
 
 .arabic {
-  font-family: Markazi Text;
+  font-family: Amiri;
   font-size: 29px;
 }
 
@@ -78,6 +79,17 @@ a {
 
 pre:before, pre:after {
   font-family: 'Operator Mono';
+}
+
+
+:root {
+  --body-font: Charter;
+  --heading-font: Alegreya;
+  --body-text-color: ;
+  --the-grey: #918D8F;
+  --third-color: #5cdb94;
+  --fourth-color:#8de4af;
+  --fifth-color:#edf5e0;
 }
 
 
@@ -109,9 +121,9 @@ pre:before, pre:after {
     
       
       <meta property="description" content="This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see http://rmarkdown.rstudio.com.
-You can &amp;hellip;">
+Inline &amp;hellip;">
       <meta property="og:description" content="This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see http://rmarkdown.rstudio.com.
-You can &amp;hellip;">
+Inline &amp;hellip;">
       
     
 
@@ -138,6 +150,7 @@ You can &amp;hellip;">
 
 
   <button class = "back" onclick="goBack()">←</button>
+  <a href="/" class="home-button"><i class="fa fa-home"></i></a>
   <script>
   function goBack() {
     window.history.back();
@@ -162,9 +175,7 @@ You can &amp;hellip;">
         display: none !important;
       }
       .masthead h1 {
-        font-size: 24px !important;
-        margin-bottom: 0px !important;
-        text-align:right;
+        display:none;
       }
       #tagline {
         display: none;
@@ -172,10 +183,17 @@ You can &amp;hellip;">
       #header {
         display: none;
       }
+      .home-button {
+        float:right;
+        color:#918D8F;
+      }
     }
     @media screen and (min-width: 961px) {
       .back {
         display: none;
+      }
+      .home-button {
+        display:none;
       }
     }
   </style>
@@ -185,7 +203,7 @@ You can &amp;hellip;">
 
 
 <a href="/">
-  <img id = "header" class = "header-pic" src=/img/quill_navy_bg.png alt="unsplash" width=80 height="100"/>
+  <img id = "header" class = "header-pic" src=/img/background_header.png alt="unsplash" width=80 height="100"/>
 </a>
 
 
@@ -238,6 +256,7 @@ You can &amp;hellip;">
 <div id="r-markdown" class="section level1">
 <h1>R Markdown</h1>
 <p>This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <a href="http://rmarkdown.rstudio.com" class="uri">http://rmarkdown.rstudio.com</a>.</p>
+<p>Inline code</p>
 <p>You can embed an R code chunk like this:</p>
 <pre class="r"><code>summary(cars)
 ##      speed           dist       

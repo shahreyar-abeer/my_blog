@@ -28,7 +28,7 @@
     }
     </script>
     
-<link lazyload="1" href='//fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300italic,500,700,800|Alegreya|Markazi%20Text' rel='stylesheet' type='text/css'>
+<link lazyload="1" href='//fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300italic,500,700,800|Alegreya|Amiri' rel='stylesheet' type='text/css'>
 
 
 <link href="https://fonts.cdnfonts.com/css/operator-mono" rel="stylesheet">
@@ -43,6 +43,7 @@
 
 
 <style>
+
 body {
     font-family: 'Charter' !important;
     color: #3a4145;
@@ -63,11 +64,11 @@ blockquote {
 }
 
 a {
-  color: #3a4145 !important;
+  color: #3a4145;
 }
 
 .arabic {
-  font-family: Markazi Text;
+  font-family: Amiri;
   font-size: 29px;
 }
 
@@ -78,6 +79,17 @@ a {
 
 pre:before, pre:after {
   font-family: 'Operator Mono';
+}
+
+
+:root {
+  --body-font: Charter;
+  --heading-font: Alegreya;
+  --body-text-color: ;
+  --the-grey: #918D8F;
+  --third-color: #5cdb94;
+  --fourth-color:#8de4af;
+  --fifth-color:#edf5e0;
 }
 
 
@@ -132,6 +144,7 @@ pre:before, pre:after {
 
 
   <button class = "back" onclick="goBack()">←</button>
+  <a href="/" class="home-button"><i class="fa fa-home"></i></a>
   <script>
   function goBack() {
     window.history.back();
@@ -156,9 +169,7 @@ pre:before, pre:after {
         display: none !important;
       }
       .masthead h1 {
-        font-size: 24px !important;
-        margin-bottom: 0px !important;
-        text-align:right;
+        display:none;
       }
       #tagline {
         display: none;
@@ -166,10 +177,17 @@ pre:before, pre:after {
       #header {
         display: none;
       }
+      .home-button {
+        float:right;
+        color:#918D8F;
+      }
     }
     @media screen and (min-width: 961px) {
       .back {
         display: none;
+      }
+      .home-button {
+        display:none;
       }
     }
   </style>
@@ -179,7 +197,7 @@ pre:before, pre:after {
 
 
 <a href="/">
-  <img id = "header" class = "header-pic" src=/img/quill_navy_bg.png alt="unsplash" width=80 height="100"/>
+  <img id = "header" class = "header-pic" src=/img/background_header.png alt="unsplash" width=80 height="100"/>
 </a>
 
 
@@ -221,16 +239,16 @@ pre:before, pre:after {
   <div style = "text-align:center;">
     
     
-      <span class = "h2"><a class = "h2" href=/categories/life/>life</a>  |  </span>
+      <span style="color:#918D8F;"><a class="a-menu" href=/categories/life/>life</a>  |  </span>
     
     
-      <span class = "h2"><a class = "h2" href=/categories/r/>r</a>  |  </span>
+      <span style="color:#918D8F;"><a class="a-menu" href=/categories/r/>r</a>  |  </span>
     
     
-      <span class = "h2"><a class = "h2" href=/categories/random-thoughts/>random thoughts</a>  |  </span>
+      <span style="color:#918D8F;"><a class="a-menu" href=/categories/random-thoughts/>random thoughts</a>  |  </span>
     
     
-      <span class = "h2"><a class = "h2" href=/categories/shiny/>shiny</a>  </span>
+      <span style="color:#918D8F;"><a class="a-menu" href=/categories/shiny/>shiny</a>  </span>
     
   </div>
 
@@ -257,10 +275,7 @@ pre:before, pre:after {
     </h1>
   
     <span class="content-meta">
-      <i class="fa fa-user">&nbsp;</i>
-      <span class="author">&nbsp;</span> <br>
       <i class="fa fa-calendar"></i><span>&nbsp;<time>2020-07-12</time></span>
-      &nbsp;<i class="fa fa-clock-o"></i><span>&nbsp;1 minute read</span>
     <br>
     <i class="fa fa-tags">
       
@@ -269,7 +284,7 @@ pre:before, pre:after {
     </i>
   </section>
     
-    <p>So the plot that we see to the left, is a ggolot.</p>
+    <p style="color:#918D8F;">So the plot that we see to the left, is a ggolot.</p>
     <a class="a-tag" href="/blog/2020/07/12/behind-the-scenes-a-ggplot/">Read On →</a>
     
     <hr class="hr-list" />
@@ -289,10 +304,7 @@ pre:before, pre:after {
     </h1>
   
     <span class="content-meta">
-      <i class="fa fa-user">&nbsp;</i>
-      <span class="author">&nbsp;Yihui Xie</span> <br>
       <i class="fa fa-calendar"></i><span>&nbsp;<time>2017-06-14</time></span>
-      &nbsp;<i class="fa fa-clock-o"></i><span>&nbsp;1 minute read</span>
     <br>
     <i class="fa fa-tags">
       
@@ -301,7 +313,7 @@ pre:before, pre:after {
     </i>
   </section>
     
-    <p>I just discovered an awesome tutorial on blogdown written by Alison. I have to admit this is the best blogdown tutorial I have seen so far.</p>
+    <p style="color:#918D8F;">I just discovered an awesome tutorial on blogdown written by Alison. I have to admit this is the best blogdown tutorial I have seen so far.</p>
     <a class="a-tag" href="/blog/2017/06/14/another-note/">Read On →</a>
     
     <hr class="hr-list" />
@@ -319,10 +331,7 @@ pre:before, pre:after {
     </h1>
   
     <span class="content-meta">
-      <i class="fa fa-user">&nbsp;</i>
-      <span class="author">&nbsp;Yihui Xie</span> <br>
       <i class="fa fa-calendar"></i><span>&nbsp;<time>2017-06-13</time></span>
-      &nbsp;<i class="fa fa-clock-o"></i><span>&nbsp;1 minute read</span>
     <br>
     <i class="fa fa-tags">
       
@@ -331,7 +340,7 @@ pre:before, pre:after {
     </i>
   </section>
     
-    <p>To me, the two most impressive websites based on blogdown are:
+    <p style="color:#918D8F;">To me, the two most impressive websites based on blogdown are:
  Rob J Hyndman&rsquo;s personal website. Live Free or Dichotomize by Lucy and Nick et al.  I&rsquo;m sure there will be more.</p>
     <a class="a-tag" href="/blog/2017/06/13/a-quick-note/">Read On →</a>
     
@@ -352,10 +361,7 @@ pre:before, pre:after {
     </h1>
   
     <span class="content-meta">
-      <i class="fa fa-user">&nbsp;</i>
-      <span class="author">&nbsp;Yihui Xie</span> <br>
       <i class="fa fa-calendar"></i><span>&nbsp;<time>2016-02-14</time></span>
-      &nbsp;<i class="fa fa-clock-o"></i><span>&nbsp;3 minute read</span>
     <br>
     <i class="fa fa-tags">
       
@@ -364,7 +370,7 @@ pre:before, pre:after {
     </i>
   </section>
     
-    <p>This sample post is mainly for blogdown users. If you do not use blogdown, you can skip the first section.
+    <p style="color:#918D8F;">This sample post is mainly for blogdown users. If you do not use blogdown, you can skip the first section.
 1. Markdown or R Markdown This is a post written in plain Markdown (*.md) instead of R Markdown (*.Rmd). The major differences are:
  You cannot run any R code in a plain Markdown document, whereas in an R Markdown document, you can embed R code chunks (```{r}); A plain Markdown post is rendered through Blackfriday, and an R Markdown document is compiled by rmarkdown and Pandoc.</p>
     <a class="a-tag" href="/blog/2016/02/14/a-plain-markdown-post/">Read On →</a>
@@ -386,10 +392,7 @@ pre:before, pre:after {
     </h1>
   
     <span class="content-meta">
-      <i class="fa fa-user">&nbsp;</i>
-      <span class="author">&nbsp;Frida Gomam</span> <br>
       <i class="fa fa-calendar"></i><span>&nbsp;<time>2015-07-23</time></span>
-      &nbsp;<i class="fa fa-clock-o"></i><span>&nbsp;1 minute read</span>
     <br>
     <i class="fa fa-tags">
       
@@ -400,9 +403,10 @@ pre:before, pre:after {
     </i>
   </section>
     
-    <p>R Markdown This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see http://rmarkdown.rstudio.com.
+    <p style="color:#918D8F;">R Markdown This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see http://rmarkdown.rstudio.com.
+Inline code
 You can embed an R code chunk like this:
-summary(cars) ## speed dist ## Min. : 4.0 Min. : 2.00 ## 1st Qu.:12.0 1st Qu.: 26.00 ## Median :15.0 Median : 36.00 ## Mean :15.4 Mean : 42.98 ## 3rd Qu.</p>
+summary(cars) ## speed dist ## Min. : 4.0 Min. : 2.00 ## 1st Qu.:12.0 1st Qu.: 26.00 ## Median :15.0 Median : 36.00 ## Mean :15.4 Mean : 42.</p>
     <a class="a-tag" href="/blog/2015/07/23/hello-r-markdown/">Read On →</a>
     
     <hr class="hr-list" />
@@ -418,10 +422,7 @@ summary(cars) ## speed dist ## Min. : 4.0 Min. : 2.00 ## 1st Qu.:12.0 1st Qu.: 2
     </h1>
   
     <span class="content-meta">
-      <i class="fa fa-user">&nbsp;</i>
-      <span class="author">&nbsp;</span> <br>
       <i class="fa fa-calendar"></i><span>&nbsp;<time>2015-07-23</time></span>
-      &nbsp;<i class="fa fa-clock-o"></i><span>&nbsp;3 minute read</span>
     <br>
     <i class="fa fa-tags">
       
@@ -430,7 +431,7 @@ summary(cars) ## speed dist ## Min. : 4.0 Min. : 2.00 ## 1st Qu.:12.0 1st Qu.: 2
     </i>
   </section>
     
-    <p><p><strong>Lorem ipsum</strong> dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore <em>magna aliqua</em>.</p></p>
+    <p style="color:#918D8F;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod     tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis     nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
     <a class="a-tag" href="/blog/2015/07/23/lorem-ipsum/">Read On →</a>
     
     <hr class="hr-list" />

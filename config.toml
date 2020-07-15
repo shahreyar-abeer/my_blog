@@ -49,14 +49,14 @@ unsafe= true
     highlightjsCDN = "//cdn.bootcss.com"
     highlightjsLang = ["r", "yaml", "tex"]
     highlightjsTheme = "github"
-    headerPic = "/img/quill_navy_bg.png"
+    headerPic = "/img/background_header.png"
     
 
 [params.font]
     body = "Charter"
     heading = "Alegreya"
     code = "Operator Mono"
-    arabic = "Markazi Text"
+    arabic = "Amiri"
     bengali = "AponaLohit"
     bodyColor = "#3a4145"
     linkColor = "#3a4145"

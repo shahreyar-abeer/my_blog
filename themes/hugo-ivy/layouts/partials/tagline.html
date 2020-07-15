@@ -3,6 +3,7 @@
 <!-- back button on small screens, in all pages except home -->
 {{ if not .IsHome }}
   <button class = "back" onclick="goBack()">←</button>
+  <a href="/" class="home-button"><i class="fa fa-home"></i></a>
   <script>
   function goBack() {
     window.history.back();
@@ -27,9 +28,7 @@
         display: none !important;
       }
       .masthead h1 {
-        font-size: 24px !important;
-        margin-bottom: 0px !important;
-        text-align:right;
+        display:none;
       }
       #tagline {
         display: none;
@@ -37,10 +36,17 @@
       #header {
         display: none;
       }
+      .home-button {
+        float:right;
+        color:#918D8F;
+      }
     }
     @media screen and (min-width: 961px) {
       .back {
         display: none;
+      }
+      .home-button {
+        display:none;
       }
     }
   </style>
@@ -48,8 +54,9 @@
 
 
 <!-- header image, tagline and title on all pages except blog -->
-{{ if not (in .Permalink "blog") }}
-<img id = "header" class = "header-pic" src={{ .Site.Params.headerPic }} alt="unsplash" width=180 height="200"/>
+{{ if .IsHome }}
+
+<img id = "header" class = "header-pic" src={{ .Site.Params.headerPic }} alt="unsplash" width=170 height="180"/>
 <h1><a href="{{ relURL "/" }}">{{ .Site.Title }}</a></h1>
 {{ with .Site.Params.Description }}<p id="tagline">{{ . }}</p>{{ end }}
 {{else}}
@@ -60,24 +67,7 @@
 
 
 <!-- animations on homepage and about page -->
-{{ if (eq .Permalink "/")}}
-  <style>
-    html::after {
-    content: "";
-    position: fixed;
-    left: 0;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    z-index: -1;
-    display: block;
-    background: url(/img/background.png) no-repeat 50% 50%;
-    background-size: cover;
-    animation: fade-in-bottom; /* referring directly to the animation's @keyframe declaration */
-    animation-duration: 2s; /* don't forget to set a duration! */
-  }
-  </style>
-{{end}}
+
 
 {{ if (eq .Permalink "/about/")}}
   <style>

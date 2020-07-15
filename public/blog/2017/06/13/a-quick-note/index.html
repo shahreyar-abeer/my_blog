@@ -28,7 +28,7 @@
     }
     </script>
     
-<link lazyload="1" href='//fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300italic,500,700,800|Alegreya|Markazi%20Text' rel='stylesheet' type='text/css'>
+<link lazyload="1" href='//fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300italic,500,700,800|Alegreya|Amiri' rel='stylesheet' type='text/css'>
 
 
 <link href="https://fonts.cdnfonts.com/css/operator-mono" rel="stylesheet">
@@ -43,6 +43,7 @@
 
 
 <style>
+
 body {
     font-family: 'Charter' !important;
     color: #3a4145;
@@ -63,11 +64,11 @@ blockquote {
 }
 
 a {
-  color: #3a4145 !important;
+  color: #3a4145;
 }
 
 .arabic {
-  font-family: Markazi Text;
+  font-family: Amiri;
   font-size: 29px;
 }
 
@@ -78,6 +79,17 @@ a {
 
 pre:before, pre:after {
   font-family: 'Operator Mono';
+}
+
+
+:root {
+  --body-font: Charter;
+  --heading-font: Alegreya;
+  --body-text-color: ;
+  --the-grey: #918D8F;
+  --third-color: #5cdb94;
+  --fourth-color:#8de4af;
+  --fifth-color:#edf5e0;
 }
 
 
@@ -137,6 +149,7 @@ pre:before, pre:after {
 
 
   <button class = "back" onclick="goBack()">←</button>
+  <a href="/" class="home-button"><i class="fa fa-home"></i></a>
   <script>
   function goBack() {
     window.history.back();
@@ -161,9 +174,7 @@ pre:before, pre:after {
         display: none !important;
       }
       .masthead h1 {
-        font-size: 24px !important;
-        margin-bottom: 0px !important;
-        text-align:right;
+        display:none;
       }
       #tagline {
         display: none;
@@ -171,10 +182,17 @@ pre:before, pre:after {
       #header {
         display: none;
       }
+      .home-button {
+        float:right;
+        color:#918D8F;
+      }
     }
     @media screen and (min-width: 961px) {
       .back {
         display: none;
+      }
+      .home-button {
+        display:none;
       }
     }
   </style>
@@ -184,7 +202,7 @@ pre:before, pre:after {
 
 
 <a href="/">
-  <img id = "header" class = "header-pic" src=/img/quill_navy_bg.png alt="unsplash" width=80 height="100"/>
+  <img id = "header" class = "header-pic" src=/img/background_header.png alt="unsplash" width=80 height="100"/>
 </a>
 
 

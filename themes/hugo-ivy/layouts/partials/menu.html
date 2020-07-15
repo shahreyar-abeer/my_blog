@@ -6,7 +6,7 @@
   </label>
   
   
-  {{ if not (in .Permalink "blog") }}
+  {{ if .IsHome }}
   
   <ul style="color:#918D8F">
   {{ $currentPage := . }}

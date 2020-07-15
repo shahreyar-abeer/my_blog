@@ -14,6 +14,7 @@
 
 
 <style>
+
 body {
     font-family: '{{ replace .Site.Params.font.body "+" " "}}' !important;
     color: {{ .Site.Params.font.bodyColor }};
@@ -34,7 +35,7 @@ blockquote {
 }
 
 a {
-  color: {{ .Site.Params.font.linkColor }} !important;
+  color: {{ .Site.Params.font.linkColor }};
 }
 
 .arabic {
@@ -49,6 +50,17 @@ a {
 
 pre:before, pre:after {
   font-family: '{{ replace .Site.Params.font.code "+" " "}}';
+}
+
+
+:root {
+  --body-font: {{ .Site.Params.font.body }};
+  --heading-font: {{ .Site.Params.font.heading }};
+  --body-text-color: {{ .Site.Params.bodyColor }};
+  --the-grey: {{ .Site.Params.font.greyColor }};
+  --third-color: #5cdb94;
+  --fourth-color:#8de4af;
+  --fifth-color:#edf5e0;
 }
 
 

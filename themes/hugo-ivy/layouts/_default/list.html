@@ -16,10 +16,7 @@
     </h1>
   
     <span class="content-meta">
-      <i class="fa fa-user">&nbsp;</i>
-      <span class="author">&nbsp;{{ .Params.Author }}</span> <br>
       <i class="fa fa-calendar"></i><span>&nbsp;<time>{{ .Date.Format "2006-01-02" }}</time></span>
-      &nbsp;<i class="fa fa-clock-o"></i><span>&nbsp;{{ .ReadingTime }} minute read</span>
     <br>
     <i class="fa fa-tags">
       {{ range (.GetTerms "categories") }}
@@ -28,7 +25,7 @@
     </i>
   </section>
     
-    <p>{{ .Summary }}</p>
+    <p style="color:#918D8F;">{{ .Summary }}</p>
     <a class="a-tag" href="{{ .RelPermalink }}">Read On →</a>
     
     <hr class="hr-list" />
