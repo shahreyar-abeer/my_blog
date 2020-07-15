@@ -1,8 +1,11 @@
   <footer>
   {{ partial "foot_custom.html" . }}
   {{ partial "footer_highlightjs" . }}
+  
+  {{ if and (ne .Permalink "/blog/") (ne .Permalink "/projects/") }}
+    <hr>
+  {{end}}
   {{ with .Site.Params.footer }}
-  <hr>
   <div class="copyright">
     <span>
       {{ . | markdownify }}

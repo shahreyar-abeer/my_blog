@@ -7,8 +7,10 @@
   {{ if .Params.date }} {{ if .Params.author }} / {{ end }} {{ .Date.Format "2006-01-02"   }}{{ end }}</h3>
 </div>
 
+
+
 <!-- showing the categories -->
-{{ if eq .RelPermalink "/blog/"}}
+{{ if eq .Permalink "/blog/"}}
 
   <div style = "text-align:center;">
     {{ range $index, $value := .Site.Taxonomies.categories }}
