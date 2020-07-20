@@ -56,12 +56,14 @@
 <!-- header image, tagline and title on all pages except blog -->
 {{ if .IsHome }}
 
-<img id = "header" class = "header-pic" src={{ .Site.Params.headerPic }} alt="unsplash" width=170 height="180"/>
+<img id = "header" class = "header-pic" src={{ .Site.Params.headerPic }} alt="unsplash" width=150 height="180"/>
 <h1><a href="{{ relURL "/" }}">{{ .Site.Title }}</a></h1>
 {{ with .Site.Params.Description }}<p id="tagline">{{ . }}</p>{{ end }}
+{{else if eq .Permalink "/about/" }}
+<a href="/" style="float:right;color:var(--the-grey)"><i class="fa fa-home"></i></a>
 {{else}}
 <a href="{{ relURL "/" }}">
-  <img id = "header" class = "header-pic" src={{ .Site.Params.headerPic }} alt="unsplash" width=80 height="100"/>
+  <img id = "header" class = "header-pic" src={{ .Site.Params.headerPic }} alt="unsplash" width=50 height="70"/>
 </a>
 {{end}}
 

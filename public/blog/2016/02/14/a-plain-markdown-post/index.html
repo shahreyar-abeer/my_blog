@@ -12,7 +12,7 @@
         "articleSection" : "blog",
         "name" : "A Plain Markdown Post",
         "headline" : "A Plain Markdown Post",
-        "description" : "This sample post is mainly for blogdown users. If you do not use blogdown, you can skip the first section.\n1. Markdown or R Markdown This is a post written in plain Markdown (*.md) instead of R Markdown (*.Rmd). The major differences are:\n You cannot run any R code in a plain Markdown document, whereas in an R Markdown document, you can embed R code chunks (```{r}); A plain Markdown post is rendered through Blackfriday, and an R Markdown document is compiled by rmarkdown and Pandoc.",
+        "description" : "This sample post is mainly for blogdown users. If you do not use blogdown, you can skip the first section.\n1. Markdown or R Markdown This is a post written in plain Markdown (*.md) instead of R Markdown (*.Rmd). The major differences are:\n1. You cannot run any R code in a plain Markdown document, whereas in an R Markdown document, you can embed R code chunks (```` ```{r} ````); 2.",
         "inLanguage" : "en",
         "author" : "",
         "creator" : "",
@@ -23,7 +23,7 @@
         "datePublished": "2016-02-14 00:00:00 \u002b0000 UTC",
         "dateModified" : "2016-02-14 00:00:00 \u002b0000 UTC",
         "url" : "\/blog\/2016\/02\/14\/a-plain-markdown-post\/",
-        "wordCount" : "531",
+        "wordCount" : "535",
         "keywords" : [ "blogdown","Markdown","MathJax","Pandoc","RStudio","Blog" ]
     }
     </script>
@@ -69,7 +69,7 @@ a {
 
 .arabic {
   font-family: Amiri;
-  font-size: 29px;
+  font-size: 27px;
 }
 
 .bengali {
@@ -87,9 +87,6 @@ pre:before, pre:after {
   --heading-font: Alegreya;
   --body-text-color: ;
   --the-grey: #918D8F;
-  --third-color: #5cdb94;
-  --fourth-color:#8de4af;
-  --fifth-color:#edf5e0;
 }
 
 
@@ -206,7 +203,7 @@ pre:before, pre:after {
 
 
 <a href="/">
-  <img id = "header" class = "header-pic" src=/img/background_header.png alt="unsplash" width=80 height="100"/>
+  <img id = "header" class = "header-pic" src=/img/background_header.png alt="unsplash" width=50 height="70"/>
 </a>
 
 
@@ -258,10 +255,8 @@ pre:before, pre:after {
 <p>This sample post is mainly for <a href="https://github.com/rstudio/blogdown"><strong>blogdown</strong></a> users. If you do not use <strong>blogdown</strong>, you can skip the first section.</p>
 <h1 id="1-markdown-or-r-markdown">1. Markdown or R Markdown</h1>
 <p>This is a post written in plain Markdown (<code>*.md</code>) instead of R Markdown (<code>*.Rmd</code>). The major differences are:</p>
-<ol>
-<li>You cannot run any R code in a plain Markdown document, whereas in an R Markdown document, you can embed R code chunks (<code>```{r}</code>);</li>
-<li>A plain Markdown post is rendered through <a href="https://gohugo.io/overview/configuration/">Blackfriday</a>, and an R Markdown document is compiled by <a href="http://rmarkdown.rstudio.com"><strong>rmarkdown</strong></a> and <a href="http://pandoc.org">Pandoc</a>.</li>
-</ol>
+<aside>1. You cannot run any R code in a plain Markdown document, whereas in an R Markdown document, you can embed R code chunks (```` ```{r} ````);
+2. A plain Markdown post is rendered through [Blackfriday](https://gohugo.io/overview/configuration/), and an R Markdown document is compiled by [**rmarkdown**](http://rmarkdown.rstudio.com) and [Pandoc](http://pandoc.org).</aside>
 <p>There are many differences in syntax between Blackfriday&rsquo;s Markdown and Pandoc&rsquo;s Markdown. For example, you can write a task list with Blackfriday but not with Pandoc:</p>
 <ul>
 <li><input checked="" disabled="" type="checkbox"> Write an R package.</li>
@@ -385,9 +380,9 @@ pre:before, pre:after {
   
   <div class="copyright">
     <span>
-      <p style = 'font-size:17px; font-style:italic;'>&copy; Zauad Shahreer Abeer
-      <a href = "https://github.com/shahreyar-abeer" style = "border-bottom:none;"><i class="fa fa-github fa-lg"></i></a>
-      <a href = "/index.xml" style = "border-bottom:none;"><i class="fa fa-rss fa-lg"></i></a>
+      <a href='/about' style = 'font-size:17px; font-style:italic;' class='a-list'>© Zauad Shahreer Abeer</a>
+      <a href = "https://github.com/shahreyar-abeer" style = "border-bottom:none;"><i class="fa fa-github"></i></a>
+      <a href = "/index.xml" style = "border-bottom:none;"><i class="fa fa-rss"></i></a>
     </span>
   </div>
   

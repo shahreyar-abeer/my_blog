@@ -101,36 +101,39 @@ blockquote {
   margin: 1.7em 0;
   padding: 0px 1em;
   border-left: 4px solid #aaa;
-  font-size:20.5px;
+  font-size:19.7px;
+  opacity: .75;
 }
 
 /* Code */
 
 pre:before {
+  content: "Output\a";
+  color:#ed5032;
+  font-weight: 325;
+}
+
+.r:before {
   content: "```{r}\a";
   color:#ed5032;
   font-weight: 325;
 }
 
-pre:after {
-  content: "\a```";
-  color:#ed5032;
-}
-
 pre, code {
-  font-size: 17px;
-  
+  font-size: 15px;
 }
 
 
 pre {
   border: 1px solid #ddd;
   box-shadow: 5px 5px 5px #eee;
-  padding: 1em;
+  padding-left: 8px;
+  padding-top: 5px;
+  padding-bottom: 4px;
   overflow-x: auto;
-  border-radius:4px;
+  border-radius:8px;
+  background-color:#dbdbdb61;
 }
-
 
 
 code {
@@ -156,7 +159,9 @@ a {
   padding-bottom: 2px;
 }
 
-
+.a-body {
+  font-style:italic;
+}
 
 .a-body::after {
     position: relative;
@@ -177,6 +182,7 @@ a {
 .a-list{
   font-size:31px;
 }
+
 
 .a-list:hover {
     background:#ffe0da;
@@ -220,6 +226,10 @@ sup a {
   font-size: 15px;
   color:var(--the-grey);
   font-family: var(--heading-font);
+}
+
+.content-title {
+  text-align:left;
 }
 
 /* Miscellanea */

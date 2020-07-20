@@ -8,6 +8,8 @@ tags:
 - Tutorial
 title: Another Note on A blogdown Tutorial
 category_url: "/categories/life"
+summary: This is a summary. Which is to be know to me. Not by you.
+  By me and only my.
 ---
 
 I just discovered [an awesome tutorial](https://apreshill.rbind.io/post/up-and-running-with-blogdown/) on **blogdown** written by Alison. I have to admit this is _the_ best **blogdown** tutorial I have seen so far.

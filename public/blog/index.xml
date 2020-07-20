@@ -12,12 +12,14 @@
     
     
     <item>
-      <title>Behind the scenes: A ggplot!</title>
+      <title>The logo: A ggplot!</title>
       <link>/blog/2020/07/12/behind-the-scenes-a-ggplot/</link>
       <pubDate>Sun, 12 Jul 2020 00:00:00 +0000</pubDate>
       
       <guid>/blog/2020/07/12/behind-the-scenes-a-ggplot/</guid>
-      <description>So the plot that we see to the left, is a ggolot.</description>
+      <description>So the plot that we see to the left, is a ggolot.
+20.090625
+summary(mtcars$mpg) ## Min. 1st Qu. Median Mean 3rd Qu. Max. ## 10.40 15.43 19.20 20.09 22.80 33.90 this is a code</description>
     </item>
     
     <item>
@@ -26,7 +28,7 @@
       <pubDate>Wed, 14 Jun 2017 00:00:00 +0000</pubDate>
       
       <guid>/blog/2017/06/14/another-note/</guid>
-      <description>I just discovered an awesome tutorial on blogdown written by Alison. I have to admit this is the best blogdown tutorial I have seen so far.</description>
+      <description>This is a summary. Which is to be know to me. Not by you. By me and only my.</description>
     </item>
     
     <item>
@@ -47,7 +49,7 @@
       <guid>/blog/2016/02/14/a-plain-markdown-post/</guid>
       <description>This sample post is mainly for blogdown users. If you do not use blogdown, you can skip the first section.
 1. Markdown or R Markdown This is a post written in plain Markdown (*.md) instead of R Markdown (*.Rmd). The major differences are:
- You cannot run any R code in a plain Markdown document, whereas in an R Markdown document, you can embed R code chunks (```{r}); A plain Markdown post is rendered through Blackfriday, and an R Markdown document is compiled by rmarkdown and Pandoc.</description>
+1. You cannot run any R code in a plain Markdown document, whereas in an R Markdown document, you can embed R code chunks (```` ```{r} ````); 2.</description>
     </item>
     
     <item>
@@ -68,7 +70,7 @@ summary(cars) ## speed dist ## Min. : 4.0 Min. : 2.00 ## 1st Qu.:12.0 1st Qu.: 2
       <pubDate>Thu, 23 Jul 2015 00:00:00 +0000</pubDate>
       
       <guid>/blog/2015/07/23/lorem-ipsum/</guid>
-      <description>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod     tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis     nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</description>
+      <description>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod     tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</description>
     </item>
     
   </channel>

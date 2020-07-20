@@ -19,13 +19,13 @@
       <i class="fa fa-calendar"></i><span>&nbsp;<time>{{ .Date.Format "2006-01-02" }}</time></span>
     <br>
     <i class="fa fa-tags">
-      {{ range (.GetTerms "categories") }}
+      {{ range (.GetTerms "tags") }}
         <a class="a-tag" href="{{ .Permalink }}">{{ .LinkTitle }}</a>
      {{ end }}
     </i>
   </section>
     
-    <p style="color:#918D8F;">{{ .Summary }}</p>
+    <p style="color:#918D8F;">{{ .Params.summary }}</p>
     <a class="a-tag" href="{{ .RelPermalink }}">Read On →</a>
     
     <hr class="hr-list" />

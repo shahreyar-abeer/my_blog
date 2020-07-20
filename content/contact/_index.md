@@ -35,8 +35,7 @@ type: contact
   
 </div>
 
-My marketplace profiles. <i class = "fa fa-arrow-circle-up"></i>  
-I offer R programming & Shiny development services primarily.  
+Looking for support regarding R? <i class = "fa fa-arrow-circle-up"></i> 
 Want to connect on social media? <i class = "fa fa-arrow-circle-down"></i>  
 
 
@@ -48,9 +47,7 @@ Want to connect on social media? <i class = "fa fa-arrow-circle-down"></i>
   </div>
 
 
-Send me a message if you are in the mood. I always have time for a coffee! 
-
-
+Send me a message if you are in the mood. I might have time for a coffee.  
 
 
 <div class="container">  

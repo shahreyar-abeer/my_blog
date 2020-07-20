@@ -5,7 +5,7 @@ date: "2015-07-23"
 tags:
 - Markdown
 title: Lorem Ipsum
-summary: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod     tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis     nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+summary: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod     tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
 category_url: "/categories/life"
 ---
 

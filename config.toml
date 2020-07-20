@@ -43,12 +43,12 @@ unsafe= true
     
 [params]
     description = "Plotting plots & telling tales, occasionally with data"
-    footer = "<p style = 'font-size:17px; font-style:italic;'>&copy; Zauad Shahreer Abeer</p>"
+    footer = "<a href='/about' style = 'font-size:17px; font-style:italic;' class='a-list'>&copy; Zauad Shahreer Abeer</a>"
     disable_highlight = true
     highlightjsVersion = ""
     highlightjsCDN = "//cdn.bootcss.com"
     highlightjsLang = ["r", "yaml", "tex"]
-    highlightjsTheme = "github"
+    highlightjsTheme = ""
     headerPic = "/img/background_header.png"
     
 

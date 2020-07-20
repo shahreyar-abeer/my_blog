@@ -3,11 +3,6 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>/blog/2020/07/12/behind-the-scenes-a-ggplot/</loc>
-    <lastmod>2020-07-12T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>/blog/</loc>
     <lastmod>2020-07-12T00:00:00+00:00</lastmod>
   </url>
@@ -24,6 +19,11 @@
   
   <url>
     <loc>/categories/r/</loc>
+    <lastmod>2020-07-12T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/blog/2020/07/12/behind-the-scenes-a-ggplot/</loc>
     <lastmod>2020-07-12T00:00:00+00:00</lastmod>
   </url>
   
@@ -118,10 +118,6 @@
   </url>
   
   <url>
-    <loc>/about/</loc>
-  </url>
-  
-  <url>
     <loc>/projects/about12/</loc>
   </url>
   
@@ -131,6 +127,10 @@
   
   <url>
     <loc>/projects/</loc>
+  </url>
+  
+  <url>
+    <loc>/about/</loc>
   </url>
   
 </urlset>
