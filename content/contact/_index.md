@@ -47,7 +47,7 @@ Want to connect on social media? <i class = "fa fa-arrow-circle-down"></i>
   </div>
 
 
-Send me a message if you are in the mood. I might have time for a coffee.  
+Send me a message if you are in the mood. I like coffee breaks.  
 
 
 <div class="container">  

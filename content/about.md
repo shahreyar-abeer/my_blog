@@ -23,6 +23,9 @@ say they like programming.
 So after a couple of months of maze-like theories, I thought to myself
 "Enough is enough." I left
 
+> In this world, it matters not where you end up. It matters how you end up there.  
+
+
 It's quite simple actually. You either *know thyself* or you live someone else's
 life.
 
