@@ -37,4 +37,4 @@ https://github.com/yihui/hugo-ivy
 
 https://leovan.me/en/resume/
 
-
+![Know thyself](/./about_files/know_thyself.png)
