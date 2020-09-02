@@ -7,6 +7,8 @@ title: Zauad Shahreer Abeer, MSc Dropout
 Two words I think are imperative in our lives.</p>  
 
 
+
+
 People usually add their degrees after their name. It's a way to show
 their accomplishments. For example, 'Jane Doe, Phd'.  
 I am no different.  
@@ -28,6 +30,8 @@ So after a couple of months of maze-like theories, I thought to myself
 
 It's quite simple actually. You either *know thyself* or you live someone else's
 life.
+
+> If you don't talk to yourself, you lead a very lonely life.
 
 
 https://github.com/yihui/hugo-ivy

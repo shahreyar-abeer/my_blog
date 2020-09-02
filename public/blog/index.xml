@@ -12,14 +12,12 @@
     
     
     <item>
-      <title>The Logo: A ggplot!</title>
+      <title>The plot of life</title>
       <link>/blog/2020/07/12/behind-the-scenes-a-ggplot/</link>
       <pubDate>Sun, 12 Jul 2020 00:00:00 +0000</pubDate>
       
       <guid>/blog/2020/07/12/behind-the-scenes-a-ggplot/</guid>
-      <description>So the plot that we see to the left, is a ggolot.
-20.090625
-summary(mtcars$mpg) ## Min. 1st Qu. Median Mean 3rd Qu. Max. ## 10.40 15.43 19.20 20.09 22.80 33.90 this is a code</description>
+      <description>A ggplot inspired by the book Storytelling with data. It&amp;rsquo;s also the logo of the website</description>
     </item>
     
     <item>

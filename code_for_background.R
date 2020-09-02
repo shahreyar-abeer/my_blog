@@ -123,7 +123,7 @@ ggsave(filename = "./themes/hugo-ivy/static/img/background_header.png",
 
 
 
-font_add_google("Nanum Pen Script", "alegreya")
+font_add_google("IBM Plex Sans", "alegreya", regular.wt = 500)
 
 # Nanum Pen Script, Neucha
 
@@ -146,25 +146,77 @@ ggplot(df, aes(xmin = xmin, xmax = xmax, ymin = ymin, ymax = ymax)) +
     geom = "segment", x = 2.7, y = 2006, xend = 2.7, yend = 2002,
     color = "#7E8EB2", size = .1
   ) +
+  
+  annotate(
+    geom = "segment", x = 3.8, y = 2011, xend = 3.8, yend = 2004,
+    color = "#7E8EB2", size = .1
+  ) +
+  
+  annotate(
+    geom = "segment", x = 4.9, y = 2013, xend = 4.9, yend = 2006,
+    color = "#50707B", size = .1
+  ) +
+  
+  annotate(
+    geom = "segment", x = 6, y = 2013, xend = 6, yend = 2008,
+    color = "#50707B", size = .1
+  ) +
+  
+  annotate(
+    geom = "segment", x = 7.1, y = 2014, xend = 7.1, yend = 2010,
+    color = "#447099", size = .1
+  ) +
+  
+  annotate(
+    geom = "segment", x = 8.2, y = 2015, xend = 8.2, yend = 2012,
+    color = "#C2A370", size = .1
+  ) +
+  
+  annotate(
+    geom = "segment", x = 9.3, y = 2019, xend = 9.3, yend = 2014,
+    color = "#EF476F", size = .1
+  ) +
   scale_y_continuous(breaks = c(1994, 2020), expand = expansion(mult = c(.45, 1.5))) +
   scale_x_continuous(limits = c(0, 70), expand = expansion(mult = 0)) +
   #xlim(0, 40) +
   #ylim(1985, 2050) +
-  annotate(geom = "text", x = 0.2, y = 2022, label = "My plot of life",
-           hjust = .01, family = "alegreya", size = 8, color = "#918D8F") +
+  annotate(geom = "text", x = 0.2, y = 2022, label = "The 'plot' of life",
+           hjust = .01, family = "alegreya", size = 7, color = "#918D8F") +
   
-  annotate(geom = "text", x = 2.6, y = 2001, label = "2006 - current Maestros",
-           hjust = .01, family = "alegreya", size = 8, color = "#7E8EB2") +
+  annotate(geom = "text", x = 1, y = 1993, label = "Family",
+           hjust = .01, family = "alegreya", size = 5, color = "#918D8F") +
   
-  annotate(geom = "text", x = 4.6, y = 2013, label = "2015, Alhamdulillah, a new life",
-           hjust = .01, family = "alegreya", size = 8, color = "#918D8F") +
+  annotate(geom = "text", x = 2.6, y = 2001, label = "2006, Maestros",
+           hjust = .01, family = "alegreya", size = 5, color = "#918D8F") +
+  
+  annotate(geom = "text", x = 3.7, y = 2003, label = "2011 - 13, NDC",
+           hjust = .01, family = "alegreya", size = 5, color = "#918D8F") +
+  
+  annotate(geom = "text", x = 4.8, y = 2005, label = "2013 - 18, DU",
+           hjust = .01, family = "alegreya", size = 5, color = "#918D8F") +
+  
+  annotate(geom = "text", x = 5.9, y = 2007, label = "2013, Cavaliers",
+           hjust = .01, family = "alegreya", size = 5, color = "#918D8F") +
+  
+  annotate(geom = "text", x = 7, y = 2009, label = "2014, Started withR",
+           hjust = .01, family = "alegreya", size = 5, color = "#918D8F") +
+  
+  annotate(geom = "text", x = 8.1, y = 2011, label = "2015, Alhamdulillah",
+           hjust = .01, family = "alegreya", size = 5, color = "#918D8F") +
+  
+  annotate(geom = "text", x = 9.2, y = 2013, label = "2019, Married!",
+           hjust = .01, family = "alegreya", size = 5, color = "#918D8F") +
+  annotate(geom = "text", x = 3.2, y = 1998, label = '"Ghareeb wo hai jis ka koi dost na ho."',
+           hjust = .01, family = "alegreya", size = 5, color = "#918D8F") +
+  
   #coord_cartesian(xlim = c(0, 40), ylim = c(1985, 2040), expand = FALSE) +
   theme(
     axis.line.y.left = element_blank(),
     axis.line = element_blank(),
     axis.ticks = element_blank(),
     axis.text.x = element_blank(),
-    #axis.title.x = element_blank(),
+    axis.text.y = element_text(size = 12),
+    axis.title.x = element_blank(),
     axis.title.y = element_blank(),
     panel.border = element_blank(),
     panel.grid = element_blank(),

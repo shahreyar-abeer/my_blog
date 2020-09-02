@@ -15,7 +15,7 @@ type: contact
 
   <div class="hire-button">
           <a href="https://www.peopleperhour.com/hire/me/849769749/1422057?next=https%3A%2F%2Fwww.peopleperhour.com%2Ffreelancer%2Fdevelopment-it%2Fzauad_shahreer-abeer-data-analyst-r-shiny-developer-zvyyaqj%3Fref%3Dhireme" rel="nofollow" title="Hire Zauad on PeoplePerHour" class="button-hire" target="_blank">
-              <span>Hire me on PeoplePerHour</span>
+              <span>PeoplePerHour</span>
           </a>
   </div>
   </span>
@@ -23,7 +23,7 @@ type: contact
   <span style = "width:100%;">
   <div class="hire-button">
           <a href="https://www.upwork.com/o/profiles/users/~01a42a4a2859568446/" title="Hire Zauad on Upwork" class="button-hire" target="_blank" style = "background-color:#37a000;box-shadow: 0 -2px 0 #37a000 inset, -1px 0px 0px #37a000 inset;text-shadow: 0 -1px rgba(0,0,0,0.1);">
-              <span>Hire me on Upwork</span>
+              <span>Upwork</span>
           </a>
   </div>
   </span>
