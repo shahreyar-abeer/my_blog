@@ -3,8 +3,7 @@ subtitle: R & Shiny Developer
 title: Zauad Shahreer Abeer, MSc Dropout
 ---
 
-<p class = "first">Know thyself. Two words that have intrigued me quite a lot.
-Two words I think are imperative in our lives.</p>  
+<p class = "first">Know thyself.</p>  
 
 
 
@@ -38,8 +37,4 @@ https://github.com/yihui/hugo-ivy
 
 https://leovan.me/en/resume/
 
-<div style = "text-align-last: center;">
-  <ul style = "list-style: none;">
-    <li><a href = "/about" style = "border-bottom: none;"><i class="fa fa-graduation-cap"></i> Masters dropout </a></li>
-  </ul>
 
