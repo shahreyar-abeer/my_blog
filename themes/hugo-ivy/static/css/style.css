@@ -451,7 +451,7 @@ thead, tfoot, tr:nth-child(even) {
     position: absolute;
     top: 0;
     right: 0;
-    margin-right: 5px;
+    margin-right: 9px;
   }
 
   .masthead .menu ul {
@@ -508,13 +508,13 @@ thead, tfoot, tr:nth-child(even) {
     cursor: pointer;
     line-height: 40px;
     color: var(--the-grey);
-    font-size: 20px;
+    font-size: 15px;
     margin-top: 5px;
-    border-radius: 8px;
+    border-radius: 3px;
   }
 
   #menu-label .icon {
-    width: 20px;
+    width: 22px;
   }
 
   #menu-check ~ label .close-icon {

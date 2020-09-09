@@ -141,7 +141,7 @@ pre:before, pre:after {
 
 
 
-  <button class = "back" onclick="goBack()">←</button>
+  <button class = "back" onclick="goBack()">&lt;-</button>
   
   
   
@@ -156,6 +156,8 @@ pre:before, pre:after {
   <style>
     @media screen and (max-width: 960px) {
       .back {
+        font-family:Operator Mono;
+        font-size: 13px;
         float:left;
         background:#fcf6ef;
         cursor: pointer;
@@ -212,8 +214,8 @@ pre:before, pre:after {
       <nav class="menu">
   <input id="menu-check" type="checkbox" hidden/>
   <label id="menu-label" for="menu-check" class="unselectable" hidden>
-    <span class="icon close-icon">✕</span>
-    <span class="icon open-icon">☰</span>
+    <span class="icon close-icon" style="font-family:Operator Mono">()</span>
+    <span class="icon open-icon" style="font-family:Operator Mono"> %>% </span>
   </label>
   
   

@@ -3,7 +3,7 @@
 
 <!-- back button on small screens, in all pages except home -->
 {{ if not .IsHome }}
-  <button class = "back" onclick="goBack()">←</button>
+  <button class = "back" onclick="goBack()"><-</button>
   
   <!-- home button in all mobile screens except about, since that is given in big screens too -->
   {{ if ne .Permalink "/about/" }}
@@ -18,6 +18,8 @@
   <style>
     @media screen and (max-width: 960px) {
       .back {
+        font-family:Operator Mono;
+        font-size: 13px;
         float:left;
         background:#fcf6ef;
         cursor: pointer;
