@@ -419,6 +419,10 @@ thead, tfoot, tr:nth-child(even) {
     font-size: 19.9px;
     padding: 5px;
   }
+  
+  blockquote {
+    font-size:17px;
+  }
 
   .masthead {
     width: auto;
@@ -508,7 +512,7 @@ thead, tfoot, tr:nth-child(even) {
     cursor: pointer;
     line-height: 38px;
     color: var(--the-grey);
-    font-size: 13px;
+    font-size: 11px;
     margin-top: 5px;
     border-radius: 3px;
   }

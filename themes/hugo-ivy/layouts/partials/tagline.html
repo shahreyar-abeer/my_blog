@@ -70,7 +70,7 @@
 <h1><a href="{{ relURL "/" }}">{{ .Site.Title }}</a></h1>
 {{ with .Site.Params.Description }}<p id="tagline">{{ . }}</p>{{ end }}
 {{else if eq .Permalink "/about/" }}
-<a href="/" style="float:right;color:var(--the-grey)"><i class="fa fa-home"></i></a>
+<a href="/" style="float:right;color:var(--the-grey);font-family:Operator Mono;"><></a>
 {{else}}
 <a href="{{ relURL "/" }}">
   <img id = "header" class = "header-pic" src={{ .Site.Params.headerPic }} alt="unsplash" width=50 height="70"/>
