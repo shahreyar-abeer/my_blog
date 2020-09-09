@@ -307,10 +307,13 @@ hr {
   text-align: right;
 }
 
-.masthead .menu {
+@media screen and (min-width: 961px) {
+  .masthead .menu {
   margin-right: 20px;
   direction: rtl;
+  }
 }
+
 
 .masthead .menu a {
   direction: ltr;
