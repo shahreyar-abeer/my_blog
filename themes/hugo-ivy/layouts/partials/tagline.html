@@ -1,9 +1,15 @@
 
 
+
 <!-- back button on small screens, in all pages except home -->
 {{ if not .IsHome }}
   <button class = "back" onclick="goBack()">←</button>
-  <a href="/" class="home-button"><i class="fa fa-home"></i></a>
+  
+  <!-- home button in all mobile screens except about, since that is given in big screens too -->
+  {{ if ne .Permalink "/about/" }}
+    <a href="/" class="home-button"><i class="fa fa-home"></i></a>
+  {{end}}
+  
   <script>
   function goBack() {
     window.history.back();

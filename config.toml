@@ -42,11 +42,11 @@ unsafe= true
     weight = 5
     
 [params]
-    description = "Plotting plots & telling tales, occasionally with data"
+    description = "Of R, life & some randomness"
     footer = "<a href='/about' style = 'font-size:17px; font-style:italic;' class='a-list'>&copy; Zauad Shahreer Abeer</a>"
     disable_highlight = true
     highlightjsVersion = ""
-    highlightjsCDN = "//cdn.bootcss.com"
+    highlightjsCDN = ""
     highlightjsLang = ["r", "yaml", "tex"]
     highlightjsTheme = ""
     headerPic = "/img/rsz_background_header.png"
