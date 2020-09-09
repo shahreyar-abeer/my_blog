@@ -502,13 +502,13 @@ thead, tfoot, tr:nth-child(even) {
 
   #menu-label {
     display: inline-block;
-    padding: 0 10px;
-    height: 40px;
+    padding: 0 9px;
+    height: 38px;
     border: 1.1px solid var(--the-grey);
     cursor: pointer;
-    line-height: 40px;
+    line-height: 38px;
     color: var(--the-grey);
-    font-size: 15px;
+    font-size: 13px;
     margin-top: 5px;
     border-radius: 3px;
   }
