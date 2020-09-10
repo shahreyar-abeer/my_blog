@@ -3,7 +3,6 @@ subtitle: R & Shiny Developer
 title: Zauad Shahreer Abeer, MSc Dropout
 ---
 
-<p class = "first">Know thyself.</p>  
 
 
 

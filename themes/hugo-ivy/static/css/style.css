@@ -312,6 +312,9 @@ hr {
   margin-right: 20px;
   direction: rtl;
   }
+  #tagline {
+    text-align: right;
+  }
 }
 
 

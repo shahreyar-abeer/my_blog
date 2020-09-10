@@ -4,39 +4,39 @@ contactmessage: Your Message
 contactname: Your Name
 emailservice: formspree.io/example@email.com
 netlify: false
-title: Contact me!
-subtitle: I'd love to get in touch.
+title: Get in touch.
 type: contact
 ---
 
 
 <div style = "display: flex;">
-  <span style = "width:100%;">
+  </br>
+  <span style = "width:25%;">
 
   <div class="hire-button">
-          <a href="https://www.peopleperhour.com/hire/me/849769749/1422057?next=https%3A%2F%2Fwww.peopleperhour.com%2Ffreelancer%2Fdevelopment-it%2Fzauad_shahreer-abeer-data-analyst-r-shiny-developer-zvyyaqj%3Fref%3Dhireme" rel="nofollow" title="Hire Zauad on PeoplePerHour" class="button-hire" target="_blank">
+          <a href="https://www.peopleperhour.com/hire/me/849769749/1422057?next=https%3A%2F%2Fwww.peopleperhour.com%2Ffreelancer%2Fdevelopment-it%2Fzauad_shahreer-abeer-data-analyst-r-shiny-developer-zvyyaqj%3Fref%3Dhireme" rel="nofollow" title="Hire Zauad on PeoplePerHour" class="button-hire a-logo" target="_blank" style = "background-color:var(--the-grey);box-shadow: 0 -2px 0 var(--the-grey) inset, -1px 0px 0px var(--the-grey) inset;text-shadow: 0 -1px rgba(0,0,0,0.1);">
               <span>PeoplePerHour</span>
           </a>
   </div>
   </span>
   
-  <span style = "width:100%;">
+  <span style = "width:25%;">
   <div class="hire-button">
-          <a href="https://www.upwork.com/o/profiles/users/~01a42a4a2859568446/" title="Hire Zauad on Upwork" class="button-hire" target="_blank" style = "background-color:#37a000;box-shadow: 0 -2px 0 #37a000 inset, -1px 0px 0px #37a000 inset;text-shadow: 0 -1px rgba(0,0,0,0.1);">
+          <a href="https://www.upwork.com/o/profiles/users/~01a42a4a2859568446/" title="Hire Zauad on Upwork" class="button-hire a-logo" target="_blank" style = "background-color:var(--the-grey);box-shadow: 0 -2px 0 var(--the-grey) inset, -1px 0px 0px var(--the-grey) inset;text-shadow: 0 -1px rgba(0,0,0,0.1);">
               <span>Upwork</span>
           </a>
   </div>
   </span>
-
-</div>
-
-
-<div style = "display:inline;">
   
-</div>
+  <span style = "width:50%">
+    <div style = "text-align: center">
+      <a class = "a-logo" href = "https://twitter.com/shahreyarabeer"><i class="fa fa-twitter fa-lg" title = "Zauad's Twitter Profile"></i></a> &nbsp 
+      <a class = "a-logo" href = "https://www.linkedin.com/in/zauad-shahreer/"><i class="fa fa-linkedin fa-lg"></i></a> &nbsp
+      <a class = "a-logo" href = "mailto:shahreyar.abeer@gmail.com"><i class="fa fa-envelope fa-lg"></i></a>
+    </div>
+  </span>
 
-Looking for support regarding R? <i class = "fa fa-arrow-circle-up"></i> 
-Want to connect on social media? <i class = "fa fa-arrow-circle-down"></i>  
+</div>
 
 
 
@@ -46,8 +46,6 @@ Want to connect on social media? <i class = "fa fa-arrow-circle-down"></i>
     <a class = "a-logo" href = "mailto:shahreyar.abeer@gmail.com"><i class="fa fa-envelope fa-lg"></i></a>
   </div>
 
-
-Send me a message if you are in the mood. I like coffee breaks.  
 
 
 <div class="container">  

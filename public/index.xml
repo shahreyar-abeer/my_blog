@@ -86,8 +86,7 @@ summary(cars) ## speed dist ## Min. : 4.0 Min. : 2.00 ## 1st Qu.:12.0 1st Qu.: 2
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/about/</guid>
-      <description>Know thyself.
-People usually add their degrees after their name. It&amp;rsquo;s a way to show their accomplishments. For example, &amp;lsquo;Jane Doe, Phd&amp;rsquo;.
+      <description>People usually add their degrees after their name. It&amp;rsquo;s a way to show their accomplishments. For example, &amp;lsquo;Jane Doe, Phd&amp;rsquo;.
 I am no different.
 I graduated in Statistics from University of Dhaka in 2018. The curriculam was focused towards the &amp;lsquo;pure&amp;rsquo; side of things, so it involved more theories than applications. The Masters was of a similar track.
 I have always had a thing for the applied things, and I&amp;rsquo;ve always liked programming.</description>

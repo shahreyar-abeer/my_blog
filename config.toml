@@ -42,7 +42,7 @@ unsafe= true
     weight = 5
     
 [params]
-    description = "Of R, life & some randomness"
+    description = "of R, life & some randomness"
     footer = "<a href='/about' style = 'font-size:17px; font-style:italic;' class='a-list'>&copy; Zauad Shahreer Abeer</a>"
     disable_highlight = true
     highlightjsVersion = ""
