@@ -13,12 +13,22 @@
   </url>
   
   <url>
+    <loc>/tags/ggplot/</loc>
+    <lastmod>2020-07-12T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/</loc>
     <lastmod>2020-07-12T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>/categories/r/</loc>
+    <lastmod>2020-07-12T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/</loc>
     <lastmod>2020-07-12T00:00:00+00:00</lastmod>
   </url>
   
@@ -34,11 +44,6 @@
   
   <url>
     <loc>/categories/life/</loc>
-    <lastmod>2017-06-14T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tags/</loc>
     <lastmod>2017-06-14T00:00:00+00:00</lastmod>
   </url>
   

@@ -217,6 +217,22 @@ a {
     border-radius: 5px;
 }
 
+.example_a {
+  border: 1px solid var(--the-grey);
+  background: #fcf6ef;
+  color: var(--body-font) !important;
+  font-size: 17px;
+  padding: 5px;
+  border-radius: 5px;
+  display: inline-block;
+  transition: all 0.3s ease 0s;
+}
+
+.example_a:hover {
+  background:#ffe0da;
+  transition: all 0.3s ease 0s;
+}
+
 
 sup a {
   border-bottom: none;
