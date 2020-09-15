@@ -22,7 +22,7 @@ body {
   padding-top: 5%;
   background:#fcf6ef;
   font-kerning: none;
-  font-size: 19px;
+  font-size: 20px;
   line-height: 1.40;
 }
 
@@ -107,7 +107,6 @@ blockquote {
   margin: 1.7em 0;
   padding: 0px 1em;
   border-left: 4px solid #aaa;
-  font-size: 19px;
   opacity: .75;
 }
 
@@ -333,6 +332,7 @@ hr {
   .masthead .menu {
   margin-right: 20px;
   direction: rtl;
+  font-size: 17px;
   }
   #tagline {
     text-align: right;
