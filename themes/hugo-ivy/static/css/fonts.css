@@ -30,12 +30,6 @@ pre code {
   margin-bottom: 25px;
 }
 
-#tagline {
-    font-family: Alegreya !important;
-    color:#918D8F !important;
-    font-size: 22.1px;
-    margin-top: 20px;
-}
 
 @media screen and (max-width: 960px) {
 
@@ -122,7 +116,7 @@ aside {
 
 @font-face {
   font-family: "Cooper";
-  src: url("/fonts/CooperHewitt-Book.woff") format("woff");
+  src: url("/fonts/CooperHewitt-Medium.woff") format("woff");
   font-style: normal;
   font-weight: 400;
   text-rendering: optimizeLegibility;
@@ -130,9 +124,17 @@ aside {
 
 @font-face {
   font-family: "Cooper";
-  src: url("/fonts/CooperHewitt-Bold.woff") format("woff");
+  src: url("/fonts/CooperHewitt-MediumItalic.woff") format("woff");
+  font-style: italic;
+  font-weight: 400;
+  text-rendering: optimizeLegibility;
+}
+
+@font-face {
+  font-family: "Cooper-heading";
+  src: url("/fonts/CooperHewitt-Book.woff") format("woff");
   font-style: normal;
-  font-weight: 700;
+  font-weight: 400;
   text-rendering: optimizeLegibility;
 }
 

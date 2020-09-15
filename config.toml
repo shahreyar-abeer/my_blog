@@ -53,12 +53,12 @@ unsafe= true
     
 
 [params.font]
-    body = "Charter"
-    heading = "Alegreya"
+    body = "Fira Sans"
+    heading = "Cooper"
     code = "Operator Mono"
     arabic = "Amiri"
     bengali = "AponaLohit"
-    bodyColor = "#3a4145"
+    bodyColor = "#545454"
     linkColor = "#3a4145"
     greyColor = "#918D8F"
     redColor = "#ed5032"

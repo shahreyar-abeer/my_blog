@@ -9,6 +9,8 @@ type: contact
 ---
 
 
+
+
 <div style = "display: flex;">
   </br>
   <span style = "width:25%;">

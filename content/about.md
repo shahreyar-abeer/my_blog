@@ -3,13 +3,21 @@ subtitle: R & Shiny Developer
 title: Zauad Shahreer Abeer, MSc Dropout
 ---
 
-
-
-
-
 People usually add their degrees after their name. It's a way to show
-their accomplishments. For example, 'Jane Doe, Phd'.  
-I am no different.  
+their accomplishments.
+
+> We are all failures - at least the best of us are. -- J.M. Barrie
+
+Programming has always intrigued me. Owing to my mediocre results in the admission exam,
+I was not given the option to choose CSE as a major.
+A well-wisher teacher advised me to take Statistics.
+Now I see that maybe that was the best thing that happened to me.  
+
+It is here where I was introduced to R. During my early days, Python was more
+favorable to me. But ever since I was introduced to Shiny, R Packages & the wonderful
+R community, the plot changed.  
+
+
 
 I graduated in Statistics from University of Dhaka in 2018. The curriculam was
 focused towards the 'pure' side of things, so it involved more theories than applications.

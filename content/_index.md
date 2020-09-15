@@ -6,27 +6,27 @@ title: Home
 <p class = "arabic">بسم الله والحمد لله والصلاة والسلام علي رسول الله صلي الله عليه وسلم</p>
 
 
-<p class = "first"> Recursion. A concept that I never truly got the hang of.
-I would end up with a never ending process as I couldn't define the base case
-properly. A recipe for a crashed session.
+<p class = "first"> Recursion. A concept that's quite difficult to get the hang of.
+But one has to face it a surprising number of times along the way.
+If you don't believe me, try staring at the clock for a few minutes.
 </p>
 
-This website is about R and about life. So I somehow had to include both the
-themes in the title. Feel free to read it as *The way we are* if need be.
-The choice is left to the reader.  
+This website is about R and about life. Integrating both the ideas in the title
+was a bit challenging. Let's just hope it wasn't a complete failure. 
 
+The logo of the website is actually a ggplot. This <a href = "/blog/2020/07/12/behind-the-scenes-a-ggplot/" class = "a-body">post</a> goes
+into the details & points to the code that produced it.
 
-The header image is actually a *ggplot!* It is inspired by a plot from the
-awesome book <a href = "http://www.storytellingwithdata.com/" class = "a-body" target = "_blank">Storytelling with data</a>.
-I've simply reproduced it with R. Here is my <a href = "/blog/2020/07/12/behind-the-scenes-a-ggplot/" class = "a-body">post</a> that shows how to do that.
-
-*So writing in R to talk about writing in R.*  
-This has to be a recursion. Or is it?  
+*So a website about R, written in R, that has the logo made in R.*  
+Can this be defined as a recursion? Maybe. 
 
 > To understand recursion, one must first understand recursion.  
 -- Stephen Hawking  
 
-I was beginning to think I'm getting it, but I am forced to think again!
+And somehow, all of this is related to life.  
+
+> Life can only be understood backwards; but it must be lived forwards.  
+-- Blake Crouch
 
 
 

@@ -22,7 +22,7 @@ body {
   padding-top: 5%;
   background:#fcf6ef;
   font-kerning: none;
-  font-size: 19.9px;
+  font-size: 19px;
   line-height: 1.40;
 }
 
@@ -53,6 +53,12 @@ img {
 /* Typography */
 
 
+#tagline {
+    font-family: var(--heading-font) !important;
+    color:#918D8F !important;
+    font-size: 22.1px;
+    margin-top: 20px;
+}
 
 .first:first-letter {
   color:var(--the-grey);
@@ -101,7 +107,7 @@ blockquote {
   margin: 1.7em 0;
   padding: 0px 1em;
   border-left: 4px solid #aaa;
-  font-size: 19.7px;
+  font-size: 19px;
   opacity: .75;
 }
 
@@ -217,18 +223,18 @@ a {
     border-radius: 5px;
 }
 
-.example_a {
+.github-code {
   border: 1px solid var(--the-grey);
   background: #fcf6ef;
   color: var(--body-font) !important;
   font-size: 17px;
-  padding: 5px;
+  padding: 3px;
   border-radius: 5px;
   display: inline-block;
   transition: all 0.3s ease 0s;
 }
 
-.example_a:hover {
+.github-code:hover {
   background:#ffe0da;
   transition: all 0.3s ease 0s;
 }
