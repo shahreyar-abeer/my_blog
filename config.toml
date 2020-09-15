@@ -53,8 +53,8 @@ unsafe= true
     
 
 [params.font]
-    body = "Fira Sans"
-    heading = "Cooper"
+    body = "Cooper"
+    heading = "Cooper-heading"
     code = "Operator Mono"
     arabic = "Amiri"
     bengali = "AponaLohit"
