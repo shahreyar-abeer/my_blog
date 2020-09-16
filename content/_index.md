@@ -7,7 +7,7 @@ title: Home
 
 
 <p class = "first"> Recursion. A concept that's quite difficult to get the hang of.
-But one has to face it a surprising number of times along the way.
+But one faces it a surprising number of times along the way.
 If you don't believe me, try staring at the clock for a few minutes.
 </p>
 

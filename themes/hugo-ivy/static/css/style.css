@@ -22,8 +22,8 @@ body {
   padding-top: 5%;
   background:#fcf6ef;
   font-kerning: none;
-  font-size: 20px;
-  line-height: 1.40;
+  font-size: 21px;
+  line-height: 1.50;
 }
 
 
@@ -441,12 +441,12 @@ thead, tfoot, tr:nth-child(even) {
   body {
     width: auto;
     max-width: 700px;
-    font-size: 19.9px;
+    font-size: 20px;
     padding: 5px;
   }
   
   blockquote {
-    font-size:17px;
+    font-size:18px;
   }
 
   .masthead {

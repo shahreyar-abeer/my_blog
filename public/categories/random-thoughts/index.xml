@@ -6,10 +6,21 @@
     <description>Recent content in random thoughts on the way we R</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 23 Jul 2015 21:13:14 -0500</lastBuildDate>
+    <lastBuildDate>Wed, 16 Sep 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/categories/random-thoughts/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Making of the website: A tribute</title>
+      <link>/blog/2020/09/16/making-of-the-website-a-tribute/</link>
+      <pubDate>Wed, 16 Sep 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/2020/09/16/making-of-the-website-a-tribute/</guid>
+      <description>The first person who must be thanked is Yihui Xie. Without him, none of this would have been possible. I don&amp;rsquo;t know how many times I had taken a peek at Yihui&amp;rsquo;s website while making this one. That blog is an inspiring one I must say.
+  This is based on a theme by Yihui, Hugo Ivy
+  Leo&amp;rsquo;s website based also on Hugo Ivy, gave me some inspirations along the way.</description>
+    </item>
     
     <item>
       <title>Hello R Markdown</title>

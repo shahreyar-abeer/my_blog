@@ -124,6 +124,14 @@ aside {
 
 @font-face {
   font-family: "Cooper";
+  src: url("/fonts/CooperHewitt-Bold.woff") format("woff");
+  font-style: normal;
+  font-weight: 700;
+  text-rendering: optimizeLegibility;
+}
+
+@font-face {
+  font-family: "Cooper";
   src: url("/fonts/CooperHewitt-BookItalic.woff") format("woff");
   font-style: italic;
   font-weight: 400;

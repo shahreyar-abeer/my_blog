@@ -51,7 +51,7 @@ trace(grDevices::png, exit = quote({
   showtext::showtext_begin()
 }), print = FALSE)
 
-font_add_google("Nanum Pen Script", "alegreya")
+#font_add_google("Nanum Pen Script", "ibm")
 #font_add_google("Markazi Text", "markazi")
 showtext_auto()
 
@@ -73,7 +73,7 @@ accent = "#ed5032"
 
 ggplot(df, aes(xmin = xmin, xmax = xmax, ymin = ymin, ymax = ymax)) +
   geom_rect(aes(fill = who), show.legend = FALSE) +
-  theme_classic(base_family = "alegreya", base_size = 24) +
+  theme_classic(base_family = "ibm", base_size = 24) +
   #theme_void() +
   scale_fill_manual(values = c("_" = "#FCF6EB",
                                "family" = "#CCD3E3",
@@ -95,13 +95,13 @@ ggplot(df, aes(xmin = xmin, xmax = xmax, ymin = ymin, ymax = ymax)) +
   # ) +
   # 
   # annotate(geom = "text", x = 0.2, y = 2022, label = "My timeline of thanks",
-  #          hjust = .01, family = "alegreya", size = 7, color = "#888888") +
+  #          hjust = .01, family = "ibm", size = 7, color = "#888888") +
   # 
   # annotate(geom = "text", x = 4.6, y = 2011.8, label = "2014, Started coding in R!",
-  #          hjust = .01, family = "alegreya", size = 7, color = "#999999") +
+  #          hjust = .01, family = "ibm", size = 7, color = "#999999") +
   # 
   # annotate(geom = "text", x = 5.7, y = 2014, label = "2015, Alhamdulillah",
-  #          hjust = .01, family = "alegreya", size = 7, color = "#999999") +
+  #          hjust = .01, family = "ibm", size = 7, color = "#999999") +
   #coord_cartesian(xlim = c(0, 40), ylim = c(1985, 2040), expand = FALSE) +
   theme(
     axis.line.y.left = element_blank(),
@@ -123,7 +123,7 @@ ggsave(filename = "./themes/hugo-ivy/static/img/background_header.png",
 
 
 
-font_add_google("IBM Plex Sans", "alegreya", regular.wt = 500)
+font_add_google("IBM Plex Sans Condensed", "ibm", regular.wt = 500)
 
 # Nanum Pen Script, Neucha
 
@@ -131,7 +131,7 @@ font_add_google("IBM Plex Sans", "alegreya", regular.wt = 500)
 
 ggplot(df, aes(xmin = xmin, xmax = xmax, ymin = ymin, ymax = ymax)) +
   geom_rect(aes(fill = who), show.legend = FALSE) +
-  theme_classic(base_family = "alegreya", base_size = 24) +
+  theme_classic(base_family = "ibm", base_size = 24) +
   #theme_void() +
   scale_fill_manual(values = c("_" = "#FCF6EB",
                                "family" = "#CCD3E3",
@@ -181,33 +181,33 @@ ggplot(df, aes(xmin = xmin, xmax = xmax, ymin = ymin, ymax = ymax)) +
   #xlim(0, 40) +
   #ylim(1985, 2050) +
   annotate(geom = "text", x = 0.2, y = 2022, label = "The 'plot' of life",
-           hjust = .01, family = "alegreya", size = 7, color = "#918D8F") +
+           hjust = .01, family = "ibm", size = 7, color = "#918D8F") +
   
   annotate(geom = "text", x = 1, y = 1993, label = "Family",
-           hjust = .01, family = "alegreya", size = 5, color = "#918D8F") +
+           hjust = .01, family = "ibm", size = 5, color = "#918D8F") +
   
   annotate(geom = "text", x = 2.6, y = 2001, label = "2006, Maestros",
-           hjust = .01, family = "alegreya", size = 5, color = "#918D8F") +
+           hjust = .01, family = "ibm", size = 5, color = "#918D8F") +
   
   annotate(geom = "text", x = 3.7, y = 2003, label = "2011 - 13, NDC",
-           hjust = .01, family = "alegreya", size = 5, color = "#918D8F") +
+           hjust = .01, family = "ibm", size = 5, color = "#918D8F") +
   
   annotate(geom = "text", x = 4.8, y = 2005, label = "2013 - 18, DU",
-           hjust = .01, family = "alegreya", size = 5, color = "#918D8F") +
+           hjust = .01, family = "ibm", size = 5, color = "#918D8F") +
   
   annotate(geom = "text", x = 5.9, y = 2007, label = "2013, Cavaliers",
-           hjust = .01, family = "alegreya", size = 5, color = "#918D8F") +
+           hjust = .01, family = "ibm", size = 5, color = "#918D8F") +
   
   annotate(geom = "text", x = 7, y = 2009, label = "2014, Started withR",
-           hjust = .01, family = "alegreya", size = 5, color = "#918D8F") +
+           hjust = .01, family = "ibm", size = 5, color = "#918D8F") +
   
   annotate(geom = "text", x = 8.1, y = 2011, label = "2015, Alhamdulillah",
-           hjust = .01, family = "alegreya", size = 5, color = "#918D8F") +
+           hjust = .01, family = "ibm", size = 5, color = "#918D8F") +
   
   annotate(geom = "text", x = 9.2, y = 2013, label = "2019, Married!",
-           hjust = .01, family = "alegreya", size = 5, color = "#918D8F") +
+           hjust = .01, family = "ibm", size = 5, color = "#918D8F") +
   annotate(geom = "text", x = 3.2, y = 1998, label = '"Ghareeb wo hai jis ka koi dost na ho."',
-           hjust = .01, family = "alegreya", size = 5, color = "#918D8F") +
+           hjust = .01, family = "ibm", size = 5, color = "#918D8F") +
   
   #coord_cartesian(xlim = c(0, 40), ylim = c(1985, 2040), expand = FALSE) +
   theme(
