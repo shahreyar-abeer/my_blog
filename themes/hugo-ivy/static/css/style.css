@@ -185,7 +185,7 @@ a {
 }
 
 .a-list{
-  font-size:31px;
+  font-size:25px;
 }
 
 
@@ -441,12 +441,12 @@ thead, tfoot, tr:nth-child(even) {
   body {
     width: auto;
     max-width: 700px;
-    font-size: 20px;
+    font-size: 19px;
     padding: 5px;
   }
   
   blockquote {
-    font-size:18px;
+    font-size:19px;
   }
 
   .masthead {
@@ -586,7 +586,7 @@ thead, tfoot, tr:nth-child(even) {
 @media screen and (max-width: 480px) {
 
   body {
-    font-size: 16px;
+    font-size: 17px;
   }
 
   h1 {

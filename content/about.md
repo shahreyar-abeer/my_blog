@@ -1,6 +1,6 @@
 ---
-subtitle: R & Shiny Developer
-title: Zauad Shahreer Abeer, MSc Dropout
+subtitle: MSc Dropout
+title: Zauad Shahreer Abeer
 ---
 
 People usually add their degrees after their name. It's a way to show

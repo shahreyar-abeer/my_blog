@@ -54,7 +54,7 @@ unsafe= true
 
 [params.font]
     body = "IBM Plex Sans Condensed"
-    heading = "Cooper-heading"
+    heading = "Cooper"
     code = "Operator Mono"
     arabic = "Amiri"
     bengali = "AponaLohit"

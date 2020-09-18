@@ -23,7 +23,7 @@ Can this be defined as a recursion? Maybe.
 > To understand recursion, one must first understand recursion.  
 -- Stephen Hawking  
 
-And somehow, all of this is related to life.  
+Sometimes the explanation is a bit harder to grasp than the actual concept.
 
 > Life can only be understood backwards; but it must be lived forwards.  
 -- Blake Crouch

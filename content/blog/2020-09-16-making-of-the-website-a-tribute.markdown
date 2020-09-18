@@ -15,6 +15,10 @@ while making this one. That blog is an inspiring one I must say.
 
 * This is based on a theme by Yihui, <a class = "a-body" href = "https://github.com/yihui/hugo-ivy" target = "_blank">Hugo Ivy</a>
 
+<aside> I started making the website with practically zero
+knowledge of CSS, HTML or anything related to websites. These resources helped me
+along the way, showed the path. </aside>
+
 
 * <a class = "a-body" href = "https://leovan.me/en/" target = "_blank">Leo's website</a> 
 based also on Hugo Ivy, gave me some inspirations along the way.  
@@ -25,7 +29,5 @@ is a gem.
 * This website is practically a copy of <a class = "a-body" href = "https://livefreeordichotomize.com/" target = "_blank">Live Free or Dichotomize.</a>  
 Though nowhere near its actual class and style.  
 
-* It should be mentioned that I started making the website with practically zero
-knowledge of CSS, HTML or anything related to websites. These resources helped me
-along the way, showed the path.
+
 

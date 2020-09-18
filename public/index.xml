@@ -19,7 +19,7 @@
       <guid>/blog/2020/09/16/making-of-the-website-a-tribute/</guid>
       <description>The first person who must be thanked is Yihui Xie. Without him, none of this would have been possible. I don&amp;rsquo;t know how many times I had taken a peek at Yihui&amp;rsquo;s website while making this one. That blog is an inspiring one I must say.
   This is based on a theme by Yihui, Hugo Ivy
-  Leo&amp;rsquo;s website based also on Hugo Ivy, gave me some inspirations along the way.</description>
+   I started making the website with practically zero knowledge of CSS, HTML or anything related to websites.</description>
     </item>
     
     <item>
@@ -92,7 +92,7 @@ summary(cars) ## speed dist ## Min. : 4.0 Min. : 2.00 ## 1st Qu.:12.0 1st Qu.: 2
     </item>
     
     <item>
-      <title>Zauad Shahreer Abeer, MSc Dropout</title>
+      <title>Zauad Shahreer Abeer</title>
       <link>/about/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
