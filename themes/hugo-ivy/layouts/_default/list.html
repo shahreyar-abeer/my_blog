@@ -11,18 +11,29 @@
 
   
   <section>
+    {{ if .Params.img }}
+      <span>
+        <img class="hexagon" src={{ .Params.img }} alt= {{.Params.alt}} />
+      </span>
+    {{end}}
     <h1 class="content-title">
     <a class="a-list" href="{{ .Permalink }}">{{ .Title }}</a>
     </h1>
-  
+    
+    
     <span class="content-meta">
       <i class="fa fa-calendar"></i><span>&nbsp;<time>{{ .Date.Format "2006-01-02" }}</time></span>
-    <br>
-    <i class="fa fa-tags">
-      {{ range (.GetTerms "tags") }}
-        <a class="a-tag" href="{{ .Permalink }}">{{ .LinkTitle }}</a>
-     {{ end }}
-    </i>
+      <span>
+        <i class="fa fa-tags">
+        {{ range (.GetTerms "tags") }}
+          <a class="a-tag" href="{{ .Permalink }}">{{ .LinkTitle }}</a>
+        {{ end }}
+        </i>
+      </span>
+      
+    </span>
+    
+    
   </section>
     
     <p style="color:#918D8F;font-size:17px;">{{ .Params.summary }}</p>

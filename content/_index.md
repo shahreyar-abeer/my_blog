@@ -8,7 +8,7 @@ title: Home
 
 <p class = "first"> Recursion. A concept that's quite difficult to get the hang of.
 But one faces it a surprising number of times along the way.
-If you don't believe me, try staring at the clock for a few minutes.
+Staring at the clock for a few minutes should reveal the fact.
 </p>
 
 This website is about R and about life. Integrating both the ideas in the title

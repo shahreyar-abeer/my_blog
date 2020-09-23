@@ -1,13 +1,18 @@
 ---
 title: 'Making of the website: A tribute'
-author: ''
+author: 'Zauad Shahreer Abeer'
 date: '2020-09-16'
 slug: making-of-the-website-a-tribute
 categories:
   - random thoughts
 tags:
   - blogdown
+summary: A tribute to the ones that helped me.
+img: "/img/book-pic.jpg"
+alt: "photo from unsplash"
 ---
+
+<img src="/blog/2020-09-16-making-of-the-website-a-tribute_files/book-pic.jpg" alt="Photo from Unsplash" width="700px" height="450px"/>
 
 * The first person who must be thanked is <a class="a-body" href="https://yihui.org/en/" target="_blank">Yihui Xie</a>. Without him, none of this would have
 been possible.  I don't know how many times I had taken a peek at Yihui's website

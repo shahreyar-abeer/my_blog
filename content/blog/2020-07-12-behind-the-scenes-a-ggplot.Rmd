@@ -7,8 +7,10 @@ slug: behind-the-scenes-a-ggplot
 categories:
   - r
 tags: [ggplot]
-summary: "A ggplot2 implementation of the 'Timeline of Thanks' plot from the book 'Storytelling with data'."
+summary: "A ggplot2 implementation."
 code: 'https://github.com/shahreyar-abeer/the_plot_of_life/blob/master/codes.R'
+img: "/img/background-header.png"
+alt: "photo from unsplash"
 ---
 
 This is called the *Plot of life*.
