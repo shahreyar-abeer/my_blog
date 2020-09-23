@@ -441,12 +441,17 @@ thead, tfoot, tr:nth-child(even) {
   body {
     width: auto;
     max-width: 700px;
-    font-size: 19px;
+    font-size: 18px;
     padding: 5px;
   }
   
   blockquote {
     font-size:18px;
+  }
+  
+  #tagline {
+    margin-top:12px;
+    margin-bottom: 0px;
   }
 
   .masthead {
@@ -475,6 +480,7 @@ thead, tfoot, tr:nth-child(even) {
   }
 
   .masthead .menu {
+    font-size: 14px;
     direction: ltr;
     max-width: 150px;
     position: absolute;
