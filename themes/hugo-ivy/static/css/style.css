@@ -115,6 +115,7 @@ blockquote {
   width:132px;
   height:150px;
   float:right;
+  margin-left:5px;
 }
 
 /* Code */
