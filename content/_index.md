@@ -11,9 +11,6 @@ But one faces it a surprising number of times along the way.
 If you don't believe me, try staring at the clock for a few minutes.
 </p>
 
-
-<p class = "bengali">"এক টাকা জরিমানা নয় তিন মাসের জেল", প্রশান্ত ভূষণকে সাজা শোনালো সুপ্রিম কোর্ট</p>
-
 This website is about R and about life. Integrating both the ideas in the title
 was a bit challenging. Let's just hope it wasn't a complete failure. 
 
