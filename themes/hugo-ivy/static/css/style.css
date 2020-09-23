@@ -22,7 +22,7 @@ body {
   padding-top: 5%;
   background:#fcf6ef;
   font-kerning: none;
-  font-size: 21px;
+  font-size: 20px;
   line-height: 1.50;
 }
 
@@ -446,7 +446,7 @@ thead, tfoot, tr:nth-child(even) {
   }
   
   blockquote {
-    font-size:19px;
+    font-size:18px;
   }
 
   .masthead {
@@ -586,7 +586,7 @@ thead, tfoot, tr:nth-child(even) {
 @media screen and (max-width: 480px) {
 
   body {
-    font-size: 17px;
+    font-size: 18px;
   }
 
   h1 {
