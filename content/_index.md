@@ -3,7 +3,7 @@ title: Home
 ---
 
 
-<p class = "arabic">بسم الله والحمد لله والصلاة والسلام علي رسول الله صلي الله عليه وسلم</p>
+<p style="font-size:27px" class = "arabic">بسم الله والحمد لله والصلاة والسلام علي رسول الله صلي الله عليه وسلم</p>
 
 
 <p class = "first"> Recursion. A concept that's quite difficult to get the hang of.
@@ -23,10 +23,9 @@ Can this be defined as a recursion? Maybe.
 > To understand recursion, one must first understand recursion.  
 -- Stephen Hawking  
 
-Sometimes the explanation is a bit harder to grasp than the actual concept.
+Sometimes the explanation is a bit harder to understand than the actual concept.
 
-> Life can only be understood backwards; but it must be lived forwards.  
--- Blake Crouch
+> Life can only be understood backwards; but it must be lived forwards.
 
 
 
