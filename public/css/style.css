@@ -112,10 +112,11 @@ blockquote {
 
 .hexagon {
   clip-path: polygon(50% 0, 100% 25%, 100% 75%, 50% 100%, 0 75%, 0 25%);
-  width:132px;
-  height:150px;
+  width:100px;
+  height:115px;
   float:right;
-  margin-left:5px;
+  margin-top: 15px;
+  margin-left:50px;
 }
 
 /* Code */
@@ -466,6 +467,12 @@ thead, tfoot, tr:nth-child(even) {
   #tagline {
     margin-top:12px;
     margin-bottom: 0px;
+  }
+  
+  .hexagon {
+    width:80px;
+    height:92px;
+    margin-left:20px;
   }
 
   .masthead {

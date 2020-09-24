@@ -7,7 +7,7 @@ categories:
   - random thoughts
 tags:
   - blogdown
-summary: A tribute to the ones that helped me.
+summary: A tribute to the ones who inspired me while making the website.
 img: "/img/book-pic.jpg"
 alt: "photo from unsplash"
 ---
