@@ -294,7 +294,8 @@ hr {
 .post-nav {
   display: flex;
   justify-content: space-between;
-  font-weight: bold;
+  font-style: italic;
+  font-size:17px;
 }
 
 .nav-next {

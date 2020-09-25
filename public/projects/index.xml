@@ -6,17 +6,18 @@
     <description>Recent content in Projects on the way we R</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
+    <lastBuildDate>Thu, 24 Sep 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/projects/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>About</title>
-      <link>/projects/about12/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <title>Shiny Contest 2020 - Life of Pi</title>
+      <link>/projects/shiny-contest-2020-life-of-pi/</link>
+      <pubDate>Thu, 24 Sep 2020 00:00:00 +0000</pubDate>
       
-      <guid>/projects/about12/</guid>
-      <description>This is about me  Masters dropout         </description>
+      <guid>/projects/shiny-contest-2020-life-of-pi/</guid>
+      <description>✨ Honorable Mentions in shiny contest 2020</description>
     </item>
     
   </channel>
