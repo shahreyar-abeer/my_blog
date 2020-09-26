@@ -133,19 +133,25 @@ pre:before {
   font-weight: 325;
 }
 
+code {
+  background-color:#dbdbdb61;
+}
+
 pre, code {
-  font-size: 15px;
+  font-size: 18px;
+}
+
+pre > code {
+  background: none;
 }
 
 
 pre {
   border: 1px solid #ddd;
-  box-shadow: 5px 5px 5px #eee;
   padding-left: 8px;
   padding-top: 5px;
   padding-bottom: 4px;
   overflow-x: auto;
-  border-radius:8px;
   background-color:#dbdbdb61;
 }
 
@@ -170,6 +176,14 @@ li {
 .img-body {
   width: 100% !important;
   height: auto;
+}
+
+.caption {
+  font-family: var(--code);
+  font-size: 13px;
+  margin-top: 0px;
+  font-weight: 325;
+  float: right;
 }
 
 /* Links */

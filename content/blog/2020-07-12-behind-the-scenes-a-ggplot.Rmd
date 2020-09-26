@@ -1,31 +1,29 @@
 ---
-title: 'The plot of life: a ggplot'
-author: ''
-date: '2020-07-12'
-slug: behind-the-scenes-a-ggplot
+title: "The Resume Plot"
+author: 'Zauad Shahreer Abeer'
+date: '2020-09-26'
+slug: the-resume-plot
 
 categories:
   - r
 tags: [ggplot]
 summary: "A ggplot2 implementation of an extraordinary plot from a great book."
-code: 'https://github.com/shahreyar-abeer/the_plot_of_life/blob/master/codes.R'
-img: "/img/background-header.png"
-alt: "photo from unsplash"
+code: 'https://github.com/shahreyar-abeer/the_resume_plot/blob/master/codes.R'
+img: "/img/the-resume-plot.jpeg"
+alt: "a ggplot"
 ---
 
-This is called the *Plot of life*.
-It is inspired by a plot from the
+![Fig: The resume plot](/blog/2020-07-12-behind-the-scenes-a-ggplot_files/the-resume-plot.jpeg)
+
+
+This plot is called *The Resume Plot*.  
+It is inspired by "The timeline of thanks" plot from the
 awesome book <a href = "http://www.storytellingwithdata.com/" class = "a-body" target = "_blank">Storytelling with data</a>.  
 
-Interested readers may find it in under the 'acknowledgements' section of the book.  
+It's a `ggplot`, bars are created from a hand-made `data.frame`.  
+The texts & the lines are made using `annotation`.
+The hex-logo is added using `magick::image_composite()`  
+The <a href = "https://github.com/shahreyar-abeer/the_resume_plot" class = "a-body" target = "_blank">github repo</a> has the codes that made the plot.
 
 
 
-![](/blog/2020-07-12-behind-the-scenes-a-ggplot_files/the-plot-of-life.png){ height=850ox}
-
-
-
-
-```{r}
-summary(mtcars$mpg)
-```

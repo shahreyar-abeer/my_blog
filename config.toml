@@ -49,7 +49,7 @@ unsafe= true
     highlightjsCDN = ""
     highlightjsLang = ["r", "yaml", "tex"]
     highlightjsTheme = ""
-    headerPic = "/img/rsz_background_header.png"
+    headerPic = "/img/background-header.png"
     
 
 [params.font]

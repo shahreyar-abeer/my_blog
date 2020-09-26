@@ -58,11 +58,16 @@ showtext_auto()
 c_yr <- 2020
 
 df = data.frame(
-  xmin = c(0, 1.1, 2.2, 3.3, 4.4, 5.5, 6.6, 7.7, 8.8),
-  xmax = c(1, 2.1, 3.2, 4.3, 5.4, 6.5, 7.6, 8.7, 9.8),
-  ymin = c(1994, 1994, 2006, 2011, 2013, 2013, 2014, 2015, 2019),
-  ymax = c(c_yr, 2020, 2020, 2013, 2018, 2020, 2020, 2020, 2020),
-  who = c("_", "family", "maestros", "ndc", "du", "cavaliers", "started coding in R", "a new life", "married")
+  xmin = c(0, 1.1, 2.2, 3.3, 4.4, 5.5, 6.6,
+           7.7, 8.8, 9.9, 11, 12.1),
+  xmax = c(1, 2.1, 3.2, 4.3, 5.4, 6.5, 7.6,
+           8.7, 9.8, 10.9, 12, 13.1),
+  ymin = c(1994, 1994, 2006, 2011, 2013, 2013, 2014,
+           2017, 2017, 2018, 2019, 2020),
+  ymax = c(c_yr, c_yr, c_yr, 2013, 2018, c_yr, c_yr,
+           c_yr, c_yr, 2019, c_yr, 2020),
+  who = c("_", "family", "maestros", "ndc", "du", "cavaliers", "started coding in R",
+          "shiny", "freelance", "nadine_west", "open_source", "shiny_contest")
 )
 
 
@@ -82,8 +87,11 @@ ggplot(df, aes(xmin = xmin, xmax = xmax, ymin = ymin, ymax = ymax)) +
                                "du" = "#50707B",
                                "cavaliers" = "#50707B",
                                "started coding in R" = "#447099",
-                               "a new life" = "#C2A370",
-                               "married" = "#EF476F")) +
+                               "shiny" = "#4E94CF",
+                               "freelance" = "#61C073",
+                               "nadine_west" = "#EF476F",
+                               "open_source" = "#C2A370",
+                               "shiny_contest" = "#4E94CF")) +
   #scale_y_continuous(breaks = c(1994, 2020), expand = expansion(mult = c(.45, 1.5))) +
   #scale_x_continuous(limits = c(0, 70), expand = expansion(mult = 0)) +
   #xlim(0, 40) +
@@ -113,13 +121,12 @@ ggplot(df, aes(xmin = xmin, xmax = xmax, ymin = ymin, ymax = ymax)) +
     axis.title.y = element_blank(),
     panel.border = element_blank(),
     panel.grid = element_blank(),
-    plot.margin = margin(l = 50),
     plot.background = element_rect(fill = "#fcf6ef"),
-    panel.background = element_rect(fill = "#fcf6ef")
+    panel.background = element_rect(fill = "#fcf6ef"),
   )
 
-ggsave(filename = "./themes/hugo-ivy/static/img/background_header.png",
-       width = 8, height = 5, dpi = 350)
+ggsave(filename = "./themes/hugo-ivy/static/img/background-header.png",
+       width = 2, height = 2)
 
 
 
@@ -140,8 +147,11 @@ ggplot(df, aes(xmin = xmin, xmax = xmax, ymin = ymin, ymax = ymax)) +
                                "du" = "#50707B",
                                "cavaliers" = "#50707B",
                                "started coding in R" = "#447099",
-                               "a new life" = "#C2A370",
-                               "married" = "#EF476F")) +
+                               "shiny" = "#4E94CF",
+                               "freelance" = "#61C073",
+                               "nadine_west" = "#EF476F",
+                               "open_source" = "#C2A370",
+                               "shiny_contest" = "#4E94CF")) +
   annotate(
     geom = "segment", x = 2.7, y = 2006, xend = 2.7, yend = 2002,
     color = "#7E8EB2", size = .1
@@ -168,20 +178,30 @@ ggplot(df, aes(xmin = xmin, xmax = xmax, ymin = ymin, ymax = ymax)) +
   ) +
   
   annotate(
-    geom = "segment", x = 8.2, y = 2015, xend = 8.2, yend = 2012,
-    color = "#C2A370", size = .1
+    geom = "segment", x = 8.2, y = 2017, xend = 8.2, yend = 2012,
+    color = "#4E94CF", size = .1
   ) +
   
   annotate(
-    geom = "segment", x = 9.3, y = 2019, xend = 9.3, yend = 2014,
+    geom = "segment", x = 9.3, y = 2017, xend = 9.3, yend = 2014,
+    color = "#61C073", size = .1
+  ) +
+  
+  annotate(
+    geom = "segment", x = 10.4, y = 2018, xend = 10.4, yend = 2016,
     color = "#EF476F", size = .1
   ) +
+  
+  annotate(
+    geom = "segment", x = 11.5, y = 2019, xend = 11.5, yend = 2018,
+    color = "#C2A370", size = .1
+  ) +
   scale_y_continuous(breaks = c(1994, 2020), expand = expansion(mult = c(.45, 1.5))) +
-  scale_x_continuous(limits = c(0, 70), expand = expansion(mult = 0)) +
+  scale_x_continuous(limits = c(0, 100), expand = expansion(mult = 0)) +
   #xlim(0, 40) +
   #ylim(1985, 2050) +
-  annotate(geom = "text", x = 0.2, y = 2022, label = "The 'plot' of life",
-           hjust = .01, family = "ibm", size = 7, color = "#918D8F") +
+  annotate(geom = "text", x = 5.2, y = 2022, label = "The Resume Plot",
+           hjust = .01, family = "ibm", size = 6, color = "#918D8F") +
   
   annotate(geom = "text", x = 1, y = 1993, label = "Family",
            hjust = .01, family = "ibm", size = 5, color = "#918D8F") +
@@ -192,20 +212,30 @@ ggplot(df, aes(xmin = xmin, xmax = xmax, ymin = ymin, ymax = ymax)) +
   annotate(geom = "text", x = 3.7, y = 2003, label = "2011 - 13, NDC",
            hjust = .01, family = "ibm", size = 5, color = "#918D8F") +
   
-  annotate(geom = "text", x = 4.8, y = 2005, label = "2013 - 18, DU",
+  annotate(geom = "text", x = 4.8, y = 2005, label = "2013 - 18, Graduation",
            hjust = .01, family = "ibm", size = 5, color = "#918D8F") +
   
   annotate(geom = "text", x = 5.9, y = 2007, label = "2013, Cavaliers",
            hjust = .01, family = "ibm", size = 5, color = "#918D8F") +
   
-  annotate(geom = "text", x = 7, y = 2009, label = "2014, Started withR",
+  annotate(geom = "text", x = 7, y = 2009, label = "2014, Introduced to R",
            hjust = .01, family = "ibm", size = 5, color = "#918D8F") +
   
-  annotate(geom = "text", x = 8.1, y = 2011, label = "2015, Alhamdulillah",
+  annotate(geom = "text", x = 8.1, y = 2011, label = "2017, First Shiny App",
            hjust = .01, family = "ibm", size = 5, color = "#918D8F") +
   
-  annotate(geom = "text", x = 9.2, y = 2013, label = "2019, Married!",
+  annotate(geom = "text", x = 9.2, y = 2013, label = "2017, Freelance Data Analyst",
            hjust = .01, family = "ibm", size = 5, color = "#918D8F") +
+  
+  annotate(geom = "text", x = 10.3, y = 2015, label = "2018 - 19, Data Analyst @ Nadine West",
+           hjust = .01, family = "ibm", size = 5, color = "#918D8F") +
+  
+  annotate(geom = "text", x = 11.4, y = 2017, label = "2019, Open source projects",
+           hjust = .01, family = "ibm", size = 5, color = "#918D8F") +
+  
+  annotate(geom = "text", x = 12.5, y = 2019, label = "2020, Shiny for Production",
+           hjust = .01, family = "ibm", size = 5, color = "#918D8F") +
+  
   annotate(geom = "text", x = 3.2, y = 1998, label = '"Ghareeb wo hai jis ka koi dost na ho."',
            hjust = .01, family = "ibm", size = 5, color = "#918D8F") +
   
@@ -226,5 +256,5 @@ ggplot(df, aes(xmin = xmin, xmax = xmax, ymin = ymin, ymax = ymax)) +
   )
 
 ggsave(filename = "./themes/hugo-ivy/static/img/background.png",
-       width = 8, height = 5, dpi = 350)
+       width = 9, height = 5)
 

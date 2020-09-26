@@ -6,17 +6,17 @@
     <description>Recent content in r on the way we R</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 12 Jul 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 26 Sep 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/categories/r/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>The plot of life: a ggplot</title>
-      <link>/blog/2020/07/12/behind-the-scenes-a-ggplot/</link>
-      <pubDate>Sun, 12 Jul 2020 00:00:00 +0000</pubDate>
+      <title>The Resume Plot</title>
+      <link>/blog/2020/09/26/the-resume-plot/</link>
+      <pubDate>Sat, 26 Sep 2020 00:00:00 +0000</pubDate>
       
-      <guid>/blog/2020/07/12/behind-the-scenes-a-ggplot/</guid>
+      <guid>/blog/2020/09/26/the-resume-plot/</guid>
       <description>A ggplot2 implementation of an extraordinary plot from a great book.</description>
     </item>
     
