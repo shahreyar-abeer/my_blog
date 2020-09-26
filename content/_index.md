@@ -14,7 +14,7 @@ Staring at the clock for a few minutes should reveal the fact.
 This website is about R and about life. Integrating both the ideas in the title
 was a bit challenging. Let's just hope it wasn't a complete failure. 
 
-The logo of the website is actually a ggplot. This <a href = "/blog/2020/07/12/behind-the-scenes-a-ggplot/" class = "a-body">post</a> goes
+The logo of the website is actually a ggplot. This <a href = "https://thewaywer.rbind.io/blog/2020/09/26/the-resume-plot/" class = "a-body">post</a> goes
 into the details & points to the code that produced it.
 
 *So a website about R, written in R, that has the logo made in R.*  
