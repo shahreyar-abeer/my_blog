@@ -25,11 +25,13 @@
       <i class="fa fa-calendar"></i><span>&nbsp;<time>{{ .Date.Format "2006-01-02" }}</time></span>
       &nbsp; &nbsp; &nbsp;
       <span>
-        <i class="fa fa-tags">
-        {{ range (.GetTerms "tags") }}
-          <a class="a-tag" href="{{ .Permalink }}">{{ .LinkTitle }}</a>
-        {{ end }}
-        </i>
+        {{ if .Params.tags }}
+          <i class="fa fa-tags">
+          {{ range (.GetTerms "tags") }}
+            <a class="a-tag" href="{{ .Permalink }}">{{ .LinkTitle }}</a>
+          {{ end }}
+          </i>
+        {{end}}
       </span>
       
     </span>
