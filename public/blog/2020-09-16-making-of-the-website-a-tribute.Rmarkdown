@@ -40,5 +40,13 @@ Although a lot of the elements are taken from it, it goes nowhere near its origi
 And also to <a class = "a-body" href = "https://www.netlify.com/" target = "_blank">Netlify</a>
 for the free service.  
 
+#### Yihui's Warning
 
+![Fig: Yihui's warning](/blog/2020-09-16-making-of-the-website-a-tribute_files/warning.png)
 
+Since I didn't know much of HTML & CSS,  I sincerely thought it would take 10 minutes to
+set it up. And I decided to not get into it too much.
+Ironically, it took 10 months. The process taught me a lot though.
+Giving me knowledge of a thing or two about websites. But I'm afraid
+
+> I have dug a rather deep hole

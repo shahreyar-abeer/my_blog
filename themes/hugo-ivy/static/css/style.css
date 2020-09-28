@@ -83,7 +83,8 @@ h1 {
 }
 
 h2 {
-  font-size: 22px;
+  font-size: 23px;
+  font-weight: normal;
 }
 
 .h2 {
@@ -91,16 +92,22 @@ h2 {
   margin: 5px 0 5px;
   line-height: 1.25;
   text-align: center;
-  font-size: 22px;
+  font-size: 23px;
   font-family: "Alegreya";
   display: inline-block;
   color:var(--the-grey);
 }
 
-h3, h4, h5, h6 {
-  font-size: 1.4rem;
-  text-align: left;
-  font-weight: bold;
+h4 {
+  font-size: 22px;
+  font-weight: normal;
+  text-align: center;
+  text-decoration: underline;
+}
+
+h3, h5, h6 {
+  font-size: 22px;
+  font-weight: normal;
 }
 
 blockquote {
