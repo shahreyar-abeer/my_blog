@@ -19,7 +19,7 @@ of them. During the early days, Python was more
 favorable to me. But ever since I was introduced to Shiny, R Packages & the wonderful
 R community, the plot changed.  
 
-It was during my University days that the thought occured to me; The world that
+This undeserving minion has always been favored with blessings of which he is unworthy. It was during my University days that the thought occured to me; The world that
 we see is just part of it. There's more to it, a lot more. Here,
 **success** is defined by degrees, position, money and stuff.  
 A man is measured by these trivial things. But these things can never define man.  

@@ -6,10 +6,23 @@
     <description>Recent content in r on the way we R</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 26 Sep 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 30 Sep 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/categories/r/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>{datamods}: Shiny modules to import data</title>
+      <link>/projects/datamods-shiny-modules-to-import-data/</link>
+      <pubDate>Wed, 30 Sep 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/projects/datamods-shiny-modules-to-import-data/</guid>
+      <description>Custom-made modules to import data into your Shiny app.
+ Overview This is an R package that provides pre-built custom shiny modules to import data from various sources into a Shiny app.
+The modules can be used in any standard shiny app. Just plug in the ui and server functions in the right place to make them work.
+There are four modules at the moment.
+ import-globalenv import-file import-copypaste import-googlesheets  Further readings on github</description>
+    </item>
     
     <item>
       <title>The Resume Plot</title>

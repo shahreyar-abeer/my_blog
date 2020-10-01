@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Projects on the way we R</title>
-    <link>/projects/</link>
-    <description>Recent content in Projects on the way we R</description>
+    <title>usethis on the way we R</title>
+    <link>/tags/usethis/</link>
+    <description>Recent content in usethis on the way we R</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 30 Sep 2020 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="/projects/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/tags/usethis/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
@@ -22,15 +22,6 @@
 The modules can be used in any standard shiny app. Just plug in the ui and server functions in the right place to make them work.
 There are four modules at the moment.
  import-globalenv import-file import-copypaste import-googlesheets  Further readings on github</description>
-    </item>
-    
-    <item>
-      <title>Shiny Contest 2020 - Life of Pi</title>
-      <link>/projects/shiny-contest-2020-life-of-pi/</link>
-      <pubDate>Thu, 24 Sep 2020 00:00:00 +0000</pubDate>
-      
-      <guid>/projects/shiny-contest-2020-life-of-pi/</guid>
-      <description>✨ Honorable Mentions in shiny contest 2020</description>
     </item>
     
   </channel>

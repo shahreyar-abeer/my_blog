@@ -85,6 +85,7 @@ h1 {
 h2 {
   font-size: 23px;
   font-weight: normal;
+  text-align: center;
 }
 
 .h2 {
@@ -102,7 +103,8 @@ h4 {
   font-size: 22px;
   font-weight: normal;
   text-align: center;
-  text-decoration: underline;
+  margin-top: 35px;
+  margin-bottom: 30px;
 }
 
 h3, h5, h6 {
@@ -128,11 +130,6 @@ blockquote {
 
 /* Code */
 
-pre:before {
-  content: "Output\a";
-  color:#ed5032;
-  font-weight: 325;
-}
 
 .r:before {
   content: "```{r}\a";

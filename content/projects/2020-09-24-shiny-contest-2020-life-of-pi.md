@@ -5,7 +5,7 @@ date: '2020-09-24'
 slug: shiny-contest-2020-life-of-pi
 categories:
   - shiny
-tags: []
+tags: [shiny-contest, shiny]
 summary: "✨ Honorable Mentions in shiny contest 2020"
 img: "https://raw.githubusercontent.com/rstudio/hex-stickers/master/thumbs/shiny.png"
 code: https://github.com/shahreyar-abeer/life_of_pi
@@ -37,7 +37,9 @@ Here is the <a class="a-body" href="https://blog.rstudio.com/2020/07/13/winners-
 target="_blank">RStudio Blog Post</a> mentioning the winners.
 
 
-It was enough for me that I was able to submit something in a contest like this. The Honorable Mention award was a bonus.  
+It was enough for me to be able to submit something in a contest like this.  
+To me, the app wasn't worthy of the Honorable Mention. Its a favor that they have
+done. I'm quite grateful.    
 
 ![From RStudio Blog](/projects/2020-09-24-shiny-contest-2020-life-of-pi_files/honorable-mentions.png)
 

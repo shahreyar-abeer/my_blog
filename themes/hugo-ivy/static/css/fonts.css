@@ -104,6 +104,14 @@ aside {
 }
 
 @font-face {
+  font-family: "Cooper";
+  src: url("/fonts/CooperHewitt-SemiboldItalic.woff") format("woff");
+  font-style: italic;
+  font-weight: 700;
+  text-rendering: optimizeLegibility;
+}
+
+@font-face {
   font-family: "Apona";
   src: url("/fonts/AponaLohit.woff2") format("woff2");
   font-style: normal;
