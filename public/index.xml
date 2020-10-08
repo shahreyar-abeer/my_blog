@@ -6,10 +6,19 @@
     <description>Recent content in Home on the way we R</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 30 Sep 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 08 Oct 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>{cranstars}: a first golem app &amp; possibly, CRAN!</title>
+      <link>/projects/cranstars-a-first-golem-app-possibly-cran/</link>
+      <pubDate>Thu, 08 Oct 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/projects/cranstars-a-first-golem-app-possibly-cran/</guid>
+      <description>A simple shiny app made with the {golem} framework.</description>
+    </item>
     
     <item>
       <title>{datamods}: Shiny modules to import data</title>
