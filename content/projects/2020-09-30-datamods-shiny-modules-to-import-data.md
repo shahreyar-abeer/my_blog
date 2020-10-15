@@ -32,16 +32,16 @@ There are four modules at the moment.
 * `import-copypaste`  
 * `import-googlesheets`  
 
-Further readings on <a href = "https://www.dreamrs.fr/" class = "a-body" style="font-weight: bold;">github</a>  
+Further readings on <a href = "https://github.com/dreamRs/datamods" target="_blank" class = "a-body" style="font-weight: bold;">github</a>  
 
 
 
 
 #### In Collaboration with  
 
-This is a project funded by  <a href = "https://www.dreamrs.fr/" class = "a-body" style="font-weight:bold;">dreamRs: Data science with a capital R</a>. They provide 'Consulting, Expertise and Training in data science
+This is a project funded by  <a href = "https://www.dreamrs.fr/" target="_blank" class = "a-body" style="font-weight:bold;">dreamRs: Data science with a capital R</a>. They provide 'Consulting, Expertise and Training in data science
 Specialized in R'.  
-I had the privilege of working with <a href = "https://twitter.com/_pvictorr?lang=en" class = "a-body" style="font-weight:bold">Victor Perrier</a> in the project. He took the part of
+I had the privilege of working with <a href = "https://twitter.com/_pvictorr?lang=en" class = "a-body" target="_blank" style="font-weight:bold">Victor Perrier</a> in the project. He took the part of
 a mentor. This underserving minion just followed along.  
 
 
