@@ -6,10 +6,21 @@
     <description>Recent content in Blog on the way we R</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 26 Sep 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 01 Jan 2021 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/blog/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>চলে গেল আরও একটি বছর</title>
+      <link>/blog/2021/01/01/%E0%A6%9A%E0%A6%B2%E0%A7%87-%E0%A6%97%E0%A7%87%E0%A6%B2-%E0%A6%86%E0%A6%B0%E0%A6%93-%E0%A6%8F%E0%A6%95%E0%A6%9F%E0%A6%BF-%E0%A6%AC%E0%A6%9B%E0%A6%B0/</link>
+      <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/2021/01/01/%E0%A6%9A%E0%A6%B2%E0%A7%87-%E0%A6%97%E0%A7%87%E0%A6%B2-%E0%A6%86%E0%A6%B0%E0%A6%93-%E0%A6%8F%E0%A6%95%E0%A6%9F%E0%A6%BF-%E0%A6%AC%E0%A6%9B%E0%A6%B0/</guid>
+      <description>h1, h3, p { font-family: var(--bengali) !important; } .date { display: none; }  الحمد لله رب العالمين، و العاقبة للمتقين،و الصلاة على رسوله محمدٍ و آله و أصحابه أجمعين، أما بعد চলে গেল আরও একটি বছর। দশ বছর আগে এমন দিনে গায়ে থাকত সাদা-নেভি ব্লু পোশাক, অহংকারের দুর্গন্ধ তার মাঝে।
+এখন গায়ে থাকে একটা চাদর। তবে সে দুর্গন্ধটা রয়েই গেছে। আতর দিয়ে সেটা ঢাকার একটু চেষ্টা।
+তখন ফিকির থাকত উদযাপন করার। এখন প্রশ্ন হয়, কেন?</description>
+    </item>
     
     <item>
       <title>The Resume Plot</title>

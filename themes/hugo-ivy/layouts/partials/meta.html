@@ -4,7 +4,7 @@
 
 <div>
   <h3>{{ with .Params.author }}{{ . }}{{ end }}
-  {{ if .Params.date }} {{ if .Params.author }} / {{ end }} {{ .Date.Format "2006-01-02"   }}{{ end }}</h3>
+  {{ if .Params.date }} {{ if .Params.author }} {{ end }} <span class = "date">/ {{ .Date.Format "2006-01-02"   }}</span>{{ end }}</h3>
 </div>
 
 <div style = "text-align:center">
